@@ -1,0 +1,18 @@
+.navbarheader {
+  font-size: 25px !important;
+  font-family: "Courier New", Courier, monospace;
+}
+.navrouterlinks a {
+  font-size: 20px;
+}
+
+.navrouterlinks a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #019fb6;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.navrouterlinks a:hover:after {
+  transform: scaleX(1);
+}
