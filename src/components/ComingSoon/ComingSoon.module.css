@@ -1,22 +1,25 @@
+
 .background{
     background-image: url('../../images/background.jpg');
     background-position: center ;
     background-size: cover;
     height:100vh;
+
 }
 
-.centerContainer{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
 }
 
-.logo{
-    width: 25rem;
-    height: 25rem;
-    margin: auto;
+.logo {
+  width: 25rem;
+  height: 25rem;
+  margin: auto;
 }
+
 
 .title{
     margin-top: -6rem;
@@ -52,3 +55,4 @@
         font-size: 3rem;
     }
 } 
+
