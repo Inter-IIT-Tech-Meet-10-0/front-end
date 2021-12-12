@@ -12,6 +12,7 @@ export default function NavBar() {
       expand="lg"
       style={{
         padding: "5px",
+        backgroundColor: "rgb(0,1,3) !important",
       }}
     >
       <Container
