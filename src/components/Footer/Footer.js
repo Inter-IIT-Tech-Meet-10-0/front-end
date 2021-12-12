@@ -5,10 +5,10 @@ import Classes from './Footer.module.css';
 import {IoMail} from 'react-icons/io5';
 import {BsTelephoneFill} from 'react-icons/bs';
 import {MdLocationOn} from 'react-icons/md';
-import {BsFacebook} from 'react-icons/bs'
-import {FaLinkedinIn} from 'react-icons/fa'
-import {GrInstagram} from 'react-icons/gr';
-import {IoMdSend} from 'react-icons/io';
+// import {BsFacebook} from 'react-icons/bs'
+// import {FaLinkedinIn} from 'react-icons/fa'
+// import {GrInstagram} from 'react-icons/gr';
+// import {IoMdSend} from 'react-icons/io';
 
 
 
