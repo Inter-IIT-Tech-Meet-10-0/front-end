@@ -15,4 +15,4 @@ function ComingSoon() {
     )
 }
 
-export default ComingSoon
+export default ComingSoon;
