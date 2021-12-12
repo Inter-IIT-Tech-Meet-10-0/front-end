@@ -15,18 +15,18 @@ import {MdLocationOn} from 'react-icons/md';
 function Footer() {
     return (
         <div className={Classes.container}>
-             <div className={Classes.quickLinks}>
-                 {/* <div className={Classes.heading}>
+             {/* <div className={Classes.quickLinks}>
+                 <div className={Classes.heading}>
                      Quick Links
-                 </div> */}
-                 {/* <ul className={Classes.list1}>
+                 </div>
+                 <ul className={Classes.list1}>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
-                 </ul> */}
-             </div>
+                 </ul>
+             </div> */}
              <div className={Classes.contactUs}>
              <div className={Classes.headingContact}>
                      Contact Us
