@@ -8,8 +8,8 @@ function ComingSoon() {
            <div className={Classes.centerContainer}>
               <img className={Classes.logo} src={logo} alt='logo'/>
               <span className={Classes.title}> INTER IIT TECH-MEET 10.0</span>  
+             <span className={Classes.subtitle}> IIT Kharagpur</span>  
              <span className={Classes.text}> COMING SOON</span>  
-             {/* <span className={Classes.subtitle}> 10 - 15 Jan | IIT Kharagpur</span>   */}
            </div>
         </div>
     )

@@ -20,12 +20,13 @@
 }
 
 .title{
-    margin-top: -8rem;
+    margin-top: -6rem;
     font-weight: 500;
     font-size: 3.5rem;
 }
 
 .text{
+    margin-top: 4rem;
     font-size: 3.5rem;
     font-weight: 400;
 }
