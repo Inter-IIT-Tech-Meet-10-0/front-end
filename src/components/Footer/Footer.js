@@ -36,13 +36,13 @@ function Footer() {
                     <li className={Classes.listItem2}><BsTelephoneFill color={'white'}/><span className={Classes.text}>+91 1234567890</span> </li>
                     <li className={Classes.listItem2}><MdLocationOn color={'white'}/><span className={Classes.text}> Kharagpur</span> </li>
                  </ul>
-                 <ul className={Classes.socialList}>
+                 {/* <ul className={Classes.socialList}>
                      <li className={Classes.socialItem}><BsFacebook color={'white'} size={25}/></li>
                      <li className={Classes.socialItem}><FaLinkedinIn color={'white'} size={25}/></li>
                      <li className={Classes.socialItem}><GrInstagram color={'white'} size={25}/></li>
-                 </ul>
+                 </ul> */}
              </div>
-             <div className={Classes.email}>
+             {/* <div className={Classes.email}>
                  <div className={Classes.heading2}>
                      Reach Out To Us!
                  </div>
@@ -50,7 +50,7 @@ function Footer() {
                      <input className={Classes.input} type='text'/>
                      <button type='submit' className={Classes.button}><IoMdSend color={'white'} size={25}/></button>
                  </form>
-             </div>
+             </div> */}
         </div>
     )
 }
