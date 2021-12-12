@@ -1,36 +1,40 @@
-.background{
-    background-image: url('../../images/background.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100vh;
+.background {
+  background-image: url("../../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.centerContainer{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
 }
 
-.logo{
-    width: 25rem;
-    height: 25rem;
-    margin: auto;
+.logo {
+  width: 25rem;
+  height: 25rem;
+  margin: auto;
 }
 
-.title{
-    margin-top: -8rem;
-    font-weight: 500;
-    font-size: 3.5rem;
+.title {
+  margin-top: -8rem;
+  font-weight: 500;
+  font-size: 3.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
 }
 
-.text{
-    font-size: 3.5rem;
-    font-weight: 400;
+.text {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.subtitle{
-    font-size: 2.5rem;
-    font-weight: 400;
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
 }
