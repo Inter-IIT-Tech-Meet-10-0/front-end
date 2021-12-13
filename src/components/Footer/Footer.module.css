@@ -41,7 +41,7 @@
 }
 .socialList{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
     width: 16rem;
@@ -58,8 +58,9 @@
 }
 
 .contactUs{
-    flex:1;
-    margin-left: 5rem;
+    width:30rem;
+    position:absolute;
+    right: 0;
 }
 
 .heading2{
@@ -117,3 +118,13 @@
 .email{
     flex:1;
 }
+
+@media screen and (max-width:800px) {
+
+    .contactUs{
+        width: 100%;
+        font-size: 0.6rem;
+        font-weight: 800;
+    }
+}
+
