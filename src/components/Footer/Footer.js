@@ -33,7 +33,7 @@ function Footer() {
                  </div>
                  <ul className={Classes.list}>
                     <li className={Classes.listItem2}> <IoMail color= {'white'} /> <a className={Classes.text} href="mailto:contact@interiit-tech.org">contact@interiit-tech.org</a></li>
-                    <li className={Classes.listItem2}><BsTelephoneFill color={'white'}/><span className={Classes.text}>+91 1234567890</span> </li>
+                    <li className={Classes.listItem2}><BsTelephoneFill color={'white'}/><span className={Classes.text}>+91 9350031637</span> </li>
                     <li className={Classes.listItem2}><MdLocationOn color={'white'}/><span className={Classes.text}> Kharagpur</span> </li>
                  </ul>
                  {/* <ul className={Classes.socialList}>
