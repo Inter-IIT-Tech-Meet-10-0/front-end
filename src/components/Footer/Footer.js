@@ -15,25 +15,25 @@ import {MdLocationOn} from 'react-icons/md';
 function Footer() {
     return (
         <div className={Classes.container}>
-             <div className={Classes.quickLinks}>
-                 {/* <div className={Classes.heading}>
+             {/* <div className={Classes.quickLinks}>
+                 <div className={Classes.heading}>
                      Quick Links
-                 </div> */}
-                 {/* <ul className={Classes.list1}>
+                 </div>
+                 <ul className={Classes.list1}>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
                     <li className={Classes.listItem}>Blah</li>
-                 </ul> */}
-             </div>
+                 </ul>
+             </div> */}
              <div className={Classes.contactUs}>
              <div className={Classes.headingContact}>
                      Contact Us
                  </div>
                  <ul className={Classes.list}>
                     <li className={Classes.listItem2}> <IoMail color= {'white'} /> <a className={Classes.text} href="mailto:contact@interiit-tech.org">contact@interiit-tech.org</a></li>
-                    <li className={Classes.listItem2}><BsTelephoneFill color={'white'}/><span className={Classes.text}>+91 1234567890</span> </li>
+                    <li className={Classes.listItem2}><BsTelephoneFill color={'white'}/><span className={Classes.text}>+91 9350031637</span> </li>
                     <li className={Classes.listItem2}><MdLocationOn color={'white'}/><span className={Classes.text}> Kharagpur</span> </li>
                  </ul>
                  {/* <ul className={Classes.socialList}>
