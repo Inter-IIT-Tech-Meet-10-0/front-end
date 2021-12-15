@@ -1,40 +1,100 @@
-.background {
-  background-image: url("../../../../images/background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+
+.background{
+  background-image: url('../../../../images/background.jpg');
+  background-position: center ;
   background-size: cover;
-  height: 100vh;
+  height:100vh;
+
 }
 
 .centerContainer {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  text-align: center;
+display: flex;
+flex-direction: column;
+color: white;
+text-align: center;
 }
 
 .logo {
-  width: 25rem;
-  height: 25rem;
-  margin: auto;
+width: 25rem;
+height: 25rem;
+margin: auto;
 }
 
-.title {
-  margin-top: -8rem;
+
+.title{
+  margin-top: -6rem;
   font-weight: 500;
   font-size: 3.5rem;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 600;
 }
 
-.text {
+.text{
+  margin-top: 4rem;
   font-size: 3.5rem;
-  font-weight: 600;
-  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
 }
 
-.subtitle {
+.subtitle{
   font-size: 2.5rem;
-  font-weight: 600;
-  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
 }
+
+.next{
+  margin-top: 3rem;;
+  background-color: #081e389a;
+  height:12rem;
+}
+
+.nextTitle{
+  font-size: 3rem;
+  font-weight: 550;
+  padding-top:1rem;
+}
+
+.nextsubTitle{
+  font-size:2rem;
+  
+}
+
+@media screen and (max-width:900px) {
+ 
+
+  .logo{
+      width: 20rem;
+      height: 20rem;
+      margin: auto;
+  }
+
+  .title{
+      margin: auto;
+      width:20rem;
+      margin-top: -5rem;
+      font-weight: 500;
+      font-size: 3rem;
+  }
+
+  .text{
+      margin-top: 1.5rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+  }
+
+  .next{
+    margin-top: 3rem;;
+    background-color: #081e389a;
+    height:9rem;
+  }
+
+  .nextTitle{
+    font-size: 2.5rem;
+    font-weight: 550;
+    padding-top:1rem;
+  }
+  
+  .nextsubTitle{
+    font-size:2rem;
+    
+  }
+
+
+} 
+
