@@ -1,0 +1,72 @@
+.Container{
+    background-color: #0A0101;
+    width:100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countdown{
+    width:60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxC{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box{
+    font-weight: 200;
+    background-color: #C4C4C4;
+    width: 5rem;
+    height: 7.5rem;
+    margin-right:0.5rem;
+    font-size: 6rem;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.days{
+    margin-top: 1rem;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+
+    .box{
+        font-weight: 200;
+        background-color: #C4C4C4;
+        width: 2rem;
+        height: 3.5rem;
+        margin-right:0.5rem;
+        font-size: 2.7rem;
+        text-align: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .days{
+        margin-top: 0.5rem;
+        color: white;
+        letter-spacing: 0.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
