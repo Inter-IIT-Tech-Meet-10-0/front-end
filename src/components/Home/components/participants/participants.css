@@ -1,0 +1,58 @@
+.HomeParticipants div {
+  background-color: black;
+  margin: 50px;
+}
+
+.HomeParticipants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.HomeParticipants div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.HomeParticipants div div {
+  background-color: white;
+}
+
+.HomeParticipants div div:nth-child(4) {
+  background-color: white;
+  width: 187px;
+  height: 187px;
+  border-radius: 93px;
+  margin: 0px 1px;
+}
+
+.HomeParticipants div div:nth-child(3),
+.HomeParticipants div div:nth-child(5) {
+  background-color: white;
+  width: 161px;
+  height: 161px;
+  border-radius: 80px;
+  margin: 0px 13px;
+}
+
+.HomeParticipants div div:nth-child(2),
+.HomeParticipants div div:nth-child(6) {
+  background-color: white;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  margin: 0px 13px;
+}
+
+.HomeParticipants div div:nth-child(1),
+.HomeParticipants div div:nth-child(7) {
+  background-color: white;
+  width: 108px;
+  height: 108px;
+  border-radius: 54px;
+  margin: 0px 13px;
+}
