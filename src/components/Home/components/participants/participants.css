@@ -68,7 +68,6 @@
 .participantsBorder {
   margin: 0px 118px;
   height: 171px;
-  background-color: red;
   border-bottom: 6px solid white;
 }
 
@@ -76,7 +75,6 @@
   .participantsBorder {
     margin: 0px 20px;
     height: 40px;
-    background-color: green;
   }
 }
 
