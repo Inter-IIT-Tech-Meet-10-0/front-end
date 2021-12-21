@@ -7,7 +7,7 @@ export default function AboutInteriit() {
     <div className="AboutInterIIT">
       <div>
         <img
-          style={{ float: "right", margin: "0 auto" }}
+          className="AboutInterIITlogo"
           src={logo}
           alt="INTER IIT LOGO"
           width="300px"
