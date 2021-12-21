@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Participants() {
+export default function participants() {
   return <div></div>;
 }
