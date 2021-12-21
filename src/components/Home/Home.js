@@ -14,7 +14,7 @@ export default function Home() {
       <EventTimeline />
       <LatestUpdates />
       <AboutInteriit />
-      <Participants />
+      {/* <Participants /> */}
     </React.Fragment>
   );
 }
