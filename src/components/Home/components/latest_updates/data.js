@@ -1,0 +1,51 @@
+export const list = [
+  {
+    id: "1",
+    link: "https://www.linkpicture.com/q/1_5.jfif",
+    head: "1 Blah blah blah blah blah blah Blah blah blah blah blah blahBlah blah",
+    text: "1 blah blah blah blahBlah blah blah blah blah blahBlah",
+    subtext: "blah blah blah blah blah Blah blah blah blah blah blah",
+  },
+  {
+    id: "2",
+    link: "https://www.linkpicture.com/q/2_2.jfif",
+    head: "2 Blah blah blah blah blah blah Blah blah blah blah blah blahBlah blah",
+    text: "2 blah blah blah blahBlah blah blah blah blah blahBlah",
+    subtext: "blah blah blah blah blah Blah blah blah blah blah blah",
+  },
+  {
+    id: "3",
+    link: "https://www.linkpicture.com/q/3_1.jfif",
+    head: "3 Blah blah blah blah blah blah Blah blah blah blah blah blahBlah blah",
+    text: "3 blah blah blah blahBlah blah blah blah blah blahBlah",
+    subtext: "blah blah blah blah blah Blah blah blah blah blah blah",
+  },
+  {
+    id: "4",
+    link: "https://www.linkpicture.com/q/4_2.jfif",
+    head: "4 Blah blah blah blah blah blah Blah blah blah blah blah blahBlah blah",
+    text: "4 blah blah blah blahBlah blah blah blah blah blahBlah",
+    subtext: "blah blah blah blah blah Blah blah blah blah blah blah",
+  },
+  {
+    id: "5",
+    link: "https://www.linkpicture.com/q/2_2.jfif",
+    head: "5 Blah blah blah blah blah blah Blah blah blah blah blah blahBlah blah",
+    text: "5 blah blah blah blahBlah blah blah blah blah blahBlah",
+    subtext: "blah blah blah blah blah Blah blah blah blah blah blah",
+  },
+  {
+    id: "6",
+    link: "https://www.linkpicture.com/q/3_1.jfif",
+    head: "6 Blah blah blah blah blah blah Blah blah blah blah blah blahBlah blah",
+    text: "6 blah blah blah blahBlah blah blah blah blah blahBlah",
+    subtext: "blah blah blah blah blah Blah blah blah blah blah blah",
+  },
+  {
+    id: "7",
+    link: "https://www.linkpicture.com/q/4_2.jfif",
+    head: "7 Blah blah blah blah blah blah Blah blah blah blah blah blahBlah blah",
+    text: "7 blah blah blah blahBlah blah blah blah blah blahBlah",
+    subtext: "blah blah blah blah blah Blah blah blah blah blah blah",
+  },
+];
