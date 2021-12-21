@@ -2,12 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./latest_updates.css";
 import { list } from "./data.js";
-import { keyframes } from "styled-components";
-
-const shrink = keyframes`
-  0% { opacity: 0.25; }
-  25% {opacity: 1;}
-  100% { opacity: 0; }`;
 
 export default function LatestUpdates() {
   const [index, setIndex] = useState(1);
@@ -22,20 +16,7 @@ export default function LatestUpdates() {
   console.log(list[index - 1]);
   return (
     <div style={{ backgroundColor: "black" }}>
-      <h1
-        style={{
-          fontFamily: "sans-serif",
-          fontStyle: "normal",
-          fontWeight: "600",
-          fontSize: "60px",
-          textAlign: "center",
-          color: "#FFFFFF",
-          letterSpacing: "4px",
-          padding: "60px",
-        }}
-      >
-        Latest Updates
-      </h1>
+      <h1 className="latestUpdatesHeading">Latest Updates</h1>
       <div>
         <div key={index} className="latestUpdates">
           <div>
@@ -43,25 +24,16 @@ export default function LatestUpdates() {
               className="latestUpdatesImages"
               src={list[index - 1].link}
               alt=""
-              width="100%"
-              height="100%"
-              style={{
-                animationName: { shrink },
-                animationDuration: "5s",
-              }}
             />
           </div>
           <div>
             <h2>{list[index - 1].head}</h2>
-            <h5 style={{ margin: "40px" }}>{list[index - 1].text}</h5>
+            <h5 className="latestUpdatesSubText">{list[index - 1].text}</h5>
             <p>{list[index - 1].subtext}</p>
           </div>
         </div>
         <div
           className="latestUpdatesFotter"
-          style={{
-            marginTop: "30px",
-          }}
         >
           {list.map((Index) => {
             const { id, link } = Index;
