@@ -1,0 +1,66 @@
+.latestUpdates > div {
+  /* background-color: blue; */
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+}
+.latestUpdates > div:nth-child(1) {
+  /* background-color: blue; */
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+    black,
+    black
+  );
+  width: 620px;
+  height: 400px;
+  border-radius: 11px;
+}
+.latestUpdates > div:nth-child(2) {
+  /* background-color: blue; */
+  width: 577px;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.latestUpdates {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.latestUpdatesImages {
+  animation-name: example;
+  animation-duration: 5s;
+  border-radius: 11px;
+}
+
+@keyframes example {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.23;
+  }
+}
+.latestUpdatesFotter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(5, 9, 29);
+}
+.latestUpdatesFotter > div {
+  width: 163px;
+  height: 110px;
+  background-color: azure;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.latestUpdatesFotter .active {
+  border: solid 2px white;
+}
