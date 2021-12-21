@@ -44,29 +44,8 @@ export default function Participants() {
           })}
         </div>
       </div>
-      <h1
-        style={{
-          fontFamily: "sans-serif",
-          fontStyle: "normal",
-          fontWeight: "600",
-          fontSize: "60px",
-
-          textAlign: "center",
-          color: "#FFFFFF",
-          backgroundColor: "black",
-          margin: "0px",
-          letterSpacing: "4px",
-        }}
-      >
-        Participants
-      </h1>
-      <div
-        style={{
-          margin: "0px 118px",
-          height: "171px",
-          borderBottom: "6px solid white",
-        }}
-      ></div>
+      <h1 className="participantsHead">Participants</h1>
+      <div className="participantsBorder"></div>
     </div>
   );
 }
