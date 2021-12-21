@@ -4,7 +4,7 @@ import Countdown from "./components/countdown/countdown";
 import EventTimeline from "./components/event_timeline/event_timeline";
 import Hero from "./components/hero/hero";
 import LatestUpdates from "./components/latest_updates/latest_updates";
-import Participants from "./components/participants/participants";
+// import Participants from "./components/participants/participants";
 
 export default function Home() {
   return (
