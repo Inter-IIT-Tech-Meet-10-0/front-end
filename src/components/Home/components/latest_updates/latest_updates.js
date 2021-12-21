@@ -41,7 +41,7 @@ export default function LatestUpdates() {
             return (
               <div
                 key={id}
-                className={id == index ? "active" : "not_active"}
+                className={id === index ? "active" : "not_active"}
                 style={{
                   backgroundImage: `url(${link})`,
                   backgroundSize: "cover",
