@@ -16,13 +16,23 @@
     align-items: center;
 }
 
+.count{
+    margin: 2rem;
+    width:50rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .boxC{
+   margin:auto;
+    text-align: center;
     display: flex;
     flex-direction: row;
 
+
 }
 
-.box{
+.box1{
     font-weight: 200;
     background-color: #C4C4C4;
     width: 5rem;
@@ -37,17 +47,32 @@
     -o-border-radius: 5px;
 }
 
+.box2{
+    font-weight: 200;
+    background-color: #C4C4C4;
+    width: 5rem;
+    height: 7.5rem;
+   
+    font-size: 6rem;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 .days{
     margin-top: 1rem;
     color: white;
-    letter-spacing: 1rem;
-    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 @media screen and (max-width:900px) {
 
-    .box{
+    .box1{
         font-weight: 200;
         background-color: #C4C4C4;
         width: 2rem;
@@ -61,12 +86,34 @@
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
     }
+    .box2{
+        font-weight: 200;
+        background-color: #C4C4C4;
+        width: 2rem;
+        height: 3.5rem;
+        
+        font-size: 2.7rem;
+        text-align: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .count{
+        margin: 0.4rem;
+        width:10rem;
+        display: flex;
+        flex-direction: column;
+    }
 
     .days{
         margin-top: 0.5rem;
         color: white;
-        letter-spacing: 0.5rem;
-        font-size: 1rem;
+        letter-spacing: 0rem;
+        font-size: 0.7rem;
         text-align: center;
+        width:rem;
     }
 }
