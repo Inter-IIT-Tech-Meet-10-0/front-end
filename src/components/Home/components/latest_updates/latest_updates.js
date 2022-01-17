@@ -16,7 +16,7 @@ export default function LatestUpdates() {
   console.log(list[index - 1]);
   return (
     <div style={{ backgroundColor: "black" }}>
-      <h1 className="latestUpdatesHeading">Latest Updates</h1>
+      <div className="latestUpdatesHeading">Latest Updates</div>
       <div>
         <div key={index} className="latestUpdates">
           <div>

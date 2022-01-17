@@ -71,6 +71,7 @@
   color: #ffffff;
   letter-spacing: 4px;
   padding: 60px;
+  background-color: black;
 }
 @media screen and (max-width: 600px) {
   .latestUpdates {
