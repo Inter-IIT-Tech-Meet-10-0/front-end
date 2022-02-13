@@ -54,7 +54,7 @@
     height: 2rem;
     padding:0 1.5rem 1rem 1.5rem;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
-    clip-path: polygon();
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
     background: linear-gradient(360deg, rgba(9, 77, 140, 0.98) 0%, rgba(10, 28, 45, 0) 77.52%, rgba(7, 32, 54, 0) 80.19%, rgba(6, 29, 50, 0) 115.99%, rgba(11, 26, 39, 0) 171.83%);
 }
 
