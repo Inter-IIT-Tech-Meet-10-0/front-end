@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(246, 89%, 7%);
+    overflow-x: hidden;
+}
+
+.infoBox{
+    position: relative;
+    background-image: linear-gradient(rgba(7, 34, 85, 0.8),rgba(7, 34, 85, 0.8)),url(../../images//aboutiitkgp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid rgba(0, 0, 0, 1);
+    -webkit-clip-path: polygon(0 8%, 44% 8%, 49% 0, 54% 8%, 100% 8%, 100% 100%, 0 100%);
+    clip-path: polygon(0 8%, 44% 8%, 49% 0, 54% 8%, 100% 8%, 100% 100%, 0 100%);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 100px rgba(146, 235, 255, 0.25) outset;
+}
+
+.logoBox{
+    margin-top:10rem;
+    width:100vw;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width:7rem;
+    height: 7rem;
+}
+
+.content{
+    color:white;
+    font-size:1.2rem;
+    font-weight: 400;
+    margin: 2rem 15rem 2rem 15rem;
+    line-height:2rem;
+    
+}
+.buttonContainer{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+}
+
+.button{
+    color:white;
+    background-color: #2CBED0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding:0.6rem 4rem 0.6rem 4rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    
+    .infoBox{
+        position: relative;
+        background-image: linear-gradient(rgba(7, 34, 85, 0.8),rgba(7, 34, 85, 0.8)),url(../../images//aboutiitkgp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid rgba(0, 0, 0, 1);
+        -webkit-clip-path: polygon(0 8%, 44% 8%, 49% 0, 54% 8%, 100% 8%, 100% 100%, 0 100%);
+        clip-path: polygon(0 4%, 35% 4%, 50% 0, 65% 4%, 100% 4%, 100% 100%, 0 100%);
+        box-sizing: border-box;
+        box-shadow: 0px 4px 100px rgba(146, 235, 255, 0.25) outset;
+    }
+
+    .content{
+        color:white;
+        font-size:1.2rem;
+        font-weight: 400;
+        margin: 2rem 2rem 2rem 2rem;
+        line-height:2rem;
+        
+    }
+
+
+}

@@ -50,9 +50,8 @@ export default function NavBar() {
             className="justify-content-end navrouterlinks"
             style={{ width: "100%" }}
           >
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/AboutUs">About</Nav.Link>
-            <Nav.Link href="/Events">Events</Nav.Link>
+            <Nav.Link className="navitem" href="/about">AboutUs</Nav.Link>
+            <Nav.Link className="navitem"  href="/Events">Events</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
