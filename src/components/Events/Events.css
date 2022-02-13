@@ -1,0 +1,16 @@
+.eventHeading {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+
+.eventHead {
+  background-color: rgb(9, 1, 1);
+}
+
+.eventBody {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

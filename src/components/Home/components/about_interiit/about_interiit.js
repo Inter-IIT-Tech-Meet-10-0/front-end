@@ -10,8 +10,8 @@ export default function AboutInteriit() {
           className="AboutInterIITlogo"
           src={logo}
           alt="INTER IIT LOGO"
-          width="300px"
-          height="280px"
+          width="250px"
+          height="220px"
         />
       </div>
       <div className="ChildAboutInterIIT">

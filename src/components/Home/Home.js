@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Countdown />
       <EventTimeline />
-      <LatestUpdates />
+      {/* <LatestUpdates /> */}
       <AboutInteriit />
       <Participants />
     </React.Fragment>
