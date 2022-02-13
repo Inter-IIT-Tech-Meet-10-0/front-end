@@ -64,3 +64,29 @@
     -o-border-radius: 1rem;
     cursor: pointer;
 }
+
+@media screen and (max-width:900px) {
+    
+    .infoBox{
+        position: relative;
+        background-image: linear-gradient(rgba(7, 34, 85, 0.8),rgba(7, 34, 85, 0.8)),url(../../images//aboutiitkgp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid rgba(0, 0, 0, 1);
+        -webkit-clip-path: polygon(0 8%, 44% 8%, 49% 0, 54% 8%, 100% 8%, 100% 100%, 0 100%);
+        clip-path: polygon(0 4%, 35% 4%, 50% 0, 65% 4%, 100% 4%, 100% 100%, 0 100%);
+        box-sizing: border-box;
+        box-shadow: 0px 4px 100px rgba(146, 235, 255, 0.25) outset;
+    }
+
+    .content{
+        color:white;
+        font-size:1.2rem;
+        font-weight: 400;
+        margin: 2rem 2rem 2rem 2rem;
+        line-height:2rem;
+        
+    }
+
+
+}

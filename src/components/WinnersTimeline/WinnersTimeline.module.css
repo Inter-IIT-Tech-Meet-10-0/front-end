@@ -8,15 +8,14 @@
 
 .timeline{
     -webkit-clip-path: polygon(0 9%, 83% 10%, 91% 0, 100% 10%, 100% 100%, 0 100%);
-    clip-path: polygon(0 9%, 83% 10%, 91% 0, 100% 10%, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 80% 9%, 90% 0, 100% 9%, 100% 100%, 0 100%);
     width: 50%;
-    padding: 10rem 5rem 1rem 5rem;
+    padding: 6rem 5rem 1rem 5rem;
     background-image:  linear-gradient(179.89deg, rgba(9, 54, 103, 0.11) 0.01%, rgba(140, 213, 255, 0.11) 9.06%, rgba(161, 201, 242, 0.0253) 62.23%, rgba(9, 32, 79, 0) 95.34%);;
     margin-bottom: 2rem;;
 }
 
 .winnersList{
-
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid lightblue;
@@ -53,4 +52,54 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     margin: 1rem;
+}
+
+@media screen and (max-width:900px) {
+
+    .timeline{
+        -webkit-clip-path: polygon(0 9%, 83% 10%, 91% 0, 100% 10%, 100% 100%, 0 100%);
+        clip-path: polygon(0 9%, 80% 9%, 90% 0, 100% 9%, 100% 100%, 0 100%);
+        width: 55%;
+        padding: 5rem 5rem 1rem 2rem;
+        background-image:  linear-gradient(179.89deg, rgba(9, 54, 103, 0.11) 0.01%, rgba(140, 213, 255, 0.11) 9.06%, rgba(161, 201, 242, 0.0253) 62.23%, rgba(9, 32, 79, 0) 95.34%);;
+        margin-bottom: 2rem;;
+    }
+     
+    .year{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    padding: 1rem;
+    flex: 0.5;
+    color:#2CBED0;
+    }
+
+    .imgbox{
+        width:2.5rem;
+        height:2.5rem;
+        background-color: rgba(196, 196, 196, 0.35);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin: 0.5rem;
+    }
+
+    .winnerBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex:2;
+     }
+
+     .winnersList{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid lightblue;
+        padding:2rem 1rem 2rem 0.5rem;
+    }
+    
+
 }
