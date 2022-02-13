@@ -36,6 +36,7 @@ export default function Participants() {
   console.log(data[0]);
   return (
     <div style={{ backgroundColor: "black" }}>
+      <h1 className="participantsHead">Participants</h1>
       <div className="HomeParticipants">
         <div>
           {data.map((data_val) => {
@@ -44,7 +45,6 @@ export default function Participants() {
           })}
         </div>
       </div>
-      <h1 className="participantsHead">Participants</h1>
       <div className="participantsBorder"></div>
     </div>
   );
