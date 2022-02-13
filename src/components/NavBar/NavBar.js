@@ -32,7 +32,7 @@ export default function NavBar() {
           }}
         >
           <img src={logo} alt="" width="40px" />
-          <span
+          {/* <span
             style={{
               //backgroundColor: "Red",
               textAlign: "center",
@@ -42,7 +42,7 @@ export default function NavBar() {
             className="navbarheader"
           >
             INTER IIT TECH MEET 10.0
-          </span>
+          </span> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -50,7 +50,6 @@ export default function NavBar() {
             className="justify-content-end navrouterlinks"
             style={{ width: "100%" }}
           >
-           
             <Nav.Link className="navitem" href="/about">AboutUs</Nav.Link>
             <Nav.Link className="navitem"  href="/Events">Events</Nav.Link>
           </Nav>

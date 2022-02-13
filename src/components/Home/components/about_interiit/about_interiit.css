@@ -1,7 +1,5 @@
 .AboutInterIIT {
   padding: 50px 0px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
@@ -15,12 +13,11 @@
 
 .AboutInterIIT > div:nth-child(1) {
   /* background-color: rebeccapurple; */
-  width: 601px;
+  width: 100%;
   /* background-color: greenyellow; */
   /* background-color: white; */
 }
 .AboutInterIIT > div:nth-child(2) {
-  width: 978px;
   /* background-color: yellow; */
 }
 .ChildAboutInterIIT div:nth-child(1) {
@@ -28,30 +25,29 @@
 }
 .ChildAboutInterIIT div:nth-child(2) {
   text-align: center;
-  width: 684px;
+  width: 50%;
   /* background-color: red; */
   margin: 0px auto;
   font-size: 20px;
 }
 .AboutInterIITlogo {
-  float: right;
-  margin: 0 auto;
+  display: block;
+  margin: 10px auto;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
   .AboutInterIIT > div:nth-child(1) {
-    width: 90%;
+    width: 100%;
   }
   .AboutInterIIT > div:nth-child(2) {
-    margin: 10px;
     width: 100%;
   }
   .ChildAboutInterIIT div:nth-child(2) {
     width: 90%;
+    /* background-color: red; */
   }
   .AboutInterIITlogo {
-    float: none;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 200px;
     height: 150px;
   }
