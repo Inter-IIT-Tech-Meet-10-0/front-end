@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "./logo_1.png";
 import "./NavBar.css";
@@ -50,8 +51,12 @@ export default function NavBar() {
             className="justify-content-end navrouterlinks"
             style={{ width: "100%" }}
           >
-            <Nav.Link className="navitem" href="/about">AboutUs</Nav.Link>
-            <Nav.Link className="navitem"  href="/Events">Events</Nav.Link>
+            <Nav.Link className="navitem">
+              <Link to="/about">About</Link>
+            </Nav.Link>
+            <Nav.Link className="navitem" to="/events">
+              <Link to="/events">Events</Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
