@@ -11,7 +11,7 @@ function AboutUs() {
 
   return (
     <div>
-      <div className={Classes.upperbar}></div>
+  
       <div className={Classes.mainHeading}>
        <span className={Classes.firstWord}>ABOUT</span>  US 
       </div>

@@ -8,11 +8,13 @@ export default function Events() {
   return (
     <>
       <div className="eventHead">
-        <h1 className="eventHeading">Events</h1>
+        <h1 className="eventHeading">EVENTS</h1>
         <h3
           style={{
             color: "white",
             textAlign: "center",
+            fontSize:"2.5rem",
+            fontWeight:400,
           }}
         >
           HIGH PREP
@@ -34,6 +36,8 @@ export default function Events() {
           style={{
             color: "white",
             textAlign: "center",
+            fontSize:"2.5rem",
+            fontWeight:400,
           }}
         >
           MID PREP
@@ -55,6 +59,8 @@ export default function Events() {
           style={{
             color: "white",
             textAlign: "center",
+            fontSize:"2.5rem",
+            fontWeight:400,
           }}
         >
           LOW PREP

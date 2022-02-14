@@ -23,7 +23,7 @@ function EventCard() {
             <div className={Classes.eventC}>
                 <div className={Classes.eventName}>Event today: Cycle Trip</div>
                 <div className={Classes.eventName}>Event today: Cycle Trip</div>
-                <div className={Classes.eventName}>Event today: Cycle Trip</div>
+                <div className={Classes.eventNameLast}>Event today: Cycle Trip</div>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import Classes from './Footer.module.css';
+import {Link}from 'react-router-dom'
 
 // icons import
 import {IoMail} from 'react-icons/io5';
@@ -15,18 +16,16 @@ import {MdLocationOn} from 'react-icons/md';
 function Footer() {
     return (
         <div className={Classes.container}>
-             {/* <div className={Classes.quickLinks}>
+             <div className={Classes.quickLinks}>
                  <div className={Classes.heading}>
                      Quick Links
                  </div>
                  <ul className={Classes.list1}>
-                    <li className={Classes.listItem}>Blah</li>
-                    <li className={Classes.listItem}>Blah</li>
-                    <li className={Classes.listItem}>Blah</li>
-                    <li className={Classes.listItem}>Blah</li>
-                    <li className={Classes.listItem}>Blah</li>
+                    <li className={Classes.styleList}><Link to='/' className={Classes.listItem}>HOME</Link></li>
+                    <li className={Classes.styleList}><Link to='/about' className={Classes.listItem}>ABOUT US</Link></li>
+                    <li className={Classes.styleList}><Link to='/events' className={Classes.listItem}>EVENTS</Link></li>
                  </ul>
-             </div> */}
+             </div>
              <div className={Classes.contactUs}>
              <div className={Classes.headingContact}>
                      Contact Us

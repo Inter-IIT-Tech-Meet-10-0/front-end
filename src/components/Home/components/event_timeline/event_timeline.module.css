@@ -48,6 +48,13 @@
     font-weight: 500;
 }
 
+.eventNameLast{
+    
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+    font-weight: 500;
+}
+
 @media screen and (max-width:900px) {
 
     .container{
@@ -87,6 +94,11 @@
     .eventName{
         font-size: 0.6rem;
         margin-bottom: 0.3rem;
+        font-weight: 400;
+    }
+    .eventNameLast{
+        font-size: 0.6rem;
+        margin-bottom: 0.7rem;
         font-weight: 400;
     }
 }

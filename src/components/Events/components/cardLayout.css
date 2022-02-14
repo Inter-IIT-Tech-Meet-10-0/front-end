@@ -2,7 +2,7 @@
   width: 500px;
   background-color: red;
   border-radius: 20px;
-  margin: 10px;
+  margin: 1.8rem;
 }
 
 .cardLayoutTop {
@@ -33,7 +33,9 @@
 
 .cardLayoutBottom {
   color: white;
-  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  padding: 2rem;
   height: 250px;
   background-color: rgb(19, 24, 57);
   border-radius: 0px 0px 10px 10px;
