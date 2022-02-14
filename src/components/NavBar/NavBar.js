@@ -21,6 +21,7 @@ function NavBar() {
   })
 
   return (
+
     <>
     <div className={background? "navbarContainerbackground" : "navbarContainer"}>
       <div className="logoBox">
@@ -36,6 +37,7 @@ function NavBar() {
     </div>
     </>
   )
+
 }
 
 export default NavBar

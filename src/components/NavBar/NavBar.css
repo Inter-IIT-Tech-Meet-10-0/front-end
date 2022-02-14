@@ -30,6 +30,7 @@
   cursor: pointer;
 }
 
+
 .itemContainer{
   flex:3;
   display: flex;
@@ -54,5 +55,6 @@
   transition: transform 250ms ease-in-out;
 }
 .navitem:hover:after { transform: scaleX(1); }
+
 
 
