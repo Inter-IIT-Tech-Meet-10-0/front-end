@@ -1,6 +1,6 @@
 import React from 'react'
 import Classes from './Footer.module.css';
-import {Link}from 'react-router-dom'
+// import {Link}from 'react-router-dom'
 
 // icons import
 import {IoMail} from 'react-icons/io5';
