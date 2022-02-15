@@ -1,84 +1,56 @@
 import React from "react";
-import CardLayout from "./components/cardLayout";
-import "./Events.css";
-import { list } from "./data.js";
+import Classes from "./Events.module.css";
 
 export default function Events() {
-  const { highPrep, mediumPrep, lowPrep } = list;
   return (
     <>
-      <div className="eventHead">
-        <h1 className="eventHeading">EVENTS</h1>
-        <h3
-          style={{
-            color: "white",
-            textAlign: "center",
-            fontSize:"2.5rem",
-            fontWeight:400,
-          }}
-        >
-          HIGH PREP
-        </h3>
-        <div className="eventBody">
-          {highPrep.map((event) => {
-            const { id, brand, name, description } = event;
-            return (
-              <CardLayout
-                key={id}
-                name={name}
-                brand={brand}
-                description={description}
-              />
-            );
-          })}
-        </div>
-        <h3
-          style={{
-            color: "white",
-            textAlign: "center",
-            fontSize:"2.5rem",
-            fontWeight:400,
-          }}
-        >
-          MID PREP
-        </h3>
-        <div className="eventBody">
-          {mediumPrep.map((event) => {
-            const { id, brand, name, description } = event;
-            return (
-              <CardLayout
-                key={id}
-                name={name}
-                brand={brand}
-                description={description}
-              />
-            );
-          })}
-        </div>
-        <h3
-          style={{
-            color: "white",
-            textAlign: "center",
-            fontSize:"2.5rem",
-            fontWeight:400,
-          }}
-        >
-          LOW PREP
-        </h3>
-        <div className="eventBody">
-          {lowPrep.map((event) => {
-            const { id, brand, name, description } = event;
-            return (
-              <CardLayout
-                key={id}
-                name={name}
-                brand={brand}
-                description={description}
-              />
-            );
-          })}
-        </div>
+      <div className={Classes.mainHeading}>
+       <span className={Classes.firstWord}>EVEN</span>TS 
       </div>
+      
+      <div className={Classes.container}> 
+      <Prep type={'high'} />
+      <Prep type={'mid'} />
+      <Prep type={'low'}/>
+      </div>
+     
+
     </>
   );
+}
+
+const Prep = ({type}) =>{
+  return (
+    <>
+    <div className={type ==='high' ? Classes.mainContainerHigh : type==='mid' ? Classes.mainContainerMid : Classes.mainContainerLow }>
+          <div className={type ==='high' ? Classes.prepHeadingHigh : type==='mid' ? Classes.prepHeadingMid : Classes.prepHeadingLow }>
+            {type === 'high' && 'HIGH PREP'} 
+            {type === 'mid' && 'MID PREP'} 
+            {type === 'low' && 'LOW PREP'} 
+          </div>
+          <div className={Classes.cardsContainer}>
+              <Card/>
+              <Card/>
+          </div>
+         
+      </div>
+    </>
+  )
+}
+
+const Card =() =>{
+  return (
+    <>
+     <div className={Classes.cardContainer}>
+             <div className={Classes.brandContainer}>
+               <div className={Classes.logoName}>Logo/Brand Name(Centre aligned)</div>
+               <div className={Classes.eventName}>Event Name(left Aligned)</div>
+             </div>
+             <div className={Classes.content}>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </div>
+
+          </div>
+    </>
+  )
 }

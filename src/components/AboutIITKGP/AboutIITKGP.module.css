@@ -35,10 +35,10 @@
 
 .content{
     color:white;
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight: 400;
     margin: 2rem 15rem 2rem 15rem;
-    line-height:2rem;
+    line-height:2.3rem;
     
 }
 .buttonContainer{
@@ -63,6 +63,18 @@
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     cursor: pointer;
+}
+.tagStyle{
+    text-decoration: none;
+    color:white;
+}
+
+.button:hover{
+    color:#050222;
+}
+.tagStyle:hover{
+    color:#050222;
+
 }
 
 @media screen and (max-width:900px) {
