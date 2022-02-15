@@ -1,6 +1,6 @@
 import React from 'react'
 import Classes from './Footer.module.css';
-import {Link}from 'react-router-dom'
+// import {Link}from 'react-router-dom'
 
 // icons import
 import {IoMail} from 'react-icons/io5';
@@ -21,9 +21,9 @@ function Footer() {
                      Quick Links
                  </div>
                  <ul className={Classes.list1}>
-                    <li className={Classes.styleList}><Link to='/' className={Classes.listItem}>HOME</Link></li>
-                    <li className={Classes.styleList}><Link to='/about' className={Classes.listItem}>ABOUT US</Link></li>
-                    <li className={Classes.styleList}><Link to='/events' className={Classes.listItem}>EVENTS</Link></li>
+                    <li className={Classes.styleList}><a href='/' className={Classes.listItem}>HOME</a></li>
+                    <li className={Classes.styleList}><a href='/about' className={Classes.listItem}>ABOUT US</a></li>
+                    <li className={Classes.styleList}><a href='/events' className={Classes.listItem}>EVENTS</a></li>
                  </ul>
              </div>
              <div className={Classes.contactUs}>
