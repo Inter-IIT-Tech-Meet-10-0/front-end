@@ -40,7 +40,7 @@ export default function Participants() {
       <div className="HomeParticipants">
         <div>
           {data.map((data_val) => {
-            const { id, name, link } = data_val;
+            const { id, link } = data_val;
             return (
               <div
                 key={id}
