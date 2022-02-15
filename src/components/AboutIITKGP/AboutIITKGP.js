@@ -19,7 +19,7 @@ function AboutIITKGP() {
                </div>
                <div className={Classes.buttonContainer}>
                    <div className={Classes.button}>
-                       Learn More
+                       <a className={Classes.tagStyle} href='http://www.iitkgp.ac.in/' target={'_blank'} rel="noreferrer">Learn More</a>
                    </div>
                </div>
            </div>
