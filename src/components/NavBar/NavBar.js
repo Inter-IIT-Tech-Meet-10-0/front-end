@@ -40,6 +40,7 @@ function NavBar() {
       <div className="logoBox">
         <img onClick={()=>{navigate('/')}} src={logo} alt="InterIIT Logo" className="logo" />
       </div>
+
       {hamburger ? <HamBurgerMenu showDropdown={showDropdown} setShowDropdown={setShowDropdown}/> : (
          <div className="itemContainer">
          <Link to="" ></Link>
@@ -70,6 +71,7 @@ const HamBurgerMenu =({showDropdown,setShowDropdown}) =>{
       <div className="line"></div>
       <div className="line"></div>
       <div className="line"></div>
+
     </div>
     </>
   )
