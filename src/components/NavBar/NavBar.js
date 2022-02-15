@@ -1,65 +1,43 @@
-import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "./logo_1.png";
-import "./NavBar.css";
+import React,{useState,useEffect} from 'react'
+import {Link,useNavigate} from 'react-router-dom';
+import './NavBar.css';
 
-export default function NavBar() {
+function NavBar() {
+
+  const navigate = useNavigate();
+  const [background,setBackground]= useState(false);
+
+  const changeBackground =()=>{
+    if(window.scrollY > 66){
+      setBackground(true);
+   }else {
+     setBackground(false)
+   }
+  }
+  useEffect(() => {
+    changeBackground();
+    window.addEventListener("scroll", changeBackground)
+  })
+
   return (
-    <Navbar
-      bg="dark"
-      variant="dark"
-      expand="lg"
-      style={{
-        padding: "5px",
-        backgroundColor: "rgb(0,1,3) !important",
-      }}
-    >
-      <Container
-        fluid
-        style={{
-          //backgroundColor: "yellow",
-          margin: "0px",
-          padding: "0px 10px",
-        }}
-      >
-        <Navbar.Brand
-          href="/"
-          style={{
-            //backgroundColor: "pink",
-            padding: "0px",
-            margin: "0px",
-          }}
-        >
-          <img src={logo} alt="" width="40px" />
-          {/* <span
-            style={{
-              //backgroundColor: "Red",
-              textAlign: "center",
-              padding: "0px 10px",
-              fontWeight: "600",
-            }}
-            className="navbarheader"
-          >
-            INTER IIT TECH MEET 10.0
-          </span> */}
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="justify-content-end navrouterlinks"
-            style={{ width: "100%" }}
-          >
-            <Nav.Link className="navitem">
-              <Link to="/about">About</Link>
-            </Nav.Link>
-            <Nav.Link className="navitem" to="/events">
-              <Link to="/events">Events</Link>
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  );
+
+    <>
+    <div className={background? "navbarContainerbackground" : "navbarContainer"}>
+      <div className="logoBox">
+        <img onClick={()=>{navigate('/')}} src={logo} alt="InterIIT Logo" className="logo" />
+      </div>
+      <div className="itemContainer">
+      <Link to="" ></Link>
+      <Link to=""></Link>
+      <Link to=""></Link>
+      <Link to="/about" className="navitem">ABOUT US</Link>
+      <Link to="/events" className="navitem">EVENTS</Link>
+      </div>
+    </div>
+    </>
+  )
+
 }
+
+export default NavBar
