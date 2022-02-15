@@ -9,10 +9,26 @@ import Team from "./components/Team/Team";
 import Timeline from "./components/Timeline/Timeline";
 import Footer from "./components/Footer/Footer";
 import { Routes } from "react-router-dom";
+import {useState,useEffect} from 'react';
+import Loader from "react-js-loader"
 
 function App() {
+
+
+  const [loading,setLoading] = useState(true);
+
+  useEffect(()=>{
+    setLoading(false);
+  },[]);
+
   return (
-    <div className="App">
+    <>
+    {loading ? 
+    <>
+    <Loader type="spinner-cub" bgColor={"#050222"} title={"Loading"} color={'#050222'} size={100}/>
+    </> : (
+
+      <div className="App">
       <Router>
         <Navbar />
         <Routes>
@@ -26,7 +42,11 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </div>
+      </div>
+    )}
+    
+    </>
+    
   );
 }
 
