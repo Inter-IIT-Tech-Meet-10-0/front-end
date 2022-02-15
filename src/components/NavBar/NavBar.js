@@ -35,8 +35,8 @@ function NavBar() {
       <Link to=""></Link>
       <Link to=""></Link>
       <Link to=""></Link>
-      <a href="/about" className="navitem">ABOUT US</a>
-      <a href="/events" className="navitem">EVENTS</a>
+      <Link to="/about" className="navitem">ABOUT US</Link>
+      <Link to="/events" className="navitem">EVENTS</Link>
       </div>
     </div>
     </>
