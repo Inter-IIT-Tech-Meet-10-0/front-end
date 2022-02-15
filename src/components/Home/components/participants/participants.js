@@ -40,8 +40,18 @@ export default function Participants() {
       <div className="HomeParticipants">
         <div>
           {data.map((data_val) => {
-            const { id, name } = data_val;
-            return <div key={id}>{name}</div>;
+            const { id, name, link } = data_val;
+            return (
+              <div
+                key={id}
+                style={{
+                  backgroundImage: `url(${link})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "75% 75%",
+                  backgroundRepeat: "no-repeat",
+                }}
+              ></div>
+            );
           })}
         </div>
       </div>
