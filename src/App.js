@@ -8,6 +8,7 @@ import Events from "./components/Events/Events";
 import Team from "./components/Team/Team";
 import Timeline from "./components/Timeline/Timeline";
 import Footer from "./components/Footer/Footer";
+import EventDetails from "./components/eventDetails/EventDetails";
 import { Routes } from "react-router-dom";
 
 function App() {
@@ -17,12 +18,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/about" element={<AboutUs />} />
           <Route path="/events" element={<Events />} />
           <Route path="/Team" element={<Team />} />
           <Route path="/Timeline" element={<Timeline />} />
-
+          <Route path="/events/:eventName" element={<EventDetails />} />
         </Routes>
         <Footer />
       </Router>
