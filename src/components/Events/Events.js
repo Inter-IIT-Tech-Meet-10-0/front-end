@@ -72,7 +72,7 @@ const Card = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
         <Link
-          to={`/events/hey`}
+          to={`/events/eventName`}
           state={{ imgUrl: "a", name: "b", description: "c", pageLink: "d" }}
         >
           click
