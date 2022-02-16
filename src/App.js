@@ -15,15 +15,18 @@ import Loader from "react-js-loader"
 function App() {
 
 
-  const [loading,setLoading] = useState(true);
+  const [loaded, setLoaded] = useState(false);
 
-  useEffect(()=>{
-    setLoading(false);
-  },[]);
+  useEffect(() => {
+    let timer = setTimeout(() => setLoaded(true), 200);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
 
   return (
     <>
-    {loading ? 
+    {!loaded ? 
     <>
     <Loader type="spinner-cub" bgColor={"#050222"} title={"Loading"} color={'#050222'} size={100}/>
     </> : (
