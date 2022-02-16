@@ -21,6 +21,7 @@ function AboutUs() {
         <div onClick={()=>setActiveTab('tech-meet')} className={activeTab==='tech-meet' ? Classes.highlight : Classes.navItem}> ABOUT TECH MEET</div>
         <div onClick={()=>setActiveTab('iit-kgp')} className={activeTab==='iit-kgp' ? Classes.highlight : Classes.navItem}>ABOUT IIT KHARAGPUR</div>
         <div onClick={()=>setActiveTab('winners')} className={activeTab==='winners' ? Classes.highlight : Classes.navItem}>WINNERS TIMELINE</div>
+        
         </div>
         
       </div>
