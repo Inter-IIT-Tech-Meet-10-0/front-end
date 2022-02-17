@@ -2,7 +2,6 @@ import React,{useState} from "react";
 import Classes from "./Events.module.css";
 import {FaLongArrowAltRight} from 'react-icons/fa';
 import event1 from '../../images/event1.png';
-import event2 from '../../images/event2.png';
 
 export default function Events() {
 
@@ -78,14 +77,15 @@ const Card =() =>{
   return (
     <>
      <div className={Classes.cardContainer}>
-          <div className={Classes.imgbox}>
             <img src={event1} alt="Event Poster" className={Classes.imgbox}/>
-          </div>
            <div className={Classes.title}>Event Name</div>
+           <div className={Classes.readMoreContainer}>
            <div className={Classes.readmore}>
              Read More 
            </div>
-           <span className={Classes.iconContainer}> <FaLongArrowAltRight className={Classes.icon} size={30} color={'rgba(44, 190, 208, 1)'}/></span>
+           <div className={Classes.iconContainer}> <FaLongArrowAltRight  size={30} color={'rgba(44, 190, 208, 1)'}/></div>
+           </div>
+         
         </div>
     </>
   )

@@ -90,16 +90,104 @@
   font-weight: 500;
   padding:1rem 1rem 1rem 2rem;
 }
+.readMoreContainer{
+  margin-right:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width:45%;
+}
+
+
 .readmore{
   display: inline-block;
   color: rgba(44, 190, 208, 1);
   font-size: 1.5rem;
   font-weight: 450;
-  padding:1rem 1rem 2rem 2rem;
+  padding: 1rem  0.2rem 1rem 2rem;
 }
 
-.icon{
-  padding-top: 1rem;
+.iconContainer{
+  padding: 1rem  0.2rem 1rem 0rem;
+}
+
+@media screen and (max-width:950px) {
+
+  .navbar{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+  
+  .navItem{
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .navItem:hover{
+    color:#2CBED0;
+  }
+  
+
+  .highlight{
+    color:#2CBED0;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    
+    height: 1.2rem;
+    padding:0 1.5rem 1rem 1.5rem;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
+    background: linear-gradient(360deg, rgba(9, 77, 140, 0.98) 0%, rgba(10, 28, 45, 0) 77.52%, rgba(7, 32, 54, 0) 80.19%, rgba(6, 29, 50, 0) 115.99%, rgba(11, 26, 39, 0) 171.83%);
+  }
+
+  .cardContainer{
+    width:90%;
+    background: linear-gradient(180deg, rgba(199, 199, 199, 0.3) 0%, rgba(199, 199, 199, 0.27) 4.48%, rgba(199, 199, 199, 0.22) 14.37%, rgba(196, 196, 196, 0.02) 100%);
+    margin:2rem;
+  }
+
+  .imgbox{
+    width:90%;
+    height:80%;
+    padding:2rem 1rem 2rem 1rem;
+  
+  }
+
+  .title{
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 500;
+    padding:1rem 1rem 1rem 2rem;
+  }
+
+  .readMoreContainer{
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:60%;
+  }
+  
+  
+  .readmore{
+    display: inline-block;
+    color: rgba(44, 190, 208, 1);
+    font-size: 1.5rem;
+    font-weight: 450;
+    padding: 1rem  0.2rem 1rem 2rem;
+  }
+  
+  .iconContainer{
+    padding: 1rem  0.2rem 1rem 0rem;
+  }
 }
 
 
