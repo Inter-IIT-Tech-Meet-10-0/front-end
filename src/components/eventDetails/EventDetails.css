@@ -82,6 +82,7 @@
   .eventSpecificDetailsContainerImage {
     max-width: 500px;
     width: 90%;
+    height: 300px;
     margin: 0 auto;
   }
 
@@ -100,7 +101,8 @@
   }
 
   .eventSpecificDetailsContainerData div:nth-child(1) {
-    width: 90%;
+    width: 95%;
+    text-align: left;
   }
 
   .eventSpecificDetailsHeading {
@@ -109,5 +111,6 @@
 
   .eventSpecificDetails {
     padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
