@@ -1,91 +1,88 @@
-.HomeParticipants div {
-  background-color: black;
-  margin: 50px;
+.participantsHead{
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+  font-size: 2.7rem;
+  font-weight: 400;
+  padding-top:1rem;
+  padding-bottom: 5rem;
 }
 
 .HomeParticipants {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: black;
 }
 
-.HomeParticipants div {
+.participantContainer{
+  width: 80vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
+  background-color: black;
+  padding-bottom:4rem;
 }
 
-.HomeParticipants div div {
-  background-color: white;
-}
-.HomeParticipants div div:nth-child(4) {
-  background-color: white;
-  width: 187px;
-  height: 187px;
-  border-radius: 93px;
-  margin: 0px 1px;
-}
-
-.HomeParticipants div div:nth-child(3),
-.HomeParticipants div div:nth-child(5) {
-  background-color: white;
-  width: 161px;
-  height: 161px;
-  border-radius: 80px;
-  margin: 0px 13px;
+.participantCard{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.769),rgba(0, 0, 0, 0.762));
+  background-color: #ffffff;
+  width:8rem;
+  height:8rem;
+  margin:0.7rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
-.HomeParticipants div div:nth-child(2),
-.HomeParticipants div div:nth-child(6) {
-  background-color: white;
-  width: 140px;
-  height: 140px;
-  border-radius: 70px;
-  margin: 0px 13px;
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #050222;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 10;
 }
 
-.HomeParticipants div div:nth-child(1),
-.HomeParticipants div div:nth-child(7) {
-  background-color: white;
-  width: 108px;
-  height: 108px;
-  border-radius: 54px;
-  margin: 0px 13px;
-}
-
-@media screen and (max-width: 1300px) {
-  .HomeParticipants div div:nth-child(n) {
-    width: 187px;
-    height: 187px;
-    border-radius: 93px;
-    margin: 10px;
-  }
-}
-
-.participantsBorder {
-  margin: 0px 118px;
-  height: 171px;
-  border-bottom: 6px solid white;
+.participantCard:hover .tooltiptext {
+  visibility: visible;
 }
 
 @media screen and (max-width: 900px) {
-  .participantsBorder {
-    margin: 0px 20px;
-    height: 40px;
+ 
+  .participantContainer{
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
   }
+  
+  .participantCard{
+    background-color: #ffffff;
+    width:8rem;
+    height:8rem;
+    margin:0.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
 }
 
-.participantsHead {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  text-align: center;
-  color: #ffffff;
-  background-color: black;
-  margin: 0px;
-  letter-spacing: 4px;
-}
