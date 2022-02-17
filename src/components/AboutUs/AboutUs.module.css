@@ -35,6 +35,8 @@
     font-size: 1.3rem;
     font-weight: 600;
     cursor: pointer;
+    height: 2rem;
+    padding:0 1.5rem 1rem 1.5rem;
 }
 
 .navItem:hover{
@@ -68,6 +70,8 @@
         font-size: 0.9rem;
         font-weight: 500;
         cursor: pointer;
+        height: 2rem;
+        padding:0 1.5rem 1rem 1.5rem;
     }
 
     .highlight{
