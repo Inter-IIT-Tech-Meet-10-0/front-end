@@ -14,6 +14,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  /* background-color: white; */
 }
 
 .eventSpecificDetailsContainerImage {
@@ -52,8 +53,7 @@
 
 .eventSpecificDetailsContainerData div:nth-child(2) {
   background-color: rgba(44, 190, 208, 1);
-  width: 246px;
-  padding: 10px;
+  padding: 10px 50px;
   border-radius: 18px;
   margin-top: 42px;
   margin-bottom: 64px;
@@ -76,4 +76,38 @@
   margin-top: 50px;
   text-align: center;
   text-shadow: 0px 4px 4px #153a82;
+}
+
+@media screen and (max-width: 1400px) {
+  .eventSpecificDetailsContainerImage {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .eventSpecificDetailsContainerData {
+    max-width: 601px;
+    width: 90%;
+    margin: 0 auto;
+    clip-path: polygon(8% 0, 16% 8%, 100% 8%, 100% 100%, 0 100%, 0 8%);
+    background: linear-gradient(
+      180deg,
+      rgba(9, 54, 103, 0.11) 0.01%,
+      rgba(140, 213, 255, 0.11) 9.06%,
+      rgba(161, 201, 242, 0.0253) 62.23%,
+      rgba(9, 32, 79, 0) 95.34%
+    );
+  }
+
+  .eventSpecificDetailsContainerData div:nth-child(1) {
+    width: 90%;
+  }
+
+  .eventSpecificDetailsHeading {
+    margin-top: 20px;
+  }
+
+  .eventSpecificDetails {
+    padding-top: 40px;
+  }
 }
