@@ -1,0 +1,116 @@
+.eventSpecificDetailsTop {
+  background-color: rgb(5, 2, 34);
+  padding-top: 8rem;
+}
+.eventSpecificDetails {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 123px;
+  padding-top: 123px;
+}
+
+.eventSpecificDetailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background-color: white; */
+}
+
+.eventSpecificDetailsContainerImage {
+  width: 500px;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+.eventSpecificDetailsContainerData {
+  width: 800px;
+  background: linear-gradient(
+    360deg,
+    rgba(9, 54, 103, 0.11) 0.01%,
+    rgba(140, 213, 255, 0.11) 9.06%,
+    rgba(161, 201, 242, 0.0253) 62.23%,
+    rgba(9, 32, 79, 0) 95.34%
+  );
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 92%, 8% 84%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventSpecificDetailsContainerData div:nth-child(1) {
+  width: 70%;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 34px;
+  margin-top: 83px;
+}
+
+.eventSpecificDetailsContainerData div:nth-child(2) {
+  background-color: rgba(44, 190, 208, 1);
+  padding: 10px 50px;
+  border-radius: 18px;
+  margin-top: 42px;
+  margin-bottom: 64px;
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.eventSpecificDetailsHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 62px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #153a82;
+}
+
+@media screen and (max-width: 1400px) {
+  .eventSpecificDetailsContainerImage {
+    max-width: 500px;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .eventSpecificDetailsContainerData {
+    max-width: 601px;
+    width: 90%;
+    margin: 0 auto;
+    clip-path: polygon(8% 0, 16% 8%, 100% 8%, 100% 100%, 0 100%, 0 8%);
+    background: linear-gradient(
+      180deg,
+      rgba(9, 54, 103, 0.11) 0.01%,
+      rgba(140, 213, 255, 0.11) 9.06%,
+      rgba(161, 201, 242, 0.0253) 62.23%,
+      rgba(9, 32, 79, 0) 95.34%
+    );
+  }
+
+  .eventSpecificDetailsContainerData div:nth-child(1) {
+    width: 95%;
+    text-align: left;
+  }
+
+  .eventSpecificDetailsHeading {
+    margin-top: 20px;
+  }
+
+  .eventSpecificDetails {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
