@@ -1,10 +1,12 @@
 import React from "react";
-// import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./EventDetails.css";
 
 function EventDetails() {
-  // const location = useLocation();
-  // const { imgUrl, name, description, pageLink } = location.state;
+  const location = useLocation();
+  console.log(location.state);
+  const { name } = location.state;
+
   return (
     <div className="eventSpecificDetailsTop">
       <div className="eventSpecificDetailsHeading">
@@ -13,9 +15,9 @@ function EventDetails() {
             color: "rgba(44, 190, 208, 1)",
           }}
         >
-          EVENTS NA
+          {name.slice(0, -3)}
         </span>
-        ME
+        {name.slice(-3)}
       </div>
       <div className="eventSpecificDetails">
         <div className="eventSpecificDetailsContainer">

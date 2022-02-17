@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Classes from "./Events.module.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { lowPrep, midPrep, highPrep } from "./data";
+import { Link } from "react-router-dom";
 
 export default function Events() {
   const [activeTab, setActiveTab] = useState("low");
@@ -93,13 +94,18 @@ const HighPrep = () => {
 };
 
 const Card = ({ event }) => {
+  const { name } = event;
   return (
     <>
       <div className={Classes.cardContainer}>
         <img src={event.image} alt="Event Poster" className={Classes.imgbox} />
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          <div className={Classes.readmore}>Read More</div>
+          <div className={Classes.readmore}>
+            <Link to={`/events/${name}`} state={event}>
+              Read More
+            </Link>
+          </div>
           <div className={Classes.iconContainer}>
             {" "}
             <FaLongArrowAltRight size={30} color={"rgba(44, 190, 208, 1)"} />

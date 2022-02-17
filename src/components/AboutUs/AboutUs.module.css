@@ -35,13 +35,8 @@
   cursor: pointer;
 }
 
-.navItem {
-  color: white;
-  font-size: 1.3rem;
-  font-weight: 600;
-  cursor: pointer;
-  height: 2rem;
-  padding: 0 1.5rem 1rem 1.5rem;
+.navItem:hover {
+  color: #2cbed0;
 }
 
 .highlight {
@@ -84,23 +79,11 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 900px) {
-    .navbar {
-      width: 90%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding: 2rem;
-    }
-    .navItem {
-      color: white;
-      font-size: 0.9rem;
-      font-weight: 500;
-      cursor: pointer;
-      height: 2rem;
-      padding: 0 1.5rem 1rem 1.5rem;
-    }
-
+  .highlight {
+    color: #2cbed0;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
     height: 2rem;
     padding: 0 1.5rem 1rem 1.5rem;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
