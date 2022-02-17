@@ -1,18 +1,15 @@
-.mainHeading{
+.mainHeading {
   text-align: center;
   font-size: 3.5rem;
   font-weight: 600;
-  color:white;
+  color: white;
   background-color: #050222;
-  text-shadow: 0px 4px 4px #153A82;
-  padding:7rem 0 7rem 0;
+  text-shadow: 0px 4px 4px #153a82;
+  padding: 7rem 0 7rem 0;
 }
 
-.firstWord{
-  color:#2CBED0;
-}
-.container{
-  width:100%;
+.container {
+  width: 100%;
   background-color: hsl(246, 89%, 7%);
   display: flex;
   flex-direction: column;
@@ -20,7 +17,7 @@
   align-items: center;
 }
 
-.navbarContainer{
+.navbarContainer {
   width: 100%;
   background-color: #050222;
   display: flex;
@@ -28,42 +25,49 @@
   justify-content: center;
 }
 
-.navbar{
-  width:70%;
+.navbar {
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 2rem;
 }
 
-.navItem{
-  color:white;
+.navItem {
+  color: white;
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
   height: 2rem;
-  padding:0 1.5rem 1rem 1.5rem;
+  padding: 0 1.5rem 1rem 1.5rem;
 }
 
-.navItem:hover{
-  color:#2CBED0;
+.navItem:hover {
+  color: #2cbed0;
 }
 
-.highlight{
-  color:#2CBED0;
+.highlight {
+  color: #2cbed0;
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
-  
+
   height: 2rem;
-  padding:0 1.5rem 1rem 1.5rem;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
-  background: linear-gradient(360deg, rgba(9, 77, 140, 0.98) 0%, rgba(10, 28, 45, 0) 77.52%, rgba(7, 32, 54, 0) 80.19%, rgba(6, 29, 50, 0) 115.99%, rgba(11, 26, 39, 0) 171.83%);
+  padding: 0 1.5rem 1rem 1.5rem;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  background: linear-gradient(
+    360deg,
+    rgba(9, 77, 140, 0.98) 0%,
+    rgba(10, 28, 45, 0) 77.52%,
+    rgba(7, 32, 54, 0) 80.19%,
+    rgba(6, 29, 50, 0) 115.99%,
+    rgba(11, 26, 39, 0) 171.83%
+  );
 }
 
-.mainContainer{
-  width:100%;
+.mainContainer {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -71,8 +75,8 @@
   background-color: #050222;
 }
 
-.cardsContainer{
-  width:85%;
+.cardsContainer {
+  width: 85%;
   background-color: #050222;
   display: flex;
   flex-direction: row;
@@ -82,129 +86,139 @@
   padding-bottom: 8rem;
 }
 
-.cardContainer{
-  width:35%;
-  background: linear-gradient(180deg, rgba(199, 199, 199, 0.3) 0%, rgba(199, 199, 199, 0.27) 4.48%, rgba(199, 199, 199, 0.22) 14.37%, rgba(196, 196, 196, 0.02) 100%);
-  margin:2rem 1rem 2rem 1rem;
+.cardContainer {
+  width: 35%;
+  background: linear-gradient(
+    180deg,
+    rgba(199, 199, 199, 0.3) 0%,
+    rgba(199, 199, 199, 0.27) 4.48%,
+    rgba(199, 199, 199, 0.22) 14.37%,
+    rgba(196, 196, 196, 0.02) 100%
+  );
+  margin: 2rem 1rem 2rem 1rem;
 }
 
-.imgbox{
-  width:25rem;
-  height:17rem;
-  padding:2rem 1.5rem 2.5rem 1.5rem;
-
+.imgbox {
+  width: 25rem;
+  height: 17rem;
+  padding: 2rem 1.5rem 2.5rem 1.5rem;
 }
 
-.title{
+.title {
   font-size: 2.5rem;
   color: white;
   font-weight: 500;
-  padding:1rem 1rem 1rem 2rem;
+  padding: 1rem 1rem 1rem 2rem;
 }
-.readMoreContainer{
-  margin-right:auto;
+.readMoreContainer {
+  margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width:45%;
+  width: 45%;
 }
 
-
-.readmore{
+.readmore {
   display: inline-block;
   color: rgba(44, 190, 208, 1);
   font-size: 1.5rem;
   font-weight: 450;
-  padding: 1rem  0.2rem 1rem 2rem;
+  padding: 1rem 0.2rem 1rem 2rem;
 }
 
-.iconContainer{
-  padding: 1rem  0.2rem 1rem 0rem;
+.iconContainer {
+  padding: 1rem 0.2rem 1rem 0rem;
 }
+
 
 @media screen and (max-width:900px) {
 
   .navbar{
     width:100%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 2rem;
   }
-  
-  .navItem{
-    color:white;
+
+  .navItem {
+    color: white;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     height: 1.2rem;
-    padding:0 1.5rem 1rem 1.5rem;
+    padding: 0 1.5rem 1rem 1.5rem;
   }
-  
-  .navItem:hover{
-    color:#2CBED0;
-  }
-  
 
-  .highlight{
-    color:#2CBED0;
+  .navItem:hover {
+    color: #2cbed0;
+  }
+
+  .highlight {
+    color: #2cbed0;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    
+
     height: 1.2rem;
-    padding:0 1.5rem 1rem 1.5rem;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
-    clip-path: polygon(0% 0%, 100% 0%, 90% 100% ,10% 100%);
-    background: linear-gradient(360deg, rgba(9, 77, 140, 0.98) 0%, rgba(10, 28, 45, 0) 77.52%, rgba(7, 32, 54, 0) 80.19%, rgba(6, 29, 50, 0) 115.99%, rgba(11, 26, 39, 0) 171.83%);
+    padding: 0 1.5rem 1rem 1.5rem;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+    background: linear-gradient(
+      360deg,
+      rgba(9, 77, 140, 0.98) 0%,
+      rgba(10, 28, 45, 0) 77.52%,
+      rgba(7, 32, 54, 0) 80.19%,
+      rgba(6, 29, 50, 0) 115.99%,
+      rgba(11, 26, 39, 0) 171.83%
+    );
   }
 
-  .cardContainer{
-    width:90%;
-    background: linear-gradient(180deg, rgba(199, 199, 199, 0.3) 0%, rgba(199, 199, 199, 0.27) 4.48%, rgba(199, 199, 199, 0.22) 14.37%, rgba(196, 196, 196, 0.02) 100%);
-    margin:2rem;
+  .cardContainer {
+    width: 90%;
+    background: linear-gradient(
+      180deg,
+      rgba(199, 199, 199, 0.3) 0%,
+      rgba(199, 199, 199, 0.27) 4.48%,
+      rgba(199, 199, 199, 0.22) 14.37%,
+      rgba(196, 196, 196, 0.02) 100%
+    );
+    margin: 2rem;
   }
 
-  .imgbox{
-    width:90%;
-    height:80%;
-    padding:2rem 1rem 2rem 1rem;
-  
+  .imgbox {
+    width: 90%;
+    height: 80%;
+    padding: 2rem 1rem 2rem 1rem;
   }
 
-  .title{
+  .title {
     font-size: 2.2rem;
     color: white;
     font-weight: 500;
-    padding:1rem 1rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 2rem;
   }
 
-  .readMoreContainer{
-    margin-right:auto;
+  .readMoreContainer {
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width:60%;
+    width: 60%;
   }
-  
-  
-  .readmore{
+
+  .readmore {
     display: inline-block;
     color: rgba(44, 190, 208, 1);
     font-size: 1.5rem;
     font-weight: 450;
-    padding: 1rem  0.2rem 1rem 2rem;
+    padding: 1rem 0.2rem 1rem 2rem;
   }
-  
-  .iconContainer{
-    padding: 1rem  0.2rem 1rem 0rem;
+
+  .iconContainer {
+    padding: 1rem 0.2rem 1rem 0rem;
   }
 }
-
-
-
-
-
-
