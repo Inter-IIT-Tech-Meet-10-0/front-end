@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import Classes from "./Events.module.css";
 import {FaLongArrowAltRight} from 'react-icons/fa';
-import event1 from '../../images/event1.png';
+import { lowPrep,midPrep,highPrep } from "./data";
 
 export default function Events() {
 
@@ -39,10 +39,9 @@ const LowPrep =() =>{
     <>
    
       <div className={Classes.cardsContainer}>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        {lowPrep.map(event =>{
+          return <Card event = {event}/>
+        })}
       </div>
     
     </>
@@ -53,10 +52,9 @@ const MidPrep = () =>{
   return (
      <>
       <div className={Classes.cardsContainer}>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+      {midPrep.map(event =>{
+          return <Card event = {event}/>
+        })}
       </div>
      </>
   )
@@ -66,22 +64,21 @@ const HighPrep =() => {
   return (
      <>
       <div className={Classes.cardsContainer}>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+      {highPrep.map(event =>{
+          return <Card event = {event}/>
+        })}
       </div>
      </>
   )
 }
 
 
-const Card =() =>{
+const Card =({event}) =>{
   return (
     <>
      <div className={Classes.cardContainer}>
-            <img src={event1} alt="Event Poster" className={Classes.imgbox}/>
-           <div className={Classes.title}>Event Name</div>
+            <img src={event.image} alt="Event Poster" className={Classes.imgbox}/>
+           <div className={Classes.title}>{event.name}</div>
            <div className={Classes.readMoreContainer}>
            <div className={Classes.readmore}>
              Read More 
