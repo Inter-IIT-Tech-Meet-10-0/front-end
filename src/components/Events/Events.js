@@ -101,11 +101,9 @@ const Card = ({ event }) => {
         <img src={event.image} alt="Event Poster" className={Classes.imgbox} />
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          <div className={Classes.readmore}>
-            <Link to={`/events/${name}`} state={event}>
-              Read More
-            </Link>
-          </div>
+          <Link to={`/events/${name}`} state={event}>
+            <div className={Classes.readmore}>Read More</div>
+          </Link>
           <div className={Classes.iconContainer}>
             {" "}
             <FaLongArrowAltRight size={30} color={"rgba(44, 190, 208, 1)"} />
