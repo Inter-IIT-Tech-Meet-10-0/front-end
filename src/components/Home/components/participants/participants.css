@@ -56,6 +56,18 @@
   margin: 0px 13px;
 }
 
+.participantsHead {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+  margin: 0px;
+  letter-spacing: 4px;
+}
+
 @media screen and (max-width: 1300px) {
   .HomeParticipants div div:nth-child(n) {
     width: 187px;
@@ -76,16 +88,8 @@
     margin: 0px 20px;
     height: 40px;
   }
-}
 
-.participantsHead {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  text-align: center;
-  color: #ffffff;
-  background-color: black;
-  margin: 0px;
-  letter-spacing: 4px;
+  .participantsHead {
+    font-size: 2.3rem;
+  }
 }
