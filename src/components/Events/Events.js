@@ -60,11 +60,15 @@ export default function Events() {
 const LowPrep = () => {
   return (
     <>
-      <div className={Classes.cardsContainer}>
-        {lowPrep.map((event) => {
-          return <Card event={event} />;
-        })}
-      </div>
+      {Object.keys(lowPrep).length === 0 ? (
+        <ReleasingSoon />
+      ) : (
+        <div className={Classes.cardsContainer}>
+          {lowPrep.map((event) => {
+            return <Card event={event} />;
+          })}
+        </div>
+      )}
     </>
   );
 };
@@ -111,5 +115,21 @@ const Card = ({ event }) => {
         </div>
       </div>
     </>
+  );
+};
+
+const ReleasingSoon = () => {
+  return (
+    <div>
+      <h1
+        style={{
+          color: "white",
+          textAlign: "center",
+          paddingBottom: "80px",
+        }}
+      >
+        Coming Soon
+      </h1>
+    </div>
   );
 };
