@@ -119,9 +119,9 @@ const Card = ({ event }) => {
       <div className={Classes.cardContainer}>
         <div
           className={Classes.loaderContainer}
-          style={{ display: loading ? "block" : "none" }}
+          style={{ display: loading ? "block" :'none' }}
         >
-          <BallTriangle color="#00BFFF" height={80} width={80} />
+          <BallTriangle className={Classes.loader} color="#00BFFF" height={100} width={100} />
         </div>
         <div style={{ display: loading ? "none" : "block" }}>
           <img
