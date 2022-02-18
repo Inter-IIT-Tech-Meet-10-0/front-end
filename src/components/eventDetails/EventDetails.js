@@ -38,7 +38,7 @@ function EventDetails() {
               {description}
               <br />
               <br />
-              Maximum Size : {maxsize}
+              Maximum Team Size : {maxsize}
             </div>
             {/* <div>Register Now</div> */}
           </div>

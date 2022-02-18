@@ -68,7 +68,7 @@ export const highPrep = [
     maxsize: "8",
   },
   {
-    name: "Alpha Analyzer for SEC filings of SaaS Companies",
+    name: "Digital Alpha's SEC Filing Analyzer for SaaS Companies",
     link: "",
     image: "/events/HighPrep/digitalAlpha.png",
     description:
