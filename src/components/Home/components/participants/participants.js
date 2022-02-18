@@ -3,17 +3,16 @@ import "./participants.css";
 import { data } from "./data";
 
 export default function Participants() {
-  
   return (
-    <div style={{ backgroundColor: "black",textAlign:'center' }}>
+    <div style={{ backgroundColor: "black", textAlign: "center" }}>
       <div className="participantsHead">PARTICIPANTS</div>
       <div className="HomeParticipants">
-        <div className={'participantContainer'}>
+        <div className={"participantContainer"}>
           {data.map((data_val) => {
             const { id, link } = data_val;
             return (
               <div
-              className="participantCard"
+                className="participantCard"
                 key={id}
                 style={{
                   backgroundImage: `url(${link})`,
