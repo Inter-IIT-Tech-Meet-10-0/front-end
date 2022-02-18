@@ -84,9 +84,9 @@
 }
 
 .dropdownContainer{
-   position:absolute;
-   top:6rem;
-   left:0;
+  position: fixed;
+  top:6rem;
+  left:0;
    width:100vw;
    height:30vh;
    z-index: 10;
