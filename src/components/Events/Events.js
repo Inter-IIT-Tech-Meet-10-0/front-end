@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect} from "react";
 import Classes from "./Events.module.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { lowPrep, midPrep, highPrep } from "./data";
@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 
 export default function Events() {
   const [activeTab, setActiveTab] = useState("low");
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>
