@@ -14,6 +14,10 @@
   /* background-color: white; */
 }
 
+.AboutInterIITlogo{
+  width:18rem;
+}
+
 .ChildAboutInterIIT div:nth-child(1) {
   text-align: center;
 }
@@ -27,6 +31,19 @@
   display: block;
   margin: 10px auto;
 }
+
+.newer{
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.pandemic{
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+
+
 @media screen and (max-width: 1350px) {
   .AboutInterIIT > div:nth-child(1) {
     width: 100%;
@@ -51,3 +68,4 @@
     font-size: 2.3rem;
   }
 }
+
