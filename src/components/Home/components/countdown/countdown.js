@@ -3,7 +3,7 @@ import Classes from './Countdown.module.css';
 
 function Countdown() {
 
-  const deadline = "march, 15, 2022";
+  const deadline = "march, 25, 2022";
 
   const [days,setDays] = useState(0);
   const [hours,setHours] = useState(0);
