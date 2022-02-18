@@ -131,11 +131,9 @@
   padding: 1rem 0.2rem 1rem 0rem;
 }
 
-
-@media screen and (max-width:900px) {
-
-  .navbar{
-    width:100%;
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 100%;
 
     display: flex;
     flex-direction: row;

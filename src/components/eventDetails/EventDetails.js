@@ -5,7 +5,8 @@ import "./EventDetails.css";
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name,description } = location.state;
+  const { name, description, image } = location.state;
+
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -25,11 +26,16 @@ function EventDetails() {
       </div>
       <div className="eventSpecificDetails">
         <div className="eventSpecificDetailsContainer">
-          <div className="eventSpecificDetailsContainerImage"></div>
+          <div
+            className="eventSpecificDetailsContainerImage"
+            style={{
+              backgroundImage: `url(${image})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+          ></div>
           <div className="eventSpecificDetailsContainerData">
-            <div>
-             {description}
-            </div>
+            <div>{description}</div>
             {/* <div>Register Now</div> */}
           </div>
         </div>

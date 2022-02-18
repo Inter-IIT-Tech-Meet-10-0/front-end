@@ -13,7 +13,7 @@
 .eventSpecificDetailsContainer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   /* background-color: white; */
 }
 
@@ -43,7 +43,7 @@
 .eventSpecificDetailsContainerData div:nth-child(1) {
   width: 70%;
   color: white;
-  text-align: center;
+  text-align: left;
   font-weight: normal;
   font-size: 21px;
   line-height: 34px;
