@@ -5,7 +5,7 @@ import "./EventDetails.css";
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name, description, image } = location.state;
+  const { name, description, image, maxsize } = location.state;
 
   return (
     <div className="eventSpecificDetailsTop">
@@ -30,7 +30,12 @@ function EventDetails() {
             }}
           ></div>
           <div className="eventSpecificDetailsContainerData">
-            <div>{description}</div>
+            <div>
+              {description}
+              <br />
+              <br />
+              Maximum Size : {maxsize}
+            </div>
             {/* <div>Register Now</div> */}
           </div>
         </div>
