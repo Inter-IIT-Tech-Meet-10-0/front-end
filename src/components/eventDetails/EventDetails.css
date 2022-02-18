@@ -35,7 +35,6 @@
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  clip-path: polygon(8% 0, 100% 0, 100% 100%, 8% 100%, 0 92%, 8% 84%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,13 +67,12 @@
 }
 
 .eventSpecificDetailsHeading {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  
+  font-weight: 600;
   font-size: 51px;
   line-height: 62px;
   color: white;
-  margin-top: 50px;
+  margin: 5rem 2rem 5rem 5rem;
   text-align: center;
   text-shadow: 0px 4px 4px #153a82;
 }
