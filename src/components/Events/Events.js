@@ -60,11 +60,15 @@ export default function Events() {
 const LowPrep = () => {
   return (
     <>
-      <div className={Classes.cardsContainer}>
-        {lowPrep.map((event) => {
-          return <Card event={event} />;
-        })}
-      </div>
+      {Object.keys(lowPrep).length === 0 ? (
+        <ReleasingSoon />
+      ) : (
+        <div className={Classes.cardsContainer}>
+          {lowPrep.map((event) => {
+            return <Card event={event} />;
+          })}
+        </div>
+      )}
     </>
   );
 };
@@ -101,11 +105,9 @@ const Card = ({ event }) => {
         <img src={event.image} alt="Event Poster" className={Classes.imgbox} />
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          <div className={Classes.readmore}>
-            <Link to={`/events/${name}`} state={event}>
-              Read More
-            </Link>
-          </div>
+          <Link to={`/events/${name}`} state={event}>
+            <div className={Classes.readmore}>Read More</div>
+          </Link>
           <div className={Classes.iconContainer}>
             {" "}
             <FaLongArrowAltRight size={30} color={"rgba(44, 190, 208, 1)"} />
@@ -113,5 +115,21 @@ const Card = ({ event }) => {
         </div>
       </div>
     </>
+  );
+};
+
+const ReleasingSoon = () => {
+  return (
+    <div>
+      <h1
+        style={{
+          color: "white",
+          textAlign: "center",
+          paddingBottom: "80px",
+        }}
+      >
+        Coming Soon
+      </h1>
+    </div>
   );
 };

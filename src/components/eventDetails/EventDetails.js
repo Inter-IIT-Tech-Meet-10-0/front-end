@@ -32,7 +32,7 @@ function EventDetails() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-            <div>Register Now</div>
+            {/* <div>Register Now</div> */}
           </div>
         </div>
       </div>

@@ -1,9 +1,8 @@
-export const list = [
+export const data = [
   { id: "1", name: "IIT Kharagpur", link: "/IIT/1.png" },
   { id: "2", name: "IIT Bombay", link: "/IIT/2.png" },
   { id: "3", name: "IIT Madras", link: "/IIT/3.png" },
   { id: "4", name: "IIT Kanpur", link: "/IIT/4.png" },
-  { id: "5", name: "IIT Delhi", link: "/IIT/5.png" },
   { id: "6", name: "IIT Guwahati", link: "/IIT/6.png" },
   { id: "7", name: "IIT Roorkee", link: "/IIT/7.png" },
   { id: "8", name: "IIT Ropar", link: "/IIT/8.png" },
