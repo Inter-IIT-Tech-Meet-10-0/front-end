@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./EventDetails.css";
 
@@ -7,10 +7,9 @@ function EventDetails() {
   console.log(location.state);
   const { name, description, image, maxsize } = location.state;
 
-
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="eventSpecificDetailsTop">
