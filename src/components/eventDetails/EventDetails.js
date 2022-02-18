@@ -5,7 +5,7 @@ import "./EventDetails.css";
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name } = location.state;
+  const { name, description, image } = location.state;
 
   return (
     <div className="eventSpecificDetailsTop">
@@ -21,17 +21,14 @@ function EventDetails() {
       </div>
       <div className="eventSpecificDetails">
         <div className="eventSpecificDetailsContainer">
-          <div className="eventSpecificDetailsContainerImage"></div>
+          <div
+            className="eventSpecificDetailsContainerImage"
+            style={{
+              backgroundImage: `${image}`,
+            }}
+          ></div>
           <div className="eventSpecificDetailsContainerData">
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
+            <div>{description}</div>
             {/* <div>Register Now</div> */}
           </div>
         </div>
