@@ -134,7 +134,7 @@ const Card = ({ event }) => {
 
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          {name !== "Blue Yonder" ? (
+          {name === "Bosch's Model Extraction Attack For Video Classification" || name === "Digital Alpha's SEC Filing Analyzer for SaaS Companies"  ? (
             <>
               <Link to={`/events/${name}`} state={event}>
                 <div className={Classes.readmore}>Read More</div>
@@ -148,7 +148,7 @@ const Card = ({ event }) => {
               </div>
             </>
           ) : (
-            <div className={Classes.readmore}>Coming Soon</div>
+            <div className={Classes.readmore}></div>
           )}
         </div>
       </div>
