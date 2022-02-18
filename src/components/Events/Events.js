@@ -15,7 +15,15 @@ export default function Events() {
   return (
     <>
       <div className={Classes.mainHeading}>
-        <span className={Classes.firstWord}>EVEN</span>TS
+        <span
+          className={Classes.firstWord}
+          style={{
+            color: "rgb(44,190,208)",
+          }}
+        >
+          EVEN
+        </span>
+        TS
       </div>
 
       <div className={Classes.navbarContainer}>

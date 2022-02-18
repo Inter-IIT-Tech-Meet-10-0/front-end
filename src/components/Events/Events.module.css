@@ -5,7 +5,7 @@
   color: white;
   background-color: #050222;
   text-shadow: 0px 4px 4px #153a82;
-  padding: 7rem 0 7rem 0;
+  padding: 7rem 0 3.3rem 0;
 }
 
 .container {
@@ -35,7 +35,7 @@
 
 .navItem {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
   height: 2rem;
@@ -48,7 +48,7 @@
 
 .highlight {
   color: #2cbed0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
 
@@ -96,7 +96,7 @@
     rgba(196, 196, 196, 0.02) 100%
   );
   margin: 2rem 1rem 2rem 1rem;
-  height:38rem;
+  height: 38rem;
 }
 
 .imgbox {
@@ -132,7 +132,7 @@
   padding: 1rem 0.2rem 1rem 0rem;
 }
 
-.loaderContainer{
+.loaderContainer {
   width: 20rem;
   height: 12rem;
   display: flex;
@@ -170,7 +170,7 @@
     font-weight: 600;
     cursor: pointer;
 
-    height: 1.2rem;
+    height: 2.2rem;
     padding: 0 1.5rem 1rem 1.5rem;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
