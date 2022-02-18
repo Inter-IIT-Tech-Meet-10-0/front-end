@@ -1,5 +1,3 @@
-import event1 from "../../images/event1.png";
-
 export const lowPrep = [
   {
     name: "Mercari Coding Hackathon",
