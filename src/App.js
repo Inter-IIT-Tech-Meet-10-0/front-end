@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";
 // import ComingSoon from "./components/ComingSoon/ComingSoon";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Events from "./components/Events/Events";
 import Team from "./components/Team/Team";

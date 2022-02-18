@@ -1,16 +1,15 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./EventDetails.css";
 
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name, description, image } = location.state;
-
+  const { name, description, image, maxsize } = location.state;
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="eventSpecificDetailsTop">
@@ -35,7 +34,12 @@ function EventDetails() {
             }}
           ></div>
           <div className="eventSpecificDetailsContainerData">
-            <div>{description}</div>
+            <div>
+              {description}
+              <br />
+              <br />
+              Maximum Size : {maxsize}
+            </div>
             {/* <div>Register Now</div> */}
           </div>
         </div>

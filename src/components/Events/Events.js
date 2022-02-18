@@ -3,6 +3,7 @@ import Classes from "./Events.module.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { lowPrep, midPrep, highPrep } from "./data";
 import { Link } from "react-router-dom";
+import {BallTriangle} from 'react-loader-spinner'
 
 export default function Events() {
   const [activeTab, setActiveTab] = useState("low");
@@ -102,11 +103,22 @@ const HighPrep = () => {
 };
 
 const Card = ({ event }) => {
+
+  const [loading ,setLoading]  = useState(true);
+
+
+
   const { name } = event;
   return (
     <>
       <div className={Classes.cardContainer}>
-        <img src={event.image} alt="Event Poster" className={Classes.imgbox} />
+        <div className={Classes.loaderContainer} style={{display:loading ? 'block' : 'none' }}>
+          <BallTriangle color="#00BFFF" height={80} width={80} />
+        </div>
+           <div style={{display: loading ? 'none' : 'block'}}>
+           <img src={event.image} onLoad={()=>setLoading(false)} alt="Event Poster" className={Classes.imgbox} />
+           </div>
+         
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
           <Link to={`/events/${name}`} state={event}>
