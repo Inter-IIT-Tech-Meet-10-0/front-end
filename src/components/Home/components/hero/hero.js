@@ -7,14 +7,14 @@ function ComingSoon() {
         <div className={Classes.background}>
            <div className={Classes.centerContainer}>
               <img className={Classes.logo} src={logo} alt='logo'/>
-              <div className={Classes.title}> INTER IIT TECH-MEET 10.0</div>  
-             <div className={Classes.subtitle}>10 -15 Jan | IIT Kharagpur</div>  
+              <div className={Classes.title}> Inter IIT Tech-Meet 10.0</div>  
+             <div className={Classes.subtitle}>25 - 27 March | IIT Kharagpur</div>  
              <div className={Classes.next}>
                  <div className={Classes.nextTitle}>
-                   Blah Blah
+                   To Newer Horizons
                  </div>
                  <div className={Classes.nextsubTitle}>
-                   Blah Blah
+                   In the Wake of the Pandemic
                  </div>
              </div>
            </div>

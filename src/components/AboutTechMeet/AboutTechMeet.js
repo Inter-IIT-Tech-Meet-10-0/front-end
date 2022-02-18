@@ -22,10 +22,12 @@ The vision of Inter IIT Tech Meet is to address and illuminate talks on multitud
                  </div>
              </div>
              <div className={Classes.info2}>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac felis eget odio porta laoreet. Etiam at elit sed mauris congue malesuada nec id augue. Ut eu metus non libero volutpat lacinia. Maecenas urna erat, posuere sed gravida at, posuere eget nisl. Nulla non nisi neque. Maecenas auctor suscipit efficitur. Pellentesque eu urna sagittis, mattis dolor vel, ultricies urna. Nulla volutpat interdum lorem non venenatis. Nam nec vehicula sem, eget placerat nulla.In porttitor mollis risus, vel sollicitudin elit congue id. Maecenas varius felis nec felis suscipit, eget laoreet mauris semper. Nulla ut lectus neque. Sed vel posuere purus. Pellentesque at vestibulum ante. Nam commodo libero a mi pellentesque, eu rhoncus sem mollis.
- Proin efficitur sodales tellus, blandit volutpat felis consequat venenatis. Nulla rhoncus ex at nisl facilisis semper. Nam sit amet leo nunc. Sed aliquet nibh id porta lobortis. Donec tellus velit, blandit quis sapien quis, efficitur commodo velit. Cras metus sapien, rhoncus vel neque id, rhoncus tempus tellus. Vestibulum consequat ultricies sem.
-
-
+             
+                Blue - the hallmark of empowerment, success, stability and innovation. The crisis spurred experimentation, new ideas, deliberation on sustainability, accelerated research and opened doors to novel initiatives and possibilities. With the rapid growth in digital domains and cutting-edge technology, we truly demonstrate - ‘the sky's the limit’. 
+                    <br /><br />
+                Green symbolises the renewal of human lives through technology, and the birth of a fresh start. Reinventing the shaken existential system is backed with transformed technological solutions, be it in economics, health care, education, business or industry. Not only does technology revolutionise and digitise human lives, but it also aspires to foster eco-friendliness to safeguard the interests of nature, climate and the biosphere. 
+                    <br /><br />
+                White characterises the significance of safety, security, ethics and philanthropy in technology and digitisation. Technology strives to solve humanitarian crises and global challenges, along with developing new ways of addressing societal and individual needs. The goodness of technology lies in its motive to restore harmony, togetherness and collective wellbeing across the globe.
              </div>
             </div>
 
