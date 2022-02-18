@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import AboutInteriit from "./components/about_interiit/about_interiit";
 import Countdown from "./components/countdown/countdown";
 import EventTimeline from "./components/event_timeline/event_timeline";
@@ -7,6 +7,12 @@ import Hero from "./components/hero/hero";
 import Participants from "./components/participants/participants";
 
 export default function Home() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
   return (
     <React.Fragment>
       <Hero />
