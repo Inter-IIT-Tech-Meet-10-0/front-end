@@ -11,7 +11,7 @@ export const lowPrep = [
 ];
 export const midPrep = [
   {
-    name: "ISRO’s WEB-BASED AUTOMATIC IDENTIFICATION OF BURSTS IN X-RAY LIGHT CURVES",
+    name: "ISRO’s Web-based automatic Identification of bursts in X-RAY Light Curves",
     link: "",
     image: "/events/MidPrep/isro.png",
     description:
@@ -25,14 +25,14 @@ export const midPrep = [
       "The challenge is to develop a combination of an Unmanned Earth Moving Ground Vehicle (UGV)  and a guiding Unmanned Aerial Vehicle(UAV) capable of navigating an invisible small mountain route without collapsing.",
   },
   {
-    name: "MUDREX'S CRYPTO TRADING CHALLENGE",
+    name: "Mudrex's Crypto Trading Challenge",
     link: "",
     image: "/events/MidPrep/mudrex.png",
     description:
       "The goal of this competition is to create an automated trading bot, using the Mudrex Visual Builder, that trades profitably on a set of predefined assets and exchange.All participants will be given Premium Mudrex Accounts on which they will be able to access the visual builder, create strategies and backtest their bots.",
   },
   {
-    name: "BOSCH'S AGE AND GENDER DETECTION",
+    name: "Bosch's Age And Gender Detection",
     link: "",
     image: "/events/MidPrep/boschAgeAndGender.png",
     description:
@@ -55,7 +55,7 @@ export const highPrep = [
     description: "",
   },
   {
-    name: "BOSCH'S MODEL EXTRACTION ATTACK FOR VIDEO CLASSIFICATION",
+    name: "Bosch's Model Extraction Attack For Video Classification",
     link: "",
     image: "/events/HighPrep/boschModelExtraction.png",
     description:
