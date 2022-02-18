@@ -1,48 +1,55 @@
 .AboutInterIIT {
   padding: 50px 0px;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   background-color: black;
   color: white;
+  /* background-color: aquamarine; */
 }
 
 .AboutInterIIT > div:nth-child(1) {
   /* background-color: rebeccapurple; */
-  width: 100%;
+  width: 30%;
+  /* background-color: antiquewhite; */
   /* background-color: greenyellow; */
   /* background-color: white; */
 }
+.ChildAboutInterIIT {
+  /* background-color: bisque; */
+  width: 50%;
+}
 
-.AboutInterIITlogo{
-  width:18rem;
+.AboutInterIITlogo {
+  width: 18rem;
 }
 
 .ChildAboutInterIIT div:nth-child(1) {
   text-align: center;
 }
 .ChildAboutInterIIT div:nth-child(2) {
-  text-align: center;
-  width: 50%;
+  /* background-color: red; */
+  text-align: justify;
+  width: 90%;
   margin: 0px auto;
   font-size: 20px;
+  line-height: 40px;
 }
 .AboutInterIITlogo {
   display: block;
   margin: 10px auto;
 }
 
-.newer{
+.newer {
   font-size: 2.3rem;
   font-weight: 500;
 }
 
-.pandemic{
+.pandemic {
   font-size: 2.3rem;
   font-weight: 500;
 }
-
-
 
 @media screen and (max-width: 1350px) {
   .AboutInterIIT > div:nth-child(1) {
@@ -68,4 +75,3 @@
     font-size: 2.3rem;
   }
 }
-
