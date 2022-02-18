@@ -10,7 +10,7 @@ export const lowPrep = [
 ];
 export const midPrep = [
   {
-    name: "ISRO’s WEB-BASED AUTOMATIC IDENTIFICATION OF BURSTS IN X-RAY LIGHT CURVES",
+    name: "ISRO’s Web-based automatic Identification of bursts in X-RAY Light Curves",
     link: "",
     image: "/events/MidPrep/isro.png",
     description:
@@ -26,7 +26,7 @@ export const midPrep = [
     maxsize: "8",
   },
   {
-    name: "MUDREX'S CRYPTO TRADING CHALLENGE",
+    name: "Mudrex's Crypto Trading Challenge",
     link: "",
     image: "/events/MidPrep/mudrex.png",
     description:
@@ -34,7 +34,7 @@ export const midPrep = [
     maxsize: "6",
   },
   {
-    name: "BOSCH'S AGE AND GENDER DETECTION",
+    name: "Bosch's Age And Gender Detection",
     link: "",
     image: "/events/MidPrep/boschAgeAndGender.png",
     description:
@@ -61,7 +61,7 @@ export const highPrep = [
     maxsize: "lorem",
   },
   {
-    name: "BOSCH'S MODEL EXTRACTION ATTACK FOR VIDEO CLASSIFICATION",
+    name: "Bosch's Model Extraction Attack For Video Classification",
     link: "",
     image: "/events/HighPrep/boschModelExtraction.png",
     description:
