@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import Classes from './AboutUs.module.css';
 import AboutTechMeet from '../AboutTechMeet/AboutTechMeet';
 import AboutIITKGP from '../AboutIITKGP/AboutIITKGP';
@@ -7,6 +7,10 @@ import WinnersTimeline from '../WinnersTimeline/WinnersTimeline';
 function AboutUs() {
 
   const [activeTab,setActiveTab] = useState('tech-meet');
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
 
   return (
