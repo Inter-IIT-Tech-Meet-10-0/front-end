@@ -45,7 +45,7 @@ export const midPrep = [
 
 export const highPrep = [
   {
-    name: "Silicon Labs IoT Innovation Challenge",
+    name: "Social Entrepreneurship",
     link: "/",
     image: "/events/iot.png",
     description:
