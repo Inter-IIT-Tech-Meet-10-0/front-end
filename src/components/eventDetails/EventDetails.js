@@ -5,7 +5,7 @@ import "./EventDetails.css";
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name, description, image, maxsize } = location.state;
+  const { name, description, image, maxsize, link } = location.state;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -38,9 +38,21 @@ function EventDetails() {
               {description}
               <br />
               <br />
-              Maximum Size : {maxsize}
+              Maximum Team Size : {maxsize}
             </div>
-            {/* <div>Register Now</div> */}
+            {link !== "/" && (
+              <div>
+                <a
+                  href={link}
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                  }}
+                >
+                  Problem Statement
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>
