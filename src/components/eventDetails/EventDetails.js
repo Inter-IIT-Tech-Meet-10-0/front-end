@@ -24,7 +24,9 @@ function EventDetails() {
           <div
             className="eventSpecificDetailsContainerImage"
             style={{
-              backgroundImage: `${image}`,
+              backgroundImage: `url(${image})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
             }}
           ></div>
           <div className="eventSpecificDetailsContainerData">
