@@ -1,5 +1,5 @@
 .navbarContainer{
-  height:7rem;
+  height:5rem;
   width:100vw;
   display: flex;
   flex-direction: row;
@@ -9,7 +9,7 @@
   background-color: transparent;
 }
 .navbarContainerbackground{
-  height:7rem;
+  height:5rem;
   width:100vw;
   display: flex;
   flex-direction: row;
@@ -25,8 +25,8 @@
 }
 
 .logo{
-  height:4.5rem;
-  width:6rem;
+  height:3.5rem;
+  width:4.5rem;
   cursor: pointer;
 }
 
@@ -37,7 +37,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height:7rem;
+  height:5rem;
 }
 
 .navitem{

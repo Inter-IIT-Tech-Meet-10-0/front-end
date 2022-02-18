@@ -16,8 +16,8 @@ export default function AboutInteriit() {
       </div>
       <div className="ChildAboutInterIIT">
         <div>
-          <h1 style={{ textAlign: "center" }}>To Newer Horizons:</h1>
-          <h1 style={{ textAlign: "center" }}>In the Wake of the Pandemic</h1>
+          <h1 className="newer" style={{ textAlign: "center" }}>To Newer Horizons:</h1>
+          <h1 className="pandemic" style={{ textAlign: "center" }}>In the Wake of the Pandemic</h1>
         </div>
         <div>
           <br />
