@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { BallTriangle } from "react-loader-spinner";
 
 export default function Events() {
-  const [activeTab, setActiveTab] = useState("low");
+  const [activeTab, setActiveTab] = useState("high");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -89,11 +89,15 @@ const LowPrep = () => {
 const MidPrep = () => {
   return (
     <>
-      <div className={Classes.cardsContainer}>
-        {midPrep.map((event) => {
-          return <Card event={event} />;
-        })}
-      </div>
+      {Object.keys(lowPrep).length === 0 ? (
+          <ReleasingSoon />
+        ) : (
+        <div className={Classes.cardsContainer}>
+          {midPrep.map((event) => {
+            return <Card event={event} />;
+          })}
+        </div>
+      )}
     </>
   );
 };
@@ -101,11 +105,15 @@ const MidPrep = () => {
 const HighPrep = () => {
   return (
     <>
-      <div className={Classes.cardsContainer}>
-        {highPrep.map((event) => {
-          return <Card event={event} />;
-        })}
-      </div>
+      {Object.keys(highPrep).length === 0 ? (
+          <ReleasingSoon />
+        ) : (
+        <div className={Classes.cardsContainer}>
+          {highPrep.map((event) => {
+            return <Card event={event} />;
+          })}
+        </div>
+      )}
     </>
   );
 };
@@ -163,7 +171,8 @@ const ReleasingSoon = () => {
         style={{
           color: "white",
           textAlign: "center",
-          paddingBottom: "80px",
+          paddingTop: "100px",
+          paddingBottom: "200px",
         }}
       >
         Coming Soon
