@@ -30,7 +30,9 @@ function EventDetails() {
             style={{
               backgroundImage: `url(${image})`,
               backgroundPosition: "center",
-              backgroundSize: "cover",
+              backgroundSize: "100%",
+              objectFit:'cover',
+              backgroundRepeat:'no-repeat'
             }}
           ></div>
           <div className="eventSpecificDetailsContainerData">
