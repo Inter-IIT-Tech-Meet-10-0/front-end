@@ -61,7 +61,7 @@ export const highPrep = [
     maxsize: "10",
   },
   {
-    name: "Social Entrepreneurship",
+    name: "Silicon Labs' Social Entrepreneurship Challenge",
     link: "/events/HighPrep/siliconlabs.pdf",
     image: "/events/iot.png",
     description:
@@ -69,7 +69,7 @@ export const highPrep = [
     maxsize: "10",
   },
   {
-    name: " Blue Yonder’s Supply Chain Management Challenge",
+    name: " Blue Yonder’s Sustainable Supply-Chain",
     link: "/events/HighPrep/blueYonder.pdf",
     image: "/events/blueYonder.png",
     description: " A supply chain is a network between a company and its suppliers to produce and distribute a specific product to the final buyer. This network includes different activities, people, entities, information, and resources. Supply chain management is a crucial process because an optimized supply chain results in lower costs and a faster production cycle.",
