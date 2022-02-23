@@ -142,7 +142,7 @@ const Card = ({ event }) => {
 
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          {name === "Bosch's Model Extraction Attack For Video Classification" || name === "Digital Alpha's SEC Filing Analyzer for SaaS Companies" || name === "Social Entrepreneurship"  || name === ' Blue Yonder’s Supply Chain Management Challenge' ? (
+          {name === "Bosch's Model Extraction Attack For Video Classification" || name === "Digital Alpha's SEC Filing Analyzer for SaaS Companies" || name === "Silicon Labs' Social Entrepreneurship Challenge"  || name === 'Blue Yonder’s Sustainable Supply-Chain' ? (
             <>
               <Link to={`/events/${name}`} state={event}>
                 <div className={Classes.readmore}>Read More</div>
