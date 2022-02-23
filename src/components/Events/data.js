@@ -60,20 +60,20 @@ export const highPrep = [
       "The EDGAR database contains a lot of corporate data but often in a format which is difficult to comprehend & analyse.However, SaaS companies are customer driven and are heavily dependent on their customer base and the metrics and numbers needed for their evaluation are not readily available on publically reported SEC Filings and need to be chalked out from the available forms thus an Interactive Dashboard with appropriate features needs to be developed which is capable of analyzing SEC Filings of all US Listed SaaS companies for all the available years of data.",
     maxsize: "10",
   },
-  // {
-  //   name: "Social Entrepreneurship",
-  //   link: "/",
-  //   image: "/events/comingsoon.jfif",
-  //   description:
-  //     "The challenge is to find unique problems and solve them with cost-effective and scalable engineering solutions that address real-world problems using existing or upcoming IoT technologies in a variety of industries, as well as analyse the commercial implications.",
-  //   maxsize: "10",
-  // },
-  // {
-  //   name: "Blue Yonder",
-  //   link: "/",
-  //   image: "/events/comingsoon.jfif",
-  //   description: "Coming Soon",
-  //   maxsize: "lorem",
-  // },
+  {
+    name: "Social Entrepreneurship",
+    link: "/events/HighPrep/siliconlabs.pdf",
+    image: "/events/iot.png",
+    description:
+      "The challenge is to find unique problems and solve them with cost-effective and scalable engineering solutions that address real-world problems using existing or upcoming IoT technologies in a variety of industries, as well as analyse the commercial implications.",
+    maxsize: "10",
+  },
+  {
+    name: " Blue Yonder’s Supply Chain Management Challenge",
+    link: "/events/HighPrep/blueYonder.pdf",
+    image: "/events/blueYonder.png",
+    description: " A supply chain is a network between a company and its suppliers to produce and distribute a specific product to the final buyer. This network includes different activities, people, entities, information, and resources. Supply chain management is a crucial process because an optimized supply chain results in lower costs and a faster production cycle.",
+    maxsize: "10",
+  },
   
 ];
