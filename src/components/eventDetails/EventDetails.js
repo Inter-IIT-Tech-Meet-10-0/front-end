@@ -17,6 +17,7 @@ function EventDetails() {
         <span
           style={{
             color: "rgba(44, 190, 208, 1)",
+            
           }}
         >
           {name.slice(0, -3)}
