@@ -2,17 +2,24 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./EventDetails.css";
 
+// Problems Statements
+import { BoschModelExtraction } from "./ProblemStatemens/ProblemStatement";
+import {DigitalAlpha} from './ProblemStatemens/ProblemStatement';
+import {SiliconLabs } from './ProblemStatemens/ProblemStatement';
+import {BlueYonder} from './ProblemStatemens/ProblemStatement'
+
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name, description, image, maxsize, link } = location.state;
+  const { name, description, image, maxsize, link  } = location.state;
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div className="eventSpecificDetailsTop">
+    <>
+     <div className="eventSpecificDetailsTop">
       <div className="eventSpecificDetailsHeading">
         <span
           style={{
@@ -60,6 +67,13 @@ function EventDetails() {
         </div>
       </div>
     </div>
+    {name ==="Bosch's Model Extraction Attack For Video Classification" && <BoschModelExtraction/> }
+    {name ==="Digital Alpha's SEC Filing Analyzer for SaaS Companies" && <DigitalAlpha/> }
+    {name ==="Silicon Labs' Social Entrepreneurship Challenge" && <SiliconLabs/> }
+    {name ==="Blue Yonder’s Sustainable Supply-Chain" && <BlueYonder/> }
+    
+
+    </>
   );
 }
 

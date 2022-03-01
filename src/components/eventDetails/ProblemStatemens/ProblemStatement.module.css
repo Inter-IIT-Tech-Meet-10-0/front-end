@@ -1,0 +1,152 @@
+.mainContainer{
+   background-color: #050222;
+   color:white;
+   width:100%;
+   padding-bottom: 5rem;;
+}
+
+.pstitle{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 550;
+  color: #2cbed0;
+  background-color: #050222;
+  text-shadow: 0px 4px 4px #153a82;
+  padding: 1.5rem 0 3rem 0;
+}
+
+.para1{
+    font-size: 1.3rem;
+    padding:2rem 10rem 0.5rem 10rem;
+    color:white;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+.subtitle{
+    color: #2cbed0;
+    font-size: 2rem;
+    padding:5rem 10rem 0rem 10rem;
+    font-weight: 500;
+}
+
+.link{
+    color:#2cbed0;
+    font-size: 1.3rem;
+}
+
+.listPoints{
+   font-size: 1.3rem;
+   line-height: 2.1rem;
+   padding: 2rem 10rem 2rem 10rem;
+}
+
+.subpoints{
+    padding-left:3rem;
+}
+
+.imgbox{
+  flex:1;
+}
+.img{
+    width:15rem;
+    height: 15rem;
+    margin-left:10rem;
+}
+
+.para2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 2.1rem;
+}
+
+.subpara{
+    flex:1;
+    font-size: 1.3rem;
+    padding:2rem 5rem 2rem 10rem;
+}
+
+.para3{
+    font-size: 1.3rem;
+    padding:2rem 10rem 0.1rem 10rem;
+    color:white;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+.listPoints2{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    padding: 0rem 10rem 2rem 2rem;
+ }
+ 
+ @media screen and (max-width: 900px) {
+
+    .para1{
+        font-size: 1.3rem;
+        padding:2rem 2rem 0.5rem 2rem;
+        color:white;
+        font-weight: 400;
+        line-height: 2.1rem;
+    }
+
+    .subtitle{
+        color: #2cbed0;
+        font-size: 2rem;
+        padding:5rem 2rem 0rem 2rem;
+        font-weight: 500;
+    }
+    
+    .link{
+        display: inline;
+        color:#2cbed0;
+        font-size: 1.3rem;
+    }
+
+    
+    .listPoints{
+       font-size: 1.3rem;
+       line-height: 2.1rem;
+       padding: 2rem 2rem 2rem 2rem;
+    }
+    .imgbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        width:15rem;
+        height: 15rem;
+        margin-left: 0rem;
+    }
+    
+    .para2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 2.1rem;
+    }
+    
+    .subpara{
+        font-size: 1.3rem;
+        padding:2rem 2rem 2rem 2rem;
+    }
+    
+    .para3{
+        font-size: 1.3rem;
+        padding:2rem 2rem 0.1rem 2rem;
+        color:white;
+        font-weight: 400;
+        line-height: 2.1rem;
+    }
+    
+    .listPoints2{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        padding: 0rem 2rem 2rem 2rem;
+     }
+ } 
