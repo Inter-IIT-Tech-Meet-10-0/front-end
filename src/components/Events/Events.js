@@ -127,7 +127,7 @@ const Card = ({ event }) => {
                   "Blue Yonder’s Sustainable Supply-Chain",
                   "ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves",
                   "DRDO's UAV-Guided UGV Navigation Challenge",
-                  "Mudrex's Crypto Trading Challenge",
+                  "Mudrex's Alpha Trading Quest",
                   "Bosch's Age And Gender Detection"
                  ]
 
