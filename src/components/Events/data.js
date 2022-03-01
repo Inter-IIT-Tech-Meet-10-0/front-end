@@ -35,7 +35,7 @@ export const midPrep = [
   },
   {
     name: "Bosch's Age And Gender Detection",
-    link: "/events/Bosch-MidPrep.pdf",
+    link: "/events/MidPrep/Bosch-MidPrep.pdf",
     image: "/events/boschage.png",
     description:
       "The challenge is to provide a system that can estimate people's gender and age from a surveillance video feed such as one from a mall, a retail store, or a hospital, while taking into account low quality cameras and cameras placed at a height for surveillance.",
