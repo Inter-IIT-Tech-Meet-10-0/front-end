@@ -89,7 +89,7 @@ const LowPrep = () => {
 const MidPrep = () => {
   return (
     <>
-      {Object.keys(lowPrep).length === 0 ? (
+      {Object.keys(midPrep).length === 0 ? (
           <ReleasingSoon />
         ) : (
         <div className={Classes.cardsContainer}>
@@ -121,6 +121,16 @@ const HighPrep = () => {
 const Card = ({ event }) => {
   const [loading, setLoading] = useState(true);
 
+  const names = ["Bosch's Model Extraction Attack For Video Classification",
+                  "Digital Alpha's SEC Filing Analyzer for SaaS Companies",
+                  "Silicon Labs' Social Entrepreneurship Challenge",
+                  "Blue Yonder’s Sustainable Supply-Chain",
+                  "ISRO’s Web-based automatic Identification of bursts in X-RAY Light Curves",
+                  "DRDO's UAV guided UGV navigation challenge",
+                  "Mudrex's Crypto Trading Challenge",
+                  "Bosch's Age And Gender Detection"
+                 ]
+
   const { name } = event;
   return (
     <>
@@ -142,7 +152,7 @@ const Card = ({ event }) => {
 
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          {name === "Bosch's Model Extraction Attack For Video Classification" || name === "Digital Alpha's SEC Filing Analyzer for SaaS Companies" || name === "Silicon Labs' Social Entrepreneurship Challenge"  || name === 'Blue Yonder’s Sustainable Supply-Chain' ? (
+          { names.includes(name) ? (
             <>
               <Link to={`/events/${name}`} state={event}>
                 <div className={Classes.readmore}>Read More</div>
