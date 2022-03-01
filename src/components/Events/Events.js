@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { BallTriangle } from "react-loader-spinner";
 
 export default function Events() {
-  const [activeTab, setActiveTab] = useState("high");
+  const [activeTab, setActiveTab] = useState("mid");
 
   useEffect(() => {
     window.scrollTo(0, 0);
