@@ -26,7 +26,7 @@ export const midPrep = [
     maxsize: "8",
   },
   {
-    name: "Mudrex's Crypto Trading Challenge",
+    name: "Mudrex's Alpha Trading Quest",
     link: "/events/MidPrep/Mudrex-MidPrep.pdf",
     image: "/events/MUDREX.png",
     description:
