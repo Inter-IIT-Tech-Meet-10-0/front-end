@@ -10,7 +10,7 @@ export const lowPrep = [
 ];
 export const midPrep = [
   {
-    name: "ISRO’s Web-based automatic Identification of bursts in X-RAY Light Curves",
+    name: "ISRO’s Web-based Automatic Identification of Bursts in X-RAY Light Curves",
     link: "/events/MidPrep/ISRO-MidPrep.pdf",
     image: "/events/ISRO.png",
     description:
@@ -18,7 +18,7 @@ export const midPrep = [
     maxsize: "6",
   },
   {
-    name: "DRDO's UAV guided UGV navigation challenge",
+    name: "DRDO's UAV-Guided UGV Navigation Challenge",
     link: "/events/MidPrep/DRDO.pdf",
     image: "/events/drdo.png",
     description:

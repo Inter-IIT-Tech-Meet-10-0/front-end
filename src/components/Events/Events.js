@@ -125,8 +125,8 @@ const Card = ({ event }) => {
                   "Digital Alpha's SEC Filing Analyzer for SaaS Companies",
                   "Silicon Labs' Social Entrepreneurship Challenge",
                   "Blue Yonder’s Sustainable Supply-Chain",
-                  "ISRO’s Web-based automatic Identification of bursts in X-RAY Light Curves",
-                  "DRDO's UAV guided UGV navigation challenge",
+                  "ISRO’s Web-based Automatic Identification of Bursts in X-RAY Light Curves",
+                  "DRDO's UAV-Guided UGV Navigation Challenge",
                   "Mudrex's Crypto Trading Challenge",
                   "Bosch's Age And Gender Detection"
                  ]
