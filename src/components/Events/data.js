@@ -10,38 +10,38 @@ export const lowPrep = [
   // },
 ];
 export const midPrep = [
-  // {
-  //   name: "ISRO’s Web-based automatic Identification of bursts in X-RAY Light Curves",
-  //   link: "/",
-  //   image: "/events/comingsoon.jfif",
-  //   description:
-  //     "Cosmic sources in the sky, including our own star, the Sun, bursts intermittently in the X-ray energy of the electromagnetic spectrum.The burst amplitude and the duration varies depending on the source as well as the cause of the burst.An automatic identification system for such data is essential to simplify the analysis process and thus a  standalone web-based application using open-source software(s) has to be designed to identify and categorize X-ray bursts.",
-  //   maxsize: "6",
-  // },
-  // {
-  //   name: "DRDO's UAV guided UGV navigation challenge",
-  //   link: "/",
-  //   image: "/events/comingsoon.jfif",
-  //   description:
-  //     "The challenge is to develop a combination of an Unmanned Earth Moving Ground Vehicle (UGV)  and a guiding Unmanned Aerial Vehicle(UAV) capable of navigating an invisible small mountain route without collapsing.",
-  //   maxsize: "8",
-  // },
-  // {
-  //   name: "Mudrex's Crypto Trading Challenge",
-  //   link: "/",
-  //   image: "/events/comingsoon.jfif",
-  //   description:
-  //     "The goal of this competition is to create an automated trading bot, using the Mudrex Visual Builder, that trades profitably on a set of predefined assets and exchange.All participants will be given Premium Mudrex Accounts on which they will be able to access the visual builder, create strategies and backtest their bots.",
-  //   maxsize: "6",
-  // },
-  // {
-  //   name: "Bosch's Age And Gender Detection",
-  //   link: "/",
-  //   image: "/events/comingsoon.jfif",
-  //   description:
-  //     "The challenge is to provide a system that can estimate people's gender and age from a surveillance video feed such as one from a mall, a retail store, or a hospital, while taking into account low quality cameras and cameras placed at a height for surveillance.",
-  //   maxsize: "8",
-  // },
+  {
+    name: "ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves",
+    link: "/events/MidPrep/ISRO-MidPrep.pdf",
+    image: "/events/ISRO.png",
+    description:
+      "Cosmic sources in the sky, including our own star, the Sun, bursts intermittently in the X-ray energy of the electromagnetic spectrum.The burst amplitude and the duration varies depending on the source as well as the cause of the burst.An automatic identification system for such data is essential to simplify the analysis process and thus a  standalone web-based application using open-source software(s) has to be designed to identify and categorize X-ray bursts.",
+    maxsize: "6",
+  },
+  {
+    name: "DRDO's UAV-Guided UGV Navigation Challenge",
+    link: "/events/MidPrep/DRDO.pdf",
+    image: "/events/drdo.png",
+    description:
+      "The challenge is to develop a combination of an Unmanned Earth-Moving Ground Vehicle (UGV) and a guiding Unmanned Aerial Vehicle (UAV) capable of mapping and navigating a mountainous terrain without collapsing.",
+    maxsize: "8",
+  },
+  {
+    name: "Mudrex's Alpha Trading Quest",
+    link: "/events/MidPrep/Mudrex-MidPrep.pdf",
+    image: "/events/MUDREX.png",
+    description:
+      "The goal of this competition is to create an automated trading bot, using the Mudrex Visual Builder, that trades profitably on a set of predefined assets and exchange.All participants will be given Premium Mudrex Accounts on which they will be able to access the visual builder, create strategies and backtest their bots.",
+    maxsize: "6",
+  },
+  {
+    name: "Bosch's Age And Gender Detection",
+    link: "/events/MidPrep/Bosch-MidPrep.pdf",
+    image: "/events/boschage.png",
+    description:
+      "The challenge is to provide a system that can estimate people's gender and age from a surveillance video feed such as one from a mall, a retail store, or a hospital, while taking into account low quality cameras and cameras placed at a height for surveillance.",
+    maxsize: "8",
+  },
 ];
 
 export const highPrep = [
