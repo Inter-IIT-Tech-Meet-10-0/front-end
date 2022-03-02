@@ -22,7 +22,7 @@ export const midPrep = [
     link: "/events/MidPrep/DRDO.pdf",
     image: "/events/drdo.png",
     description:
-      "The challenge is to develop a combination of an Unmanned Earth Moving Ground Vehicle (UGV)  and a guiding Unmanned Aerial Vehicle(UAV) capable of navigating an invisible small mountain route without collapsing.",
+      "The challenge is to develop a combination of an Unmanned Earth-Moving Ground Vehicle (UGV) and a guiding Unmanned Aerial Vehicle (UAV) capable of mapping and navigating a mountainous terrain without collapsing.",
     maxsize: "8",
   },
   {
