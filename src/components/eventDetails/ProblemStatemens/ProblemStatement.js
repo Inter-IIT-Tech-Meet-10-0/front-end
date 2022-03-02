@@ -480,6 +480,146 @@ overall carbon footprint significantly while focusing on customer satisfaction.
 expected returns, assessment of last-mile reductions, and, if applicable, the potential impact on
 revenue in case of compromise on customer service.
       </div>
+     <div className={Classes.guidelineTitle}>NETWORK SCOPE</div>
+     <div className={Classes.para1}>
+     NAWCI’s members can influence the following spans of control:
+     </div>
+     <div className={Classes.subtitle}>
+     Warehousing
+     </div>
+     <div className={Classes.para1}>
+     Each member may have one or several warehouses across the country. They receive products
+from manufacturing plants and distribute them to customers. The mode of delivery can be via
+own truck or third-party logistics(3 PL) services.
+     </div>
+
+     <div className={Classes.subtitle}>
+     Transportation
+     </div>
+     <div className={Classes.para1}>
+     The overall carbon footprint inherits the carbon impact of the entire supply chain:
+transportation and logistics (own assets and 3 PL) from Plant to Distribution Centre (DC), DC to
+Customer, Plant to Customer for forwarding distribution, and Customer to DC, Customer to
+Vendor and returns.
+     </div>
+
+     <div className={Classes.subtitle}>
+     Packaging
+     </div>
+     <div className={Classes.para1}>
+     Manufactured products come with their packaging. Additional packaging may get added due to
+the delivery mode (direct to consumer, ship to distributors, etc.):
+      <ul className={''}>
+          <li className={Classes.listPoint}>Product’s retail packaging</li>
+          <li className={Classes.listPoint}>Larger boxes for transportation</li>
+          <li className={Classes.listPoint}>Return boxes for returns of damaged/ rejected/ expired goods.</li>
+      </ul>
+
+      The production processes in plants are out of scope for this exercise, and the carbon footprint
+to manufacture is fixed/ given for each product.
+
+
+     </div>
+    
+     <div className={Classes.guidelineTitle}>
+     EVALUATION AND SUBMISSION
+     </div>
+     <div className={Classes.para1}>
+     The Evaluation process will be done in two parts :
+     <ul className={''}>
+          <li className={Classes.listPoint} style={{listStyle:'none'}}>1. Mid-Evaluation Submission: 100 pts</li>
+          <li className={Classes.listPoint} style={{listStyle:'none'}}>2. Final Presentation: 300 pts</li>
+      </ul>
+
+      Points will be distributed on the basis of the following broad categories:
+     
+      <ul className={''}>
+          <li className={Classes.listPoint} style={{listStyle:'none'}}>1. Actionability of the 5-year vision (mid and long-term opportunities) - 35%</li>
+          <li className={Classes.listPoint} style={{listStyle:'none'}}>2. Net Negative Carbon Impact - 25% </li>
+          <li className={Classes.listPoint} style={{listStyle:'none'}}>3. Cost Impact -20% </li>
+          <li className={Classes.listPoint} style={{listStyle:'none'}}>4. Market Share and SLAs Impact -15% </li>
+          <li className={Classes.listPoint} style={{listStyle:'none'}}>5. Model sustainability -5% </li>
+         
+      </ul>
+     </div>
+
+     <div className={Classes.bigSubtitle}>
+     MID EVALUATION
+     </div>
+     <div className={Classes.para1}>
+     The Mid- Evaluation report needs to be submitted in PDF format by 15th March. It should not
+   exceed seven pages (excluding the cover page).
+   The report should consist of the following details:
+     </div>
+     <div className={Classes.subtitle}>
+     Identifying and analyzing the problem
+     </div>
+     <div className={Classes.para1}>
+     The participants are expected to provide an overview of the currently existing supply chain
+models, i.e., conduct extensive research on the various stages of the models and analyze the
+current carbon footprint in each step.
+     </div>
+
+     <div className={Classes.subtitle}>
+     Devising an implementation Strategy
+     </div>
+     <div className={Classes.para1}>
+     After identifying and analyzing the current issues, provide a brief explanation of the
+initiatives that you plan to undertake under the 5-year roadmap proposal. The initiatives
+should be analyzed based on the impact and resources required. They should be data-centric
+as well as integrable in the current models efficiently.
+     </div>
+
+     <div className={Classes.subtitle}>
+     Impact of the proposal
+     </div>
+     <div className={Classes.para1}>
+     An assessment of the proposal should be provided in terms of the carbon footprint it is
+reducing by customizing or improving the various stages, the cost and revenue impact it
+induces in the current model, and how well it is catering to the customers.
+     </div>
+
+     <div className={Classes.subtitle}>
+     Strategic fit
+     </div>
+     <div className={Classes.para1}>
+     Analysis of the on-ground implications of implementing the model, i.e., the feasibility analysis
+of the model in real markets and assessing the adaptability and flexibility of the model.
+     </div>
+
+            <div className={Classes.bigSubtitle}>
+            FINAL PRESENTATION
+            </div>
+            <div className={Classes.para1}>
+            All participating teams would be required to give their final presentations of their proposed
+            solution on 26th March.
+            Please note that the Final presentation should wrap up within 15 minutes followed by Q&A (5
+            min).
+
+            </div>
+
+       <div className={Classes.impnote}>
+       Important Notes:
+       </div>
+       <div className={Classes.para1}>
+       <ul className={''}>
+          <li className={Classes.listPoint}>All the critical assumptions must be documented in the appendix of the proposal.</li>
+          <li className={Classes.listPoint}>Any estimated carbon impact and cost impact must be supported by quantitative analysis
+(refer to MAQ framework in Problem Statement section above)</li>
+          <li className={Classes.listPoint}>Before proposing a solution, ask whether something similar has been attempted in real life,
+analyzing the reasons for its success or failure. </li>
+      
+      </ul>
+       </div>
+
+       <div className={Classes.note}>
+      Send your submissions at this email: <a rel="noreferrer" className={Classes.link} href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
+      </div>
+
+
+
+
+
 
 
       </div>

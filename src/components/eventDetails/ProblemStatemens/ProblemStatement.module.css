@@ -123,6 +123,21 @@
     padding-bottom:0.8rem;
 }
 
+.bigSubtitle{
+    color: #2cbed0;
+    font-size: 2.3rem;
+    padding:5rem 10rem 0rem 10rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.impnote{
+    font-size: 1.5rem;
+    padding:4rem 10rem 0rem 10rem;
+    color:#2cbed0;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
  
  @media screen and (max-width: 900px) {
 
@@ -152,6 +167,9 @@
        font-size: 1.3rem;
        line-height: 2.1rem;
        padding: 2rem 2rem 2rem 2rem;
+    }
+    .listPoint{
+        padding:0rem 2rem 0.8rem 0rem;
     }
     .imgbox{
         display: flex;
@@ -191,4 +209,45 @@
         line-height: 2.1rem;
         padding: 0rem 2rem 2rem 2rem;
      }
+
+     .guidelinePoints{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        padding: 0rem 2rem 2rem 2rem;
+     }
+    
+     .guidelinePoint{
+         padding-bottom: 2rem;
+     }
+    
+     .note{
+        font-size: 1.3rem;
+        padding:2rem 2rem 2rem 2rem;
+        color:#2cbed0;
+        font-weight: 400;
+        line-height: 2.1rem;
+     }
+    
+     .link1{
+         display: block;
+        color:#2cbed0;
+        font-size: 1.3rem;
+        padding-bottom:0.8rem;
+    }
+    
+    .bigSubtitle{
+        color: #2cbed0;
+        font-size: 2.3rem;
+        padding:5rem 2rem 0rem 2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .impnote{
+        font-size: 1.5rem;
+        padding:4rem 2rem 0rem 2rem;
+        color:#2cbed0;
+        font-weight: 400;
+        line-height: 2.1rem;
+    }
  } 
