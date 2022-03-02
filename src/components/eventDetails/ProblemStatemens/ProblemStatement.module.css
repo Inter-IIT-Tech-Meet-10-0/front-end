@@ -7,8 +7,8 @@
 
 .pstitle{
   text-align: center;
-  font-size: 3rem;
-  font-weight: 550;
+  font-size: 2.5rem;
+  font-weight: 500;
   color: #2cbed0;
   background-color: #050222;
   text-shadow: 0px 4px 4px #153a82;
@@ -25,9 +25,10 @@
 
 .subtitle{
     color: #2cbed0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding:5rem 10rem 0rem 10rem;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .link{
@@ -39,6 +40,9 @@
    font-size: 1.3rem;
    line-height: 2.1rem;
    padding: 2rem 10rem 2rem 10rem;
+}
+.listPoint{
+    padding-bottom: 0.8rem;
 }
 
 .subpoints{
@@ -81,6 +85,44 @@
     line-height: 2.1rem;
     padding: 0rem 10rem 2rem 2rem;
  }
+
+ /* New CSS Starts Here */
+
+ .guidelineTitle{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #2cbed0;
+    background-color: #050222;
+    text-shadow: 0px 4px 4px #153a82;
+    padding: 4rem 0 3rem 0;
+ }
+
+ .guidelinePoints{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    padding: 0rem 10rem 2rem 10rem;
+ }
+
+ .guidelinePoint{
+     padding-bottom: 2rem;
+ }
+
+ .note{
+    font-size: 1.3rem;
+    padding:2rem 10rem 2rem 10rem;
+    color:#2cbed0;
+    font-weight: 400;
+    line-height: 2.1rem;
+ }
+
+ .link1{
+     display: block;
+    color:#2cbed0;
+    font-size: 1.3rem;
+    padding-bottom:0.8rem;
+}
+
  
  @media screen and (max-width: 900px) {
 
