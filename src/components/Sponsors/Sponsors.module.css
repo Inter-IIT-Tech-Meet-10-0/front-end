@@ -1,0 +1,81 @@
+.mainHeading {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: #050222;
+    text-shadow: 0px 4px 4px #153a82;
+    padding: 7rem 0 3rem 0;
+  }
+  
+  .firstWord {
+    color: #2cbed0;
+  }
+ 
+.subHeading {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 550;
+    color: white;
+    background-color: #050222;
+    text-shadow: 0px 4px 4px #153a82;
+    padding: 7rem 0 3rem 0;
+  }
+
+.logoContainer{
+    width:100vw;
+    height:max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #050222;
+    padding-bottom:4rem ;
+}  
+
+.logobox{
+    width:50%;
+    height:100%;
+    background-color: #050222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bosch{
+    width:35rem;
+    height:10rem;
+    padding:4rem;
+}
+  
+.digitalAlpha{
+    width:25rem;
+    height:10rem;
+    padding:4rem;
+}
+
+.silicon{
+    width:35rem;
+    height:15rem;
+    padding:4rem;
+}
+.blueYonder{
+    width:40rem;
+    height:10rem;
+    padding:4rem;
+}
+.isro{
+    width:20rem;
+    height:18rem;
+    padding:4rem;
+}
+.drdo{
+    width:25rem;
+    height:25rem;
+    padding:4rem;
+}
+.mudrex{
+    width:30rem;
+    height:10rem;
+    padding:4rem;
+}
