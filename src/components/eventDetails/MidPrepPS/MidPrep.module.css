@@ -34,12 +34,13 @@
  .link{
      color:#2cbed0;
      font-size: 1.3rem;
+     padding-right: 0.3rem;;
  }
  
  .listPoints{
     font-size: 1.3rem;
     line-height: 2.1rem;
-    padding: 2rem 10rem 2rem 10rem;
+    padding: 0rem 10rem 2rem 10rem;
  }
  .listPoint{
      padding-bottom: 0.8rem;
@@ -74,7 +75,7 @@
  
  .para3{
      font-size: 1.3rem;
-     padding:2rem 10rem 0.1rem 10rem;
+     padding:0rem 10rem 0.1rem 10rem;
      color:white;
      font-weight: 400;
      line-height: 2.1rem;
@@ -110,7 +111,7 @@
  
   .note{
      font-size: 1.3rem;
-     padding:2rem 10rem 2rem 10rem;
+     padding:2rem 10rem 0rem 10rem;
      color:#2cbed0;
      font-weight: 400;
      line-height: 2.1rem;

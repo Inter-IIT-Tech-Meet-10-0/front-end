@@ -8,6 +8,11 @@ import {DigitalAlpha} from './ProblemStatemens/ProblemStatement';
 import {SiliconLabs } from './ProblemStatemens/ProblemStatement';
 import {BlueYonder} from './ProblemStatemens/ProblemStatement'
 
+import {ISRO} from './MidPrepPS/MidPrepPS';
+import {Mudrex} from './MidPrepPS/MidPrepPS'
+import {Bosch} from './MidPrepPS/MidPrepPS';
+import {DRDO} from './MidPrepPS/MidPrepPS'
+
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
@@ -71,7 +76,10 @@ function EventDetails() {
     {name ==="Digital Alpha's SEC Filing Analyzer for SaaS Companies" && <DigitalAlpha/> }
     {name ==="Silicon Labs' Social Entrepreneurship Challenge" && <SiliconLabs/> }
     {name ==="Blue Yonder’s Sustainable Supply-Chain" && <BlueYonder/> }
-    
+    {name ==="ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves" && <ISRO/> }
+    {name ==="Mudrex's Alpha Trading Quest" && <Mudrex/> }
+    {name ==="Bosch's Age And Gender Detection" && <Bosch/> }
+    {name ==="DRDO's UAV-Guided UGV Navigation Challenge" && <DRDO/> }
 
     </>
   );
