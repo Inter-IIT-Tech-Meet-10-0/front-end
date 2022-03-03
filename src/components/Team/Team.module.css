@@ -1,0 +1,79 @@
+.mainHeading {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: #050222;
+    text-shadow: 0px 4px 4px #153a82;
+    padding: 7rem 0 3rem 0;
+  }
+  
+  .firstWord {
+    color: #2cbed0;
+  }
+
+  .mainContainer{
+    background-color: #050222;
+    color:white;
+    width:100%;
+    padding-bottom: 5rem;
+ }
+
+ .pstitle{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #2cbed0;
+    background-color: #050222;
+    text-shadow: 0px 4px 4px #153a82;
+    padding: 1.5rem 0 3rem 0;
+  }
+
+.imagesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+
+.CardContainer{
+    width: 15rem;
+    height:20rem;
+    margin-left:5rem;
+    margin-right: 5rem;
+}
+
+.imgbox{
+    width: 15rem;
+    height:15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+
+.img{
+    width: 12rem;
+    height:14rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.name{
+    text-align: center;
+    font-size: 1.2rem;;
+    font-weight: 400;
+    color:white;
+}
+
+.position{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 450;
+    color:#2CBED0;
+}
