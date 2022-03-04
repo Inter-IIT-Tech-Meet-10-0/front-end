@@ -146,6 +146,90 @@
      font-weight: 400;
      line-height: 2.1rem;
  }
+
+ .tableContainer{
+     margin: 2rem 10rem 2rem 10rem;
+     border: 3px solid white;
+     width:70vw;
+     height: max-content;
+ }
+ .tableIndex{
+   display: flex;
+   flex-direction: row;
+   align-items: center;   
+ }
+
+ .tableIndexpart{
+     border-bottom: 3px solid white;
+     border-right:  3px solid white;
+     flex:1;
+     font-size: 1.3rem;
+     font-weight: 600;
+     color: black;
+     text-transform: uppercase;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height:6rem;
+     background-color: #2cbed0;
+ }
+ .tableIndexpart2{
+    border-bottom: 3px solid white;
+    flex:1;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:6rem;
+    background-color: #2cbed0;
+}
+
+.tableColumn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tableColumnpart{
+   flex:1;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height:4rem;
+   border-bottom: 3px solid white;
+   border-right: 3px solid white;
+}
+.tableColumnpartend{
+    flex:1;
+    text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   height:4rem;
+    border-bottom: 3px solid white;
+}
+.tableColumnpartlastend{
+    flex:1;
+    text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   height:4rem;
+}
+.tableColumnpartlast{
+    flex:1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:4rem;
+    border-right: 3px solid white;
+}
   
   @media screen and (max-width: 900px) {
  
@@ -230,7 +314,7 @@
      
       .note{
          font-size: 1.3rem;
-         padding:2rem 2rem 2rem 2rem;
+         padding:2rem 2rem 0rem 2rem;
          color:#2cbed0;
          font-weight: 400;
          line-height: 2.1rem;
@@ -258,5 +342,27 @@
          font-weight: 400;
          line-height: 2.1rem;
      }
+
+     .listPointal{
+        padding: 1rem 2rem 1rem 2rem;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2.1rem;
+    }
+
+    .tableContainer{
+        margin: 2rem 5vw 2rem 5vw;
+        border: 3px solid white;
+        width:90vw;
+        height: max-content;
+    }
+    .tableIndexpart{
+        font-size: 0.8rem;
+
+    }
+    .tableIndexpart2{
+       font-size: 0.8rem;
+   }
+
   } 
  

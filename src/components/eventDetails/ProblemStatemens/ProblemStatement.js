@@ -276,9 +276,9 @@ on 26th March.</li>
       References
       </div>
       <div className={Classes.para1}>
-      <a rel="noreferrer" className={Classes.link1} href="https://www.forentrepreneurs.com/saas-metrics/" target={'_blank'}>https://www.forentrepreneurs.com/saas-metrics/</a>
-      <a rel="noreferrer" className={Classes.link1} href="https://edgar-online.com/data/EDGARPro_Brochure.pdf" target={'_blank'}>https://edgar-online.com/data/EDGARPro_Brochure.pdf</a>
-      <a rel="noreferrer" className={Classes.link1} href="https://www.investopedia.com/articles/fundamental-analysis/08/sec-forms.asp" target={'_blank'}>https://www.investopedia.com/articles/fundamental-analysis/08/sec-forms.asp</a>
+      <a rel="noreferrer" className={Classes.link1} href="https://www.forentrepreneurs.com/saas-metrics/" target={'_blank'}>Link1</a>
+      <a rel="noreferrer" className={Classes.link1} href="https://edgar-online.com/data/EDGARPro_Brochure.pdf" target={'_blank'}>Link2</a>
+      <a rel="noreferrer" className={Classes.link1} href="https://www.investopedia.com/articles/fundamental-analysis/08/sec-forms.asp" target={'_blank'}>Link3</a>
       </div>
 
 

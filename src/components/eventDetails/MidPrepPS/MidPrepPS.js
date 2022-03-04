@@ -58,7 +58,7 @@ enhancement later through research.
       DAta Sources
       </div>
       <div className={Classes.para1}>
-      ISRO's PRADAN website for Solar X-ray data: <a rel="noreferrer" className={Classes.link} href="https://pradan.issdc.gov.in/pradan/" target={'_blank'}>https://pradan.issdc.gov.in/pradan/</a> 
+      ISRO's PRADAN website for Solar X-ray data: <a rel="noreferrer" className={Classes.link} href="https://pradan.issdc.gov.in/pradan/" target={'_blank'}>https://pradan.issdc.gov.in/pradan/</a> <br/>
  Register to get into the data archive of Chandrayaan-2 payload data. After registering and
 logging in, go to XSM (X-ray Solar Monitor) where required data and manuals to read and use
 the data are present. The lightcurve data of XSM is the required input for this analysis
@@ -101,26 +101,25 @@ session of their proposed solutions. Dates will be informed later.
      1. For statistical/machine learning model:
      </div>
      <div className={Classes.para1}>
-     <ul className={Classes.listPoints}>
-          <li className={Classes.listPoint}>Detection of the maximum number of bursts with fewer false detections for a given duration</li>
-          <li className={Classes.listPoint}>Identification of the fit parameters (like the rise time, peak flux, decay time constant) and its
+     
+          <li className={Classes.listPointal}>Detection of the maximum number of bursts with fewer false detections for a given duration</li>
+          <li className={Classes.listPointal}>Identification of the fit parameters (like the rise time, peak flux, decay time constant) and its
 accuracies: good accuracy and goodness of fit for many bursts.</li>
-          <li className={Classes.listPoint}>Classification of the fit parameters and their explanations</li>
-      </ul>
+          <li className={Classes.listPointal}>Classification of the fit parameters and their explanations</li>
+     
      </div>
      <div className={Classes.note}>
      2. For the web-based/stand-alone application:
      </div>
      <div className={Classes.para1}>
-     <ul className={Classes.listPoints}>
-          <li className={Classes.listPoint}>Ease of use of the GUI as well as the Python codes</li>
-          <li className={Classes.listPoint}>A good manual – ease of use by a third party not knowing computational aspects</li>
-          <li className={Classes.listPoint}>Compatibility of the tool – should be able to install in all Linux environments without any
+          <li className={Classes.listPointal}>Ease of use of the GUI as well as the Python codes</li>
+          <li className={Classes.listPointal}>A good manual – ease of use by a third party not knowing computational aspects</li>
+          <li className={Classes.listPointal}>Compatibility of the tool – should be able to install in all Linux environments without any
 patch up</li>
-          <li className={Classes.listPoint}>Adaptability to take any format input data (FITS, ASCII, CDF, etc.)</li>
-          <li className={Classes.listPoint}>Concise and clear documentation, including inferences derived for the sample data, should be
+          <li className={Classes.listPointal}>Adaptability to take any format input data (FITS, ASCII, CDF, etc.)</li>
+          <li className={Classes.listPointal}>Concise and clear documentation, including inferences derived for the sample data, should be
 available along with the codes for user demonstration</li>
-      </ul>
+
       Note: Physical explanation for the use of fit parameters and the classification criteria will be
 prioritized for final evaluation.
 
@@ -257,7 +256,26 @@ world.
       Deviation of the UGV from the mean path
       </div>
       <div className={Classes.tableContainer}>
-     
+       <div className={Classes.tableIndex}>
+         <div className={Classes.tableIndexpart}>World</div>
+         <div className={Classes.tableIndexpart}>M</div>
+         <div className={Classes.tableIndexpart2}>Marks Alloted</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>World1</div>
+         <div className={Classes.tableColumnpart}>100</div>
+         <div className={Classes.tableColumnpartend}>(1-C)*M</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>World2</div>
+         <div className={Classes.tableColumnpart}>200</div>
+         <div className={Classes.tableColumnpartend}>(1-C)*M</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpartlast}>World3</div>
+         <div className={Classes.tableColumnpartlast}>300</div>
+         <div className={Classes.tableColumnpartlastend}>(1-C)*M</div>
+       </div>
       </div>
       <div className={Classes.para1}>
       C: coefficient of deviation <br/>
@@ -270,7 +288,38 @@ world.
 path will be noted (only for the teams who have completed the world).
 </li>
      <div className={Classes.tableContainer}>
-     
+     <div className={Classes.tableIndex}>
+         <div className={Classes.tableIndexpart}>Team</div>
+         <div className={Classes.tableIndexpart}>TIME Taken to traverse
+the Path</div>
+         <div className={Classes.tableIndexpart2}>Marks Alloted</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 1</div>
+         <div className={Classes.tableColumnpart}>T1</div>
+         <div className={Classes.tableColumnpartend}>0.5 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 2</div>
+         <div className={Classes.tableColumnpart}>T2</div>
+         <div className={Classes.tableColumnpartend}>0.4 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 3</div>
+         <div className={Classes.tableColumnpart}>T3</div>
+         <div className={Classes.tableColumnpartend}>0.3 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 4</div>
+         <div className={Classes.tableColumnpart}>T4</div>
+         <div className={Classes.tableColumnpartend}>0.2 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpartlast}>Team 5</div>
+         <div className={Classes.tableColumnpartlast}>T5</div>
+         <div className={Classes.tableColumnpartlastend}>0.2 * (M)</div>
+       </div>
+
      </div>
 
      <div className={Classes.guidelineTitle}>
@@ -280,8 +329,8 @@ path will be noted (only for the teams who have completed the world).
      <li className={Classes.listPointal}>T1 &lt; T2 &lt; T3 &lt; T4 &lt; T5 </li>
      <li className={Classes.listPointal}>M : Max. marks allotted for particular World on completion</li>
      <li className={Classes.listPointal}>M = 100 for World 1 <br/>
-M = 200 for World 2 <br/>
-M = 300 for World 3</li>
+     &nbsp;&nbsp;&nbsp;&nbsp; M = 200 for World 2 <br/>
+     &nbsp;&nbsp;&nbsp;&nbsp; M = 300 for World 3</li>
 
      <div className={Classes.subtitle}>
        COMPONENT 3
@@ -291,8 +340,39 @@ M = 300 for World 3</li>
 Module is the upper limit).
      </li>
      <div className={Classes.tableContainer}>
+     <div className={Classes.tableIndex}>
+         <div className={Classes.tableIndexpart}>Team</div>
+         <div className={Classes.tableIndexpart}>COMPUTATIONAL ELEMENT
+UTILISED (CPU, GPU, RAM)</div>
+         <div className={Classes.tableIndexpart2}>Marks Alloted</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 1</div>
+         <div className={Classes.tableColumnpart}>F1</div>
+         <div className={Classes.tableColumnpartend}>0.5 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 2</div>
+         <div className={Classes.tableColumnpart}>F2</div>
+         <div className={Classes.tableColumnpartend}>0.4 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 3</div>
+         <div className={Classes.tableColumnpart}>F3</div>
+         <div className={Classes.tableColumnpartend}>0.3 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpart}>Team 4</div>
+         <div className={Classes.tableColumnpart}>F4</div>
+         <div className={Classes.tableColumnpartend}>0.2 * (M)</div>
+       </div>
+       <div className={Classes.tableColumn}>
+         <div className={Classes.tableColumnpartlast}>Team 5</div>
+         <div className={Classes.tableColumnpartlast}>F5</div>
+         <div className={Classes.tableColumnpartlastend}>0.2 * (M)</div>
+       </div>
 
-</div>
+     </div>
     
 <li className={Classes.listPointal}>
 0.1 * (M) for the rest of the teams who complete the world.
@@ -305,8 +385,8 @@ Module is the upper limit).
      </li>
      <li className={Classes.listPointal}>
      M = 100 for World 1<br/>
-M = 200 for World 2 <br/>
-M = 300 for World 3
+  &nbsp;&nbsp;&nbsp;&nbsp; M = 200 for World 2 <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp; M = 300 for World 3
      </li>
      <div className={Classes.subtitle}>
      TOTAL MAXIMUM POINT DISTRIBUTION PER TASK
@@ -337,6 +417,9 @@ algorithm explanations. Only one final submission will be accepted
       The team would be required to test their algorithm on the worlds provided during
 the live-testing round of the evaluation. For the presentation round, the team would
 be required to explain the logic and methodologies used, followed by a Q&A session.
+      <br/>
+      <br/>
+      The final presentation has to be submitted by 24th March, 11:59 p.m.
 
       </li>
       <div className={Classes.note}>
