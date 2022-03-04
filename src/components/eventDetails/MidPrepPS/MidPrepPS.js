@@ -147,7 +147,7 @@ export const DRDO=()=> {
     return (
       <>
       <div className={Classes.mainContainer}>
-        <div className={Classes.psTitle}>
+        <div className={Classes.pstitle}>
            PROBLEM STATEMENT
         </div>
         <div className={Classes.para1}>
@@ -176,7 +176,7 @@ terrain to the end of the road with aid from the UAV.</li>
 
       </ul>
         </div>
-        <div className={Classes.guidelinTitle}>
+        <div className={Classes.guidelineTitle}>
         SOFTWARE SPECIFICATIONS
         </div>
         <ul className={Classes.listPoints}>
@@ -266,7 +266,86 @@ world.
       <div className={Classes.subtitle}>
       COMPONENT 2
       </div>
+      <li className={Classes.listPointal}>Time taken to traverse the path: For each world, the time taken by the UGV to traverse the
+path will be noted (only for the teams who have completed the world).
+</li>
+     <div className={Classes.tableContainer}>
+     
+     </div>
 
+     <div className={Classes.guidelineTitle}>
+     EVALUATION CRITERIA
+     </div>
+     <li className={Classes.listPointal}>0.1 * (M) for the rest of the teams who complete the task.</li>
+     <li className={Classes.listPointal}>T1 &lt; T2 &lt; T3 &lt; T4 &lt; T5 </li>
+     <li className={Classes.listPointal}>M : Max. marks allotted for particular World on completion</li>
+     <li className={Classes.listPointal}>M = 100 for World 1 <br/>
+M = 200 for World 2 <br/>
+M = 300 for World 3</li>
+
+     <div className={Classes.subtitle}>
+       COMPONENT 3
+     </div>
+     <li className={Classes.listPointal}>
+     The computational power used: lesser power implies better performance (Jetson TX2
+Module is the upper limit).
+     </li>
+     <div className={Classes.tableContainer}>
+
+</div>
+    
+<li className={Classes.listPointal}>
+0.1 * (M) for the rest of the teams who complete the world.
+     </li>
+     <li className={Classes.listPointal}>
+     F1 &lt; F2 &lt; F3 &lt; F4 &lt; F5
+     </li>
+     <li className={Classes.listPointal}>
+     M : Max. marks allotted for particular World on completion.
+     </li>
+     <li className={Classes.listPointal}>
+     M = 100 for World 1<br/>
+M = 200 for World 2 <br/>
+M = 300 for World 3
+     </li>
+     <div className={Classes.subtitle}>
+     TOTAL MAXIMUM POINT DISTRIBUTION PER TASK
+     </div>
+     <li className={Classes.listPointal}>WORLD 1 - 200</li>
+     <li className={Classes.listPointal}>WORLD 2 - 400</li>
+     <li className={Classes.listPointal}>WORLD 3 - 600</li>
+     <div className={Classes.para1}>The sum of the total maximum points of the three worlds would be scaled down to 150 points</div>
+
+     <div className={Classes.guidelineTitle}>
+     SUBMISSIONS
+     </div>
+     <div className={Classes.subtitle}>
+     ROS package and Documentation
+     </div>
+      <li className={Classes.listPointal}>
+      The team has to submit their final ROS package along with proper documentation
+for its installation. Documentation must also include working principles and
+algorithm explanations. Only one final submission will be accepted
+      </li>
+      <li className={Classes.listPointal}>
+      Due Date - 22nd March
+      </li>
+      <div className={Classes.subtitle}>
+      Final TESTING AND Presentation
+      </div>
+      <li className={Classes.listPointal}>
+      The team would be required to test their algorithm on the worlds provided during
+the live-testing round of the evaluation. For the presentation round, the team would
+be required to explain the logic and methodologies used, followed by a Q&A session.
+
+      </li>
+      <div className={Classes.note}>
+      Please note that the Final presentation should wrap up within 15 minutes which will be
+      followed by Q&A (5 min).
+      </div>
+      <div className={Classes.note}>
+      Send your submissions at this email: <a rel="noreferrer" className={Classes.link} href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
+      </div>
       </div>
       </>
     )

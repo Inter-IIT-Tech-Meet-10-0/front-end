@@ -139,6 +139,13 @@
      font-weight: 400;
      line-height: 2.1rem;
  }
+
+ .listPointal{
+     padding: 1rem 10rem 1rem 10rem;
+     font-size: 1.3rem;
+     font-weight: 400;
+     line-height: 2.1rem;
+ }
   
   @media screen and (max-width: 900px) {
  
