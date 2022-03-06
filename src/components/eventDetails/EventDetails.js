@@ -5,7 +5,7 @@ import "./EventDetails.css";
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name, description, image, maxsize, link } = location.state;
+  const { name, image, } = location.state;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -36,27 +36,7 @@ function EventDetails() {
               backgroundRepeat:'no-repeat'
             }}
           ></div>
-          <div className="eventSpecificDetailsContainerData">
-            <div>
-              {description}
-              <br />
-              <br />
-              Maximum Team Size : {maxsize}
-            </div>
-            {link !== "/" && (
-              <div>
-                <a
-                  href={link}
-                  style={{
-                    textDecoration: "none",
-                    color: "white",
-                  }}
-                >
-                  Problem Statement
-                </a>
-              </div>
-            )}
-          </div>
+          
         </div>
       </div>
     </div>
