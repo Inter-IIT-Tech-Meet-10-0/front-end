@@ -1,6 +1,5 @@
 import React from "react";
 import Classes from "./Team.module.css";
-import Demo from "../../images/teamDemo.jfif";
 import { data } from "./data";
 
 const Web = data["WEB"];
