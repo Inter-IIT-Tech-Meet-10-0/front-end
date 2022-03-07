@@ -1,0 +1,368 @@
+.mainContainer{
+    background-color: #050222;
+    color:white;
+    width:100%;
+    padding-bottom: 5rem;;
+ }
+ 
+ .pstitle{
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: 500;
+   color: #2cbed0;
+   background-color: #050222;
+   text-shadow: 0px 4px 4px #153a82;
+   padding: 1.5rem 0 3rem 0;
+ }
+ 
+ .para1{
+     font-size: 1.3rem;
+     padding:2rem 10rem 0.5rem 10rem;
+     color:white;
+     font-weight: 400;
+     line-height: 2.1rem;
+ }
+ 
+ .subtitle{
+     color: #2cbed0;
+     font-size: 1.5rem;
+     padding:5rem 10rem 0rem 10rem;
+     font-weight: 500;
+     text-transform: uppercase;
+ }
+ 
+ .link{
+     color:#2cbed0;
+     font-size: 1.3rem;
+     padding-right: 0.3rem;;
+ }
+ 
+ .listPoints{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    padding: 0rem 10rem 2rem 10rem;
+ }
+ .listPoint{
+     padding-bottom: 0.8rem;
+ }
+ 
+ .subpoints{
+     padding-left:3rem;
+ }
+ 
+ .imgbox{
+   flex:1;
+ }
+ .img{
+     width:15rem;
+     height: 15rem;
+     margin-left:10rem;
+ }
+ 
+ .para2{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     line-height: 2.1rem;
+ }
+ 
+ .subpara{
+     flex:1;
+     font-size: 1.3rem;
+     padding:2rem 5rem 2rem 10rem;
+ }
+ 
+ .para3{
+     font-size: 1.3rem;
+     padding:0rem 10rem 0.1rem 10rem;
+     color:white;
+     font-weight: 400;
+     line-height: 2.1rem;
+ }
+ 
+ .listPoints2{
+     font-size: 1.3rem;
+     line-height: 2.1rem;
+     padding: 0rem 10rem 2rem 2rem;
+  }
+ 
+  /* New CSS Starts Here */
+ 
+  .guidelineTitle{
+     text-align: center;
+     font-size: 2.5rem;
+     font-weight: 500;
+     color: #2cbed0;
+     background-color: #050222;
+     text-shadow: 0px 4px 4px #153a82;
+     padding: 4rem 0 3rem 0;
+  }
+ 
+  .guidelinePoints{
+     font-size: 1.3rem;
+     line-height: 2.1rem;
+     padding: 0rem 10rem 2rem 10rem;
+  }
+ 
+  .guidelinePoint{
+      padding-bottom: 2rem;
+  }
+ 
+  .note{
+     font-size: 1.3rem;
+     padding:2rem 10rem 0rem 10rem;
+     color:#2cbed0;
+     font-weight: 400;
+     line-height: 2.1rem;
+  }
+ 
+  .link1{
+      display: block;
+     color:#2cbed0;
+     font-size: 1.3rem;
+     padding-bottom:0.8rem;
+ }
+ 
+ .bigSubtitle{
+     color: #2cbed0;
+     font-size: 2.3rem;
+     padding:5rem 10rem 0rem 10rem;
+     font-weight: 500;
+     text-transform: uppercase;
+ }
+ 
+ .impnote{
+     font-size: 1.5rem;
+     padding:4rem 10rem 0rem 10rem;
+     color:#2cbed0;
+     font-weight: 400;
+     line-height: 2.1rem;
+ }
+
+ .listPointal{
+     padding: 1rem 10rem 1rem 10rem;
+     font-size: 1.3rem;
+     font-weight: 400;
+     line-height: 2.1rem;
+ }
+
+ .tableContainer{
+     margin: 2rem 10rem 2rem 10rem;
+     border: 3px solid white;
+     width:70vw;
+     height: max-content;
+ }
+ .tableIndex{
+   display: flex;
+   flex-direction: row;
+   align-items: center;   
+ }
+
+ .tableIndexpart{
+     border-bottom: 3px solid white;
+     border-right:  3px solid white;
+     flex:1;
+     font-size: 1.3rem;
+     font-weight: 600;
+     color: black;
+     text-transform: uppercase;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height:6rem;
+     background-color: #2cbed0;
+ }
+ .tableIndexpart2{
+    border-bottom: 3px solid white;
+    flex:1;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:6rem;
+    background-color: #2cbed0;
+}
+
+.tableColumn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tableColumnpart{
+   flex:1;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height:4rem;
+   border-bottom: 3px solid white;
+   border-right: 3px solid white;
+}
+.tableColumnpartend{
+    flex:1;
+    text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   height:4rem;
+    border-bottom: 3px solid white;
+}
+.tableColumnpartlastend{
+    flex:1;
+    text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   height:4rem;
+}
+.tableColumnpartlast{
+    flex:1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:4rem;
+    border-right: 3px solid white;
+}
+  
+  @media screen and (max-width: 900px) {
+ 
+     .para1{
+         font-size: 1.3rem;
+         padding:2rem 2rem 0.5rem 2rem;
+         color:white;
+         font-weight: 400;
+         line-height: 2.1rem;
+     }
+ 
+     .subtitle{
+         color: #2cbed0;
+         font-size: 2rem;
+         padding:5rem 2rem 0rem 2rem;
+         font-weight: 500;
+     }
+     
+     .link{
+         display: inline;
+         color:#2cbed0;
+         font-size: 1.3rem;
+     }
+ 
+     
+     .listPoints{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        padding: 2rem 2rem 2rem 2rem;
+     }
+     .listPoint{
+         padding:0rem 2rem 0.8rem 0rem;
+     }
+     .imgbox{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+ 
+     .img{
+         width:15rem;
+         height: 15rem;
+         margin-left: 0rem;
+     }
+     
+     .para2{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         line-height: 2.1rem;
+     }
+     
+     .subpara{
+         font-size: 1.3rem;
+         padding:2rem 2rem 2rem 2rem;
+     }
+     
+     .para3{
+         font-size: 1.3rem;
+         padding:2rem 2rem 0.1rem 2rem;
+         color:white;
+         font-weight: 400;
+         line-height: 2.1rem;
+     }
+     
+     .listPoints2{
+         font-size: 1.3rem;
+         line-height: 2.1rem;
+         padding: 0rem 2rem 2rem 2rem;
+      }
+ 
+      .guidelinePoints{
+         font-size: 1.3rem;
+         line-height: 2.1rem;
+         padding: 0rem 2rem 2rem 2rem;
+      }
+     
+      .guidelinePoint{
+          padding-bottom: 2rem;
+      }
+     
+      .note{
+         font-size: 1.3rem;
+         padding:2rem 2rem 0rem 2rem;
+         color:#2cbed0;
+         font-weight: 400;
+         line-height: 2.1rem;
+      }
+     
+      .link1{
+          display: block;
+         color:#2cbed0;
+         font-size: 1.3rem;
+         padding:0rem 0rem  0.8rem 0rem;
+     }
+     
+     .bigSubtitle{
+         color: #2cbed0;
+         font-size: 2.3rem;
+         padding:5rem 2rem 0rem 2rem;
+         font-weight: 500;
+         text-transform: uppercase;
+     }
+ 
+     .impnote{
+         font-size: 1.5rem;
+         padding:4rem 2rem 0rem 2rem;
+         color:#2cbed0;
+         font-weight: 400;
+         line-height: 2.1rem;
+     }
+
+     .listPointal{
+        padding: 1rem 2rem 1rem 2rem;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2.1rem;
+    }
+
+    .tableContainer{
+        margin: 2rem 5vw 2rem 5vw;
+        border: 3px solid white;
+        width:90vw;
+        height: max-content;
+    }
+    .tableIndexpart{
+        font-size: 0.8rem;
+
+    }
+    .tableIndexpart2{
+       font-size: 0.8rem;
+   }
+
+  } 
+ 

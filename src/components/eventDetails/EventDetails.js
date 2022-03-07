@@ -2,17 +2,29 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./EventDetails.css";
 
+// Problems Statements
+import { BoschModelExtraction } from "./ProblemStatemens/ProblemStatement";
+import {DigitalAlpha} from './ProblemStatemens/ProblemStatement';
+import {SiliconLabs } from './ProblemStatemens/ProblemStatement';
+import {BlueYonder} from './ProblemStatemens/ProblemStatement'
+
+import {ISRO} from './MidPrepPS/MidPrepPS';
+import {Mudrex} from './MidPrepPS/MidPrepPS'
+import {Bosch} from './MidPrepPS/MidPrepPS';
+import {DRDO} from './MidPrepPS/MidPrepPS'
+
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name, description, image, maxsize, link } = location.state;
+  const { name, description, image, maxsize, link  } = location.state;
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div className="eventSpecificDetailsTop">
+    <>
+     <div className="eventSpecificDetailsTop">
       <div className="eventSpecificDetailsHeading">
         <span
           style={{
@@ -60,6 +72,16 @@ function EventDetails() {
         </div>
       </div>
     </div>
+    {name ==="Bosch's Model Extraction Attack For Video Classification" && <BoschModelExtraction/> }
+    {name ==="Digital Alpha's SEC Filing Analyzer for SaaS Companies" && <DigitalAlpha/> }
+    {name ==="Silicon Labs' Social Entrepreneurship Challenge" && <SiliconLabs/> }
+    {name ==="Blue Yonder’s Sustainable Supply-Chain" && <BlueYonder/> }
+    {name ==="ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves" && <ISRO/> }
+    {name ==="Mudrex's Alpha Trading Quest" && <Mudrex/> }
+    {name ==="Bosch's Age And Gender Detection" && <Bosch/> }
+    {name ==="DRDO's UAV-Guided UGV Navigation Challenge" && <DRDO/> }
+
+    </>
   );
 }
 
