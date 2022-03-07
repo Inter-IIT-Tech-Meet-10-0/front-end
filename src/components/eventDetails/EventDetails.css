@@ -13,13 +13,14 @@
 .eventSpecificDetailsContainer {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  /* background-color: white; */
+  justify-content: center;
+  align-items: center;
+  width:100%;
 }
 
 .eventSpecificDetailsContainerImage {
-  width: 500px;
-  height: 500px;
+  width: 55%;
+  height:40rem;
 }
 
 .eventSpecificDetailsContainerData {
