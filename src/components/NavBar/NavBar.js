@@ -49,9 +49,10 @@ function NavBar() {
          <Link to=""></Link>
          <Link to=""></Link>
          <Link to=""></Link>
-         <Link to="/team"  className="navitem">TEAM</Link>
+        
          <Link to="/about" className="navitem">ABOUT US</Link>
          <Link to="/events" className="navitem">EVENTS</Link>
+         <Link to="/team"  className="navitem">TEAM</Link>
          </div>
       )}
     </div>
@@ -83,6 +84,7 @@ const DropDownNavBar =({showDropdown,setShowDropdown}) =>{
     <div className="dropdownContainer">
     <Link to="/about"  onClick={()=>{setShowDropdown(!showDropdown)}} className="navitemDropdown">ABOUT US</Link>
     <Link to="/events" onClick={()=>{setShowDropdown(!showDropdown)}} className="navitemDropdown">EVENTS</Link>
+    <Link to="/team"  onClick={()=>{setShowDropdown(!showDropdown)}} className="navitemDropdown">TEAM</Link>
     </div>
     </>
   )

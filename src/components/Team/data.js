@@ -72,7 +72,7 @@ export const data = {
   DESIGN: [
     {
       id: "1",
-      name: "Charmisha Gedela Design",
+      name: "Charmisha Gedela",
       post: "Associate Manager",
       link: "/Team/Design/Charmisha_Gedela_AM.png",
     },

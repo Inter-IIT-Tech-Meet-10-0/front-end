@@ -293,14 +293,13 @@ export const SiliconLabs=() => {
       <div className={Classes.mainContainer}>
       <div className={Classes.pstitle}>PROBLEM STATEMENT</div>
       <div className={Classes.para1}>
-      SaaS companies are customer-driven and are heavily dependent on their customer base. There
-are a set of metrics that can showcase the health of the SaaS companies and their aspects. These
-metrics and numbers are not readily available on publicly reported SEC Filings and need to be
-chalked out from the available forms (10-K, 10-Q, 8-K, etc.). Accessing these metrics can be of
-tremendous value to the right users.
-Forms that are being filed are very detailed and take time to analyze. For analyzing a form, the
-primary task is chalking out the key SaaS numbers. There is a need to have simplified dashboards
-to have a quick overview of Key SaaS Goals.
+      Develop an end-to-end IoT-based solution to solve real-world problems in one or more of the
+following focus areas: Agriculture, Healthcare, Logistics, Asset Tracking, Renewables, Homeland
+Security, Animal Conservation/Care (Husbandry/Wildlife/Domestic). After selecting the desired
+focus area(s), identify a pain point within the same. The pain point could be a drawback within the
+existing system or a new problem your team would like to tackle.
+Example: A tech-based solution for increasing the penetration of healthcare facilities in the rural
+areas of India.
       </div>
       <div className={Classes.subtitle}>
       THINGS TO BE INCLUDED
