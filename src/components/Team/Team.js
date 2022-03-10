@@ -1,7 +1,7 @@
 import React from "react";
 import Classes from "./Team.module.css";
 import { data } from "./data";
-
+const OverallCoordinators = data["OverallCoordinators"];
 const Web = data["WEB"];
 const Operations = data["OPERATIONS"];
 const Design = data["DESIGN"];
@@ -14,20 +14,11 @@ export default function Team() {
           <span className={Classes.firstWord}>TEA</span>M
         </div>
 
-        {/* <div className={Classes.pstitle}>SPONSORSHIP</div>
-        <div className={Classes.imagesContainer}>
-          <Card name={"Parth Paradkar"} post={"Manager"} />
-          <Card name={"Shrinish Vhanbatte"} post={"Associate Manager"} />
-          <Card name={"Parth Paradkar"} post={"Manager"} />
-          <Card name={"Parth Paradkar"} post={"Manager"} />
-          <Card name={"Parth Paradkar"} post={"Manager"} />
-          <Card name={"Parth Paradkar"} post={"Manager"} />
-        </div> */}
-
-        <SubTeam name="Design" data={Design} />
-        <SubTeam name="Web" data={Web} />
-        <SubTeam name="Operations" data={Operations} />
+        <SubTeam name="Overall-Coordinators" data={OverallCoordinators} />
         <SubTeam name="Sponsorship" data={Sponsorship} />
+        <SubTeam name="Operations" data={Operations} />
+        <SubTeam name="Web" data={Web} />
+        <SubTeam name="Design" data={Design} />
       </div>
     </>
   );

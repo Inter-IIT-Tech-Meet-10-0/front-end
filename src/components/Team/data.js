@@ -1,4 +1,16 @@
 export const data = {
+  OverallCoordinators: [
+    {
+      id: "1",
+      name: "Mayank Priyadarshi",
+      link: "/Team/OverallCoordinators/Mayank_Priyadarshi.jpg",
+    },
+    {
+      id: "2",
+      name: "Gaurav Kumar",
+      link: "/Team/OverallCoordinators/Gaurav_Kumar.jpg",
+    },
+  ],
   WEB: [
     {
       id: "1",
@@ -28,9 +40,9 @@ export const data = {
     },
     {
       id: "2",
-      name: "Avanti Hargude",
-      post: "Associate Manager",
-      link: "/Team/Operations/Avanti_Hargude_AM.jpeg",
+      name: "Azad Jagtap",
+      post: "Manager",
+      link: "/Team/Operations/Azad_Jagtap_Manager.JPG",
     },
     {
       id: "3",
@@ -68,6 +80,12 @@ export const data = {
       post: "Associate Manager",
       link: "/Team/Operations/Srinjayee_Paul_AM.png",
     },
+    {
+      id: "9",
+      name: "Avanti Hargude",
+      post: "Associate Manager",
+      link: "/Team/Operations/Avanti_Hargude_AM.jpeg",
+    },
   ],
   DESIGN: [
     {
@@ -101,6 +119,12 @@ export const data = {
       name: "Bhavik Jain",
       post: "Manager",
       link: "/Team/Sponsorship/Bhavik_Jain_Manager.jpeg",
+    },
+    {
+      id: "2",
+      name: "Harshit Kumar Baranwal",
+      post: "Manager",
+      link: "/Team/Sponsorship/Harshit_Kumar_Baranwal_Manager.jpg",
     },
   ],
 };
