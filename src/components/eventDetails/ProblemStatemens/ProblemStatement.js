@@ -11,7 +11,7 @@ export const BoschModelExtraction =() => {
       Develop an efficient common strategy and relevant implementation to extract the videobased models in the black box and grey box setting across the following 2 problem
       statements.
       </div>
-
+        
       <div className={Classes.subtitle}>
       1.Action Classification
       </div>
