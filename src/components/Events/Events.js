@@ -90,8 +90,8 @@ const MidPrep = () => {
   return (
     <>
       {Object.keys(midPrep).length === 0 ? (
-          <ReleasingSoon />
-        ) : (
+        <ReleasingSoon />
+      ) : (
         <div className={Classes.cardsContainer}>
           {midPrep.map((event) => {
             return <Card event={event} />;
@@ -106,8 +106,8 @@ const HighPrep = () => {
   return (
     <>
       {Object.keys(highPrep).length === 0 ? (
-          <ReleasingSoon />
-        ) : (
+        <ReleasingSoon />
+      ) : (
         <div className={Classes.cardsContainer}>
           {highPrep.map((event) => {
             return <Card event={event} />;
@@ -121,15 +121,16 @@ const HighPrep = () => {
 const Card = ({ event }) => {
   const [loading, setLoading] = useState(true);
 
-  const names = ["Bosch's Model Extraction Attack For Video Classification",
-                  "Digital Alpha's SEC Filing Analyzer for SaaS Companies",
-                  "Silicon Labs' Social Entrepreneurship Challenge",
-                  "Blue Yonder’s Sustainable Supply-Chain",
-                  "ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves",
-                  "DRDO's UAV-Guided UGV Navigation Challenge",
-                  "Mudrex's Alpha Trading Quest",
-                  "Bosch's Age And Gender Detection"
-                 ]
+  const names = [
+    "Bosch's Model Extraction Attack For Video Classification",
+    "Digital Alpha's SEC Filing Analyzer for SaaS Companies",
+    "Silicon Labs' Social Entrepreneurship Challenge",
+    "Blue Yonder’s Sustainable Supply-Chain",
+    "ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves",
+    "DRDO's UAV-Guided UGV Navigation Challenge",
+    "Mudrex's Alpha Trading Quest",
+    "Bosch's Age And Gender Detection",
+  ];
 
   const { name } = event;
   return (
@@ -137,9 +138,14 @@ const Card = ({ event }) => {
       <div className={Classes.cardContainer}>
         <div
           className={Classes.loaderContainer}
-          style={{ display: loading ? "block" :'none' }}
+          style={{ display: loading ? "block" : "none" }}
         >
-          <BallTriangle className={Classes.loader} color="#00BFFF" height={100} width={100} />
+          <BallTriangle
+            className={Classes.loader}
+            color="#00BFFF"
+            height={100}
+            width={100}
+          />
         </div>
         <div style={{ display: loading ? "none" : "block" }}>
           <img
@@ -152,7 +158,7 @@ const Card = ({ event }) => {
 
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          { names.includes(name) ? (
+          {names.includes(name) ? (
             <>
               <Link to={`/events/${name}`} state={event}>
                 <div className={Classes.readmore}>Read More</div>
