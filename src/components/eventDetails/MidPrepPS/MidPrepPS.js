@@ -77,19 +77,20 @@ the data are present. The lightcurve data of XSM is the required input for this 
        SUBMISSION
      </div>
      <div className={Classes.subtitle}>
-     CODES AND DOCUMENTATION
+     MId evaluation: CODEs AND DOCUMENTATION- 150 points
      </div>
      <div className={Classes.para1}>
      Teams will be required to submit their codes and documentation files (a detailed documentation
-explaining the codes and instructions for code deployment) in a github repository.
-Due Date - 18th March
+explaining the codes and instructions for code deployment) in a github repository.<br/>
+<strong>Due Date - 18th March</strong>
      </div>
      <div className={Classes.subtitle}>
      Final Presentation
      </div>
      <div className={Classes.para1}>
      All participating teams would be required to give a 10 min presentation followed by a 5 min Q&A
-session of their proposed solutions. Dates will be informed later.
+session of their proposed solutions. Dates will be informed later.<br/>
+The ppt for final presentation has to be submited by <strong>24th March, 11:59 pm.</strong>
      </div>
      <div className={Classes.guidelineTitle}>
      EVALUATION
@@ -98,21 +99,23 @@ session of their proposed solutions. Dates will be informed later.
      Evaluation Criteria
      </div>
      <div className={Classes.note}>
-     1. For statistical/machine learning model:
+     1. For statistical/machine learning model: (30%)
      </div>
      <div className={Classes.para1}>
      
           <li className={Classes.listPointal}>Detection of the maximum number of bursts with fewer false detections for a given duration</li>
-          <li className={Classes.listPointal}>Identification of the fit parameters (like the rise time, peak flux, decay time constant) and its
-accuracies: good accuracy and goodness of fit for many bursts.</li>
-          <li className={Classes.listPointal}>Classification of the fit parameters and their explanations</li>
+          <li className={Classes.listPointal}>Identification and classification of the fit parameters alongwith their explanantions (like the
+rise time, peak flux, decay time constant) and its accuracies: good accuracy and goodness of
+fit for many bursts</li>
+          <li className={Classes.listPointal}>A validation data set will be run for all the codes developed, and the results will be compared
+with expected values along with time and space complexity</li>
      
      </div>
      <div className={Classes.note}>
-     2. For the web-based/stand-alone application:
+     2. For the web-based/stand-alone application: (70%)
      </div>
      <div className={Classes.para1}>
-          <li className={Classes.listPointal}>Ease of use of the GUI as well as the Python codes</li>
+          <li className={Classes.listPointal}>Ease of use of the GUI as well as the open-source codes developed</li>
           <li className={Classes.listPointal}>A good manual – ease of use by a third party not knowing computational aspects</li>
           <li className={Classes.listPointal}>Compatibility of the tool – should be able to install in all Linux environments without any
 patch up</li>
@@ -450,7 +453,7 @@ Visual Builder, that trades profitably on a set of below-mentioned crypto assets
 exchanges.
         </div>
         <div className={Classes.para1}>
-       <strong> Assets</strong>: ETH-USDT / ADA-USDT / XRP-USDT
+       <strong> Assets</strong>: ETH-USDT / ADA-USDT / XRP-USDT<br/>
        <strong>Exchange</strong> : Binance, Spot  
         </div>
         <div className={Classes.para1}>
@@ -497,7 +500,7 @@ appreciated.
         <div className={Classes.para1}>
         Teams are required to make a presentation (not exceeding 10 minutes), followed by a
 short QnA session (not exceeding 5 minutes). Dates for the presentations will be
-conveyed in due cours
+conveyed in due course
         </div>
         <div className={Classes.guidelineTitle}>
           EVALUATION
@@ -511,9 +514,9 @@ Every bot will be evaluated on the following metric over all test cases:
         ‘sqrt(mean_return) * mean_performance_score’.
         </div>
         <div className={Classes.para1}>
-        'mean_return' is the mean of returns across all of the test cases.
+        'mean_return' is the mean of returns across all of the test cases.<br/>
 'mean_performance_score' is similarly the mean of performance scores across all test
-cases.
+cases.<br/>
 The performance score for each test case is calculated as a linear combination of risk
 terms like Sharpe, max drawdown among others.
         </div>
@@ -573,7 +576,7 @@ often lacking high-frequency details and are perceptually unsatisfying in the se
 to match the fidelity expected at the higher resolution.
         </div>
         <div className={Classes.subtitle}>
-
+         Problem Statement
         </div>
         <div className={Classes.para1}>
         Build a solution to estimate the gender and age of people from a surveillance video feed (like
@@ -621,7 +624,7 @@ will be conveyed later.
 </li>
             </ul>
         </div>
-        <div className={Classes.subtitle}>
+        <div className={Classes.guidelineTitle}>
         EVALUATION
         </div>
          <div className={Classes.para1}>

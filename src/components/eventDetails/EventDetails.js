@@ -16,7 +16,7 @@ import {DRDO} from './MidPrepPS/MidPrepPS'
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
-  const { name, image, } = location.state;
+  const { name, image,maxsize,link } = location.state;
 
 
   useEffect(() => {
@@ -52,6 +52,19 @@ function EventDetails() {
           
         </div>
       </div>
+      <div className={'detailsContainer'}>
+        <div className={'maxsize'}>Maximum Team Size : {maxsize}</div>
+        <div className="problembtn">
+                <a href={link}
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                  }}
+                >
+                  Complete Problem Statement
+                </a>
+              </div>
+        </div>
     </div>
     {name ==="Bosch's Model Extraction Attack For Video Classification" && <BoschModelExtraction/> }
     {name ==="Digital Alpha's SEC Filing Analyzer for SaaS Companies" && <DigitalAlpha/> }
