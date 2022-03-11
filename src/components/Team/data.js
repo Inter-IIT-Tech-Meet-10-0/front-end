@@ -8,16 +8,17 @@ export const data = {
     },
     {
       id: "2",
-      name: "Aayush Airan",
-      post: "Associate Manager",
-      link: "/Team/Web/Aayush_Airan_AM.jpeg",
-    },
-    {
-      id: "3",
       name: "Shrinish Vhanbatte",
       post: "Associate Manager",
       link: "/Team/Web/Shrinish_Vhanbatte_AM.jpg",
     },
+    {
+      id: "3",
+      name: "Aayush Airan",
+      post: "Associate Manager",
+      link: "/Team/Web/Aayush_Airan_AM.jpeg",
+    },
+    
   ],
   OPERATIONS: [
     {
@@ -26,6 +27,19 @@ export const data = {
       post: "Manager",
       link: "/Team/Operations/Nanda_Manager.jpg",
     },
+    {
+      id: "2",
+      name: "Azad Jagtap",
+      post: "Manager",
+      link: "/Team/Operations/Azad_Jagtap_Manager.JPG",
+    },
+    {
+      id: "3",
+      name: "Rashmi Kumari",
+      post: "Manager",
+      link: "/Team/Operations/Rashmi_Kumari_M.jpg",
+    },
+
     {
       id: "2",
       name: "Avanti Hargude",
@@ -103,4 +117,19 @@ export const data = {
       link: "/Team/Sponsorship/Bhavik_Jain_Manager.jpeg",
     },
   ],
+  OVERALL: [
+    {
+      id: "1",
+      name: "Mayank Priyadarshi",
+      post: "Manager",
+      link: "/Team/Overall/Mayank_Priyadarshi_iphoto.jpg",
+    },
+    {
+      id: "2",
+      name: "Gaurav Kumar",
+      post: "Manager",
+      link: "/Team/Overall/Gaurav_Kumar.png",
+    },
+  ],
+
 };

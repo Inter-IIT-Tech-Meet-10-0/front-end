@@ -27,6 +27,7 @@
   background-color: #050222;
   text-shadow: 0px 4px 4px #153a82;
   padding: 1.5rem 0 3rem 0;
+  text-transform: uppercase;
 }
 
 .imagesContainer {
