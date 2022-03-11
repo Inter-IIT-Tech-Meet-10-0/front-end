@@ -11,7 +11,7 @@ export const BoschModelExtraction =() => {
       Develop an efficient common strategy and relevant implementation to extract the videobased models in the black box and grey box setting across the following 2 problem
       statements.
       </div>
-
+        
       <div className={Classes.subtitle}>
       1.Action Classification
       </div>
@@ -74,7 +74,11 @@ export const BoschModelExtraction =() => {
       </div>
 
       <div className={Classes.subtitle}>
-      Score And Documentation Submission - 150 Points
+      Score And Documentation Submission - 250 Points
+      </div>
+      <div className={Classes.smallsubtitle}>
+      (SCORE SUBMISSION - 50 POINTS <br/>
+      DOCUMENTATION (INCLUDES FINAL CODE SUBMISSION) SUBMISSION - 200 POINTS)
       </div>
       <div className={Classes.para1}>
             Each team will again have to submit their final score alongside a brief documentation. The
@@ -83,12 +87,17 @@ export const BoschModelExtraction =() => {
       </div>
 
       <div className={Classes.subtitle}>
-      Final Presentation - 200 Points
+      Final Presentation - 100 Points
       </div>
       <div className={Classes.para1}>
       Every team will have to give a short presentation explaining their code, and justify their
-      submitted scores. Due Date: 26th March
+      submitted scores. Due Date: 26th/27th March
       </div>
+      <div className={Classes.para1}>
+            <strong>*The final presentation has to be submitted by 24th March, 11:59 p.m.*</strong><br/>
+            Any difference between the submitted presentation and the final presentation on 26th/27th
+March will lead to a penalty/disqualification based on the extremity of the situation.
+            </div>
       <div className={Classes.note}>
       Please note that the Final presentation should wrap up within 15 minutes which will be
       followed by Q&A (5 min).
@@ -107,12 +116,14 @@ export const BoschModelExtraction =() => {
         <li className={Classes.guidelinePoint}>P1 Score = 0.6* P1 Blackbox accuracy + 0.4*P1 Greybox accuracy</li>
         <li className={Classes.guidelinePoint}>P1 accuracy will be measured as Top 5 on randomly selected balanced 50% of Kinect-600
 dataset</li>
-        <li className={Classes.guidelinePoint}> Report no. of queries/dataset points used to achieve BlackBox accuracy and Greybox
-    accuracy
+        <li className={Classes.guidelinePoint}>P2 Score = 0.6*P2 Blackbox accuracy + 0.4*P2 Greybox accuracy
 </li>
-<li className={Classes.guidelinePoint}>P2 Score = 0.6* P2 Blackbox accuracy + 0.4*P2 Greybox accuracy</li>
 <li className={Classes.guidelinePoint}>P2 accuracy will be measured as Top 5 on randomly selected balanced 50% of Kinect-600
-dataset</li>
+dataset
+</li>
+
+<li className={Classes.guidelinePoint}>Report no. of queries/dataset points used to achieve BlackBox accuracy and Greybox
+accuracy</li>
 <li className={Classes.guidelinePoint}>No. of queries will be used in case of a tiebreaker in case the Final Score of 2 teams is within
 2% of the accuracy band. Lesser queries will help you win.</li>
       </ul>
@@ -234,38 +245,49 @@ conditions.</li>
           <li className={Classes.listPoint}>Final Presentation - 200 Points</li>
       </ul>
       </div>
+      
       <div className={Classes.subtitle}>
-      Report and Code Submission - 22 March 2022
+      mid evaluation
       </div>
-      <div className={Classes.para1}>
-      <ul className={''}>
-          <li className={Classes.listPoint}>Github repository with well-defined documentation files</li>
-          <li className={Classes.listPoint}>Report: Detailed web tool architecture, problem approach, key insights</li>
-          <li className={Classes.listPoint}>Machine Learning Model Performance - Precision, Recall, and F1 Score</li>
-      </ul>
-      </div>
+      <div className={Classes.subtitle}>
+      1. Code Submission - 19 March 2022
+            </div>
+            <li className={Classes.listPoints}>
+            Github repository with well-defined documentation files
+           </li>
+
+           <div className={Classes.subtitle}>
+       2. Report Submission - 21 March 2022
+            </div>
+            <li className={Classes.listPoints}>
+            Report: Detailed web tool architecture, problem approach, key insights
+           </li>  
+           <li className={Classes.listPoints}>
+           Machine Learning Model Performance - Precision, Recall, and F1 Score
+           </li>     
+
+     
       
       <div className={Classes.para1}>
       An overall score would be computed which would be a simple average of the above three
-metrics.
-      </div>
-      <div className={Classes.para1}>
-      The report needs to be submitted in PDF format. It should not exceed 15 pages (excluding the
+metrics.The report needs to be submitted in PDF format. It should not exceed 15 pages (excluding the
 Cover Page).
+
       </div>
+     
       <div className={Classes.subtitle}>
-      Final Presentation - 26 March 2022
+      Final Presentation 
       </div>
       <div className={Classes.para1}>
       <ul className={''}>
-          <li className={Classes.listPoint}>All participating teams would be required to give presentations of their proposed solution
-on 26th March.</li>
+          <li className={Classes.listPoint}>All participating teams would be required to give presentations of their proposed solution.
+(25-27th March)</li>
+<li className={Classes.listPoint}>Please note that the Final presentation should wrap up within 15 minutes which will be
+followed by Q&A (5 min).</li>
+<li className={Classes.listPoint}>The ppt for final presentation has to be submited by <strong>24th March, 11:59 pm.</strong></li>
       </ul>
       </div>
-      <div className={Classes.note}>
-      Please note that the Final presentation should wrap up within 15 minutes which will be
-      followed by Q&A (5 min).
-      </div>
+      
       <div className={Classes.note}>
       Send your submissions at this email: <a rel="noreferrer" className={Classes.link} href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
       </div>
@@ -344,7 +366,7 @@ with cost analysis, and venture journey.</li>
 
       <div className={Classes.guidelineTitle}>SUBMISSION</div>
       <div className={Classes.subtitle}>
-      Mid-Evaluation (250 points)
+      Mid-Evaluation (200 points)
       </div>
       <div className={Classes.para1}>
       The report needs to be submitted in PDF format. It should not exceed 15 pages (excluding the
@@ -353,15 +375,17 @@ Cover Page). It should cover the following:
           <li className={Classes.listPoint}>Description of the design steps.</li>
           <li className={Classes.listPoint}>An end-to-end working prototype of the solution - implementation of the solution.</li>
       </ul>
-      The evaluation report, along with the implementation files should be submitted on or before 17th
+      The evaluation report, along with the implementation files should be submitted on or before 19th
 March.
       </div>
       <div className={Classes.subtitle}>
-      Final Evaluation (150 points)
+      Final Evaluation (200 points)
       </div>
       <div className={Classes.para1}>
       The final presentation should explain the problem, solution, business model, and other related
-aspects of the proposed solution. Dates of presentations will be conveyed in due course.
+aspects of the proposed solution.<br/>
+Final presentations should be submitted on or before 24th March in PDF format. Dates of
+presentations will be conveyed in due course.
       </div>
       <div className={Classes.guidelineTitle}>
       EVALUATION
@@ -403,6 +427,10 @@ focus areas, apart from the regions for which the solution was initially designe
       Please note that the Final presentation should wrap up within 15 minutes which will be
       followed by Q&A (5 min).
       </div>
+      <div className={Classes.note}>
+      The presentation being made on the final day should match the one being submitted by 24th
+March.
+            </div>
       <div className={Classes.note}>
       Send your submissions at this email: <a rel="noreferrer" className={Classes.link} href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
       </div>
@@ -546,7 +574,7 @@ to manufacture is fixed/ given for each product.
      MID EVALUATION
      </div>
      <div className={Classes.para1}>
-     The Mid- Evaluation report needs to be submitted in PDF format by 15th March. It should not
+     The Mid- Evaluation report needs to be submitted in PDF format by 19th March. It should not
    exceed seven pages (excluding the cover page).
    The report should consist of the following details:
      </div>
@@ -591,7 +619,8 @@ of the model in real markets and assessing the adaptability and flexibility of t
             </div>
             <div className={Classes.para1}>
             All participating teams would be required to give their final presentations of their proposed
-            solution on 26th March.
+            solution on 26th March.<br/>
+            The final presentation has to be submitted by 24th March 11:59 p.m.<br/>
             Please note that the Final presentation should wrap up within 15 minutes followed by Q&A (5
             min).
 

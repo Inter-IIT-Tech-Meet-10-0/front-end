@@ -30,6 +30,13 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+.smallsubtitle{
+    color: #2cbed0;
+    font-size: 1.1rem;
+    padding:5rem 10rem 0rem 10rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
 .link{
     color:#2cbed0;
@@ -39,7 +46,7 @@
 .listPoints{
    font-size: 1.3rem;
    line-height: 2.1rem;
-   padding: 2rem 10rem 2rem 10rem;
+   padding: 2rem 10rem 0rem 10rem;
 }
 .listPoint{
     padding-bottom: 0.8rem;
@@ -154,6 +161,14 @@
         font-size: 2rem;
         padding:5rem 2rem 0rem 2rem;
         font-weight: 500;
+    }
+
+    .smallsubtitle{
+        color: #2cbed0;
+        font-size: 1.3rem;
+        padding:5rem 2rem 0rem 2rem;
+        font-weight: 500;
+        text-transform: uppercase;
     }
     
     .link{
