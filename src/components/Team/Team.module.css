@@ -50,16 +50,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom:1rem;
 }
 
 .img {
-  width: 14rem;
-  height: 14rem;
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 .name {
