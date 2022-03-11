@@ -168,8 +168,11 @@ the validation and testing of the algorithms in standardized environments.
 terrain would be replaced with a plain overlay. The UGV then has to traverse the
 mountain road with aid from the UAV.
 </li>
-          <li className={Classes.listPoint}>The UAV should not fly higher than 20m. The UAV is allowed the use of a downwardfacing RGBD-camera, IMU sensor, and GPS.</li>
+          <li className={Classes.listPoint}>The UGV should traverse along the center of the road.</li>
+          <li className={Classes.listPoint}>The UAV should not fly higher than 20m. The UAV is allowed the use of a downward-
+facing RGBD-camera, IMU sensor, and GPS.</li>
           <li className={Classes.listPoint}>No sensors are allowed on the UGV.</li>
+          <li className={Classes.listPoint}>The speed of the UGV should be limited to 35 km/hr.</li>
           <li className={Classes.listPoint}>The integration of all the algorithms is to be ensured for the program to efficiently gather
 and process data to map and give the path planning information.
 </li>
@@ -267,17 +270,17 @@ world.
        <div className={Classes.tableColumn}>
          <div className={Classes.tableColumnpart}>World1</div>
          <div className={Classes.tableColumnpart}>100</div>
-         <div className={Classes.tableColumnpartend}>(1-C)*M</div>
+         <div className={Classes.tableColumnpartend}>C*M</div>
        </div>
        <div className={Classes.tableColumn}>
          <div className={Classes.tableColumnpart}>World2</div>
          <div className={Classes.tableColumnpart}>200</div>
-         <div className={Classes.tableColumnpartend}>(1-C)*M</div>
+         <div className={Classes.tableColumnpartend}>C*M</div>
        </div>
        <div className={Classes.tableColumn}>
          <div className={Classes.tableColumnpartlast}>World3</div>
          <div className={Classes.tableColumnpartlast}>300</div>
-         <div className={Classes.tableColumnpartlastend}>(1-C)*M</div>
+         <div className={Classes.tableColumnpartlastend}>C*M</div>
        </div>
       </div>
       <div className={Classes.para1}>
@@ -498,9 +501,13 @@ appreciated.
 20th March, for which submission link will be shared later.
         </div>
         <div className={Classes.para1}>
-        Teams are required to make a presentation (not exceeding 10 minutes), followed by a
-short QnA session (not exceeding 5 minutes). Dates for the presentations will be
-conveyed in due course
+        Teams are allowed to submit up to <strong>three</strong> different bots (one for each of the specified
+asset pairs). If a strategy is not for the asset pairs specified, it will not be evaluated.
+        </div>
+        <div className={Classes.para1}>
+        Teams have to submit their presentations in PDF format on or before 24th March. The
+presentation being made on the final day should match the one being submitted by 24th
+March. Final presentation dates will be conveyed in due time.
         </div>
         <div className={Classes.guidelineTitle}>
           EVALUATION
@@ -521,6 +528,10 @@ The performance score for each test case is calculated as a linear combination o
 terms like Sharpe, max drawdown among others.
         </div>
         <div className={Classes.para1}>
+        The best performing strategy from the three submitted will be considered for final
+evaluation.
+        </div>
+        <div className={Classes.para1}>
         The presentation will be judged on multiple fronts:
         <ul className={Classes.listPoints}>
           <li className={Classes.listPoint}>1. Explanation of how the current strategy has been obtained.
@@ -531,9 +542,12 @@ terms like Sharpe, max drawdown among others.
         </div>
         <div className={Classes.note}>
         Note - Teams are allowed to test their bots with 10,000 hidden tests between 12th-19th
-March. Each team can check their strategy 5 times. This will help the teams further
+March. Each team can check their strategy 7 times. This will help the teams further
 improve their bots
         </div>
+        <div className={Classes.note}>
+      Send your submissions at this email: <a rel="noreferrer" className={Classes.link} href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
+      </div>
         <div className={Classes.para1}>
         Bot evaluation will carry 150 points, and presentation will carry 100 points.
         </div>
