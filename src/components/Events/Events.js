@@ -128,7 +128,8 @@ const Card = ({ event }) => {
                   "ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves",
                   "DRDO's UAV-Guided UGV Navigation Challenge",
                   "Mudrex's Alpha Trading Quest",
-                  "Bosch's Age And Gender Detection"
+                  "Bosch's Age And Gender Detection",
+                  "Powered Bonnet For Electric Vehicle"
                  ]
 
   const { name } = event;

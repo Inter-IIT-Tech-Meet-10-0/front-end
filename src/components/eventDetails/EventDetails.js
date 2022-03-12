@@ -13,6 +13,8 @@ import {Mudrex} from './MidPrepPS/MidPrepPS'
 import {Bosch} from './MidPrepPS/MidPrepPS';
 import {DRDO} from './MidPrepPS/MidPrepPS'
 
+import {JLR} from './LowPrep/LowPrep';
+
 function EventDetails() {
   const location = useLocation();
   console.log(location.state);
@@ -74,6 +76,7 @@ function EventDetails() {
     {name ==="Mudrex's Alpha Trading Quest" && <Mudrex/> }
     {name ==="Bosch's Age And Gender Detection" && <Bosch/> }
     {name ==="DRDO's UAV-Guided UGV Navigation Challenge" && <DRDO/> }
+    {name ==="Powered Bonnet For Electric Vehicle" && <JLR/> }
 
     </>
   );

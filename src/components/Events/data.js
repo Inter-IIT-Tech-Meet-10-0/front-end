@@ -8,6 +8,14 @@ export const lowPrep = [
   //     "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
   //   maxsize: "5",
   // },
+  {
+    name: "Powered Bonnet For Electric Vehicle",
+    link: "/events/LowPrep/JLR.pdf",
+    image: "/events/jlr.webp",
+    description:
+      "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
+    maxsize: "5",
+  },
 ];
 export const midPrep = [
   {
