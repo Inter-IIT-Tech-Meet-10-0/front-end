@@ -33,7 +33,7 @@
 .imagesContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -41,6 +41,7 @@
 .CardContainer {
   width: 15rem;
   height: 20rem;
+  margin: 0.5rem 0rem;
   margin-left: 5rem;
   margin-right: 5rem;
 }
@@ -51,7 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
 
 .img {
@@ -73,5 +74,4 @@
   font-size: 1.2rem;
   font-weight: 400;
   color: #2cbed0;
- 
 }
