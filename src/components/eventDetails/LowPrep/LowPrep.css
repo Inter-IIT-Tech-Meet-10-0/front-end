@@ -275,16 +275,16 @@
          padding:0rem 2rem 0.8rem 0rem;
      }
      .imgbox{
+         width:100%;
          display: flex;
          justify-content: center;
          align-items: center;
      }
- 
      .img{
-         width:15rem;
-         height: 15rem;
-         margin-left: 0rem;
+         width:20rem;
+         height:max-content;
      }
+
      
      .para2{
          display: flex;
