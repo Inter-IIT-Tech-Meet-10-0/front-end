@@ -18,7 +18,6 @@ export const data = {
       post: "Associate Manager",
       link: "/Team/Web/Aayush_Airan_AM.jpeg",
     },
-    
   ],
   OPERATIONS: [
     {
@@ -116,20 +115,25 @@ export const data = {
       post: "Manager",
       link: "/Team/Sponsorship/Bhavik_Jain_Manager.jpeg",
     },
+    {
+      id: "2",
+      name: "Harshit Kumar Baranwal",
+      post: "Manager",
+      link: "/Team/Sponsorship/Harshit_Kumar_Baranwal_Manager.jpg",
+    },
   ],
   OVERALL: [
     {
       id: "1",
       name: "Mayank Priyadarshi",
-      post: "Manager",
+      post: "",
       link: "/Team/Overall/Mayank_Priyadarshi_iphoto.jpg",
     },
     {
       id: "2",
       name: "Gaurav Kumar",
-      post: "Manager",
+      post: "",
       link: "/Team/Overall/Gaurav_Kumar.png",
     },
   ],
-
 };

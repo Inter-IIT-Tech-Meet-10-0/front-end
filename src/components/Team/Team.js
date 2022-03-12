@@ -6,7 +6,7 @@ const Web = data["WEB"];
 const Operations = data["OPERATIONS"];
 const Design = data["DESIGN"];
 const Sponsorship = data["SPONSORSHIP"];
-const Overall = data['OVERALL'];
+const Overall = data["OVERALL"];
 export default function Team() {
   return (
     <>
@@ -30,22 +30,19 @@ export default function Team() {
         <SubTeam name="Operations" data={Operations} />
         <SubTeam name="Web" data={Web} />
         <SubTeam name="Design" data={Design} />
-      
-       
-       
-      
       </div>
     </>
   );
 }
 const Card = (props) => {
-  const { id, name, link } = props;
+  const { id, name, link, post } = props;
   return (
     <div className={Classes.CardContainer} key={id}>
       <div className={Classes.imgbox}>
         <img src={link} alt="" className={Classes.img} />
       </div>
       <div className={Classes.name}>{name}</div>
+      <div className={Classes.position}>{post}</div>
     </div>
   );
 };
