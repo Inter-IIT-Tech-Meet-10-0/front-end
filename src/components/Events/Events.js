@@ -121,16 +121,17 @@ const HighPrep = () => {
 const Card = ({ event }) => {
   const [loading, setLoading] = useState(true);
 
-  const names = ["Bosch's Model Extraction Attack For Video Classification",
-                  "Digital Alpha's SEC Filing Analyzer for SaaS Companies",
-                  "Silicon Labs' Social Entrepreneurship Challenge",
-                  "Blue Yonder’s Sustainable Supply-Chain",
-                  "ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves",
-                  "DRDO's UAV-Guided UGV Navigation Challenge",
-                  "Mudrex's Alpha Trading Quest",
-                  "Bosch's Age And Gender Detection",
-                  "Powered Bonnet For Electric Vehicle"
-                 ]
+  // const names = ["Bosch's Model Extraction Attack For Video Classification",
+  //                 "Digital Alpha's SEC Filing Analyzer for SaaS Companies",
+  //                 "Silicon Labs' Social Entrepreneurship Challenge",
+  //                 "Blue Yonder’s Sustainable Supply-Chain",
+  //                 "ISRO’s Web-Based Automatic Identification of Solar Bursts in X-RAY Light Curves",
+  //                 "DRDO's UAV-Guided UGV Navigation Challenge",
+  //                 "Mudrex's Alpha Trading Quest",
+  //                 "Bosch's Age And Gender Detection",
+  //                 "Powered Bonnet For Electric Vehicle",
+
+  //                ]
 
   const { name } = event;
   return (
@@ -153,7 +154,7 @@ const Card = ({ event }) => {
 
         <div className={Classes.title}>{event.name}</div>
         <div className={Classes.readMoreContainer}>
-          { names.includes(name) ? (
+          {  (
             <>
               <Link to={`/events/${name}`} state={event}>
                 <div className={Classes.readmore}>Read More</div>
@@ -166,8 +167,6 @@ const Card = ({ event }) => {
                 />
               </div>
             </>
-          ) : (
-            <div className={Classes.readmore}></div>
           )}
         </div>
       </div>

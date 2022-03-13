@@ -16,6 +16,23 @@ export const lowPrep = [
       "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
     maxsize: "5",
   },
+  {
+    name: "Engineer's Conclave",
+    link: "/events/LowPrep/Engineer_Conclave.pdf",
+    image: "/events/ec.jpg",
+    description:
+      "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
+    maxsize: "15",
+  },
+  {
+    name: "Students Academic Conference",
+    link: "/events/LowPrep/SAC.pdf",
+    image: "/events/sac.jpg",
+    description:
+      "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
+    maxsize: "",
+  },
+  
 ];
 export const midPrep = [
   {

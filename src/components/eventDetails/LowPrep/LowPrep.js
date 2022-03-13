@@ -165,6 +165,165 @@ the system used in powered tailgates to get inspiration for your system.
   )
 }
 
+export const SAC = () => {
+      return (
+            <>
+            <div className="mainContainer">
+                  <div className="pstitle">
+                  DOMAINS:
+                  </div>
+                  <div className="para1">
+                  <li className="listPoint" style={{listStyle:'none'}}> 1. Bio-science/ Bio-Technology.</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 2. Chemical Engineering/Chemistry</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 3. Civil Engineering</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 4. Computer Science/Information Technology/Communication Technology</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 5. Design</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 6. Data Science/Artificial Intelligence/Machine Learning</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 7. Electrical Engineering</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 8. Electronics Engineering</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 9. Energy/Environment</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 10. Maths/Finance</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 11. Mechanical Engineering</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 12. Physics</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 13. Rural Technology/Nano-Technology</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 14. Social Science( related to Humanities and other such relevant fields)</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 15. Virtual Reality/Augmented Reality</li>
+                  <li className="listPoint" style={{listStyle:'none'}}> 16. Other Technical Field</li>
+                  </div>
+                 
+
+                  <div className="para1">
+                  Based on the number of papers received from the domains mentioned above, we can merge
+two domains into one.
+                  </div>
+
+                  <div className="guidelineTitle">
+                  PAPER SUBMISSION:
+                  </div>
+                  <div className="para1">
+                        1.Details Document
+                  </div>
+                  <div className="para1">
+                  <li className="listpoint">
+                  Abstract - Max 200 words
+                  </li>
+                  <li className="listpoint">
+                  Name of the Conference
+                  </li>
+                  <li className="listpoint">
+                  Date of publication
+                  </li>
+                  <li className="listpoint">
+                  Proof of publication
+                  </li>
+                  </div>
+                  
+                  <div className="para1">
+                       2.Paper <br/>
+                       3.Poster Template: <a className='link' target={'_blank'} rel='noreferrer' href='https://bit.ly/Poster_template'>https://bit.ly/Poster_template</a>
+                  </div>
+                  <div className="note">The details document and paper should be in pdf format.</div>
+
+                  <div className="guidelineTitle">
+                  GUIDELINES:
+                  </div>
+                  <div className="para1">1.The Selected Papers from each IIT will have to be presented in the form of posters (in PDF
+format).
+                  <br/>
+                  2.The participants will be assigned tables via online mode to present their papers.
+                  </div>
+                  <div className="guidelineTitle">
+                  EVALUATION CRITERIA:
+                  </div>
+                  <div className="para1">
+                        1.Each paper presented by an IIT in the SAC will earn them 30 event points, for a total of 150
+points.
+<br/>
+                       2. Individual appreciation awards will be given to selected articles from each domain based
+on reviews of the papers by professors and Ph.D. Scholars.
+
+                  </div>
+
+                  <div className="guidelineTitle">
+                  SUBMISSION TIMELINE:
+                  </div>
+                  <div className="para1">
+                      1. Paper and Details Document Submission Deadline: March 18, 2022
+                      2. Poster Submission Deadline: March 24, 2022   
+                  </div>
+                  <div className="note">All entries must be mailed by the Contingent Leader only to <a className={'link'} rel="noreferrer" target={'_blank'} href='mailto:submissions@interiit-tech.org'>submissions@interiit-tech.org</a></div>
+            </div>
+            </>
+      )
+}
+
+export const EC =() => {
+      return (
+            <>
+            <div className="mainContainer">
+                  <div className="pstitle">
+                  REPORT
+                  </div>
+                  <div className="para1">
+                  Every IIT is required to choose five projects and give a report on each one.
+The following information should be included in the report:
+                   <li className="listPoint" style={{listStyle:'none'}}>1.Name of the project</li>
+                   <li className="listPoint" style={{listStyle:'none'}}>2.The problem addressed by the project (in 50 words)</li>
+                   <li className="listPoint" style={{listStyle:'none'}}>3.Proposed solution (in up to 500 words)</li>
+                   <li className="listPoint" style={{listStyle:'none'}}>4.Data insights (if any)</li>
+                   <li className="listPoint" style={{listStyle:'none'}}>5.Test results, surveys, references, video links (if any)</li>
+                   <li className="listPoint" style={{listStyle:'none'}}>6.Team Members' Name and Institution Name.</li>
+                   A report template will be provided for it. A maximum of 5 pages can be used for the report.
+                  </div>
+                  <div className="note">
+                  The entire report should be 1.15 spaced and have a font size of 9.
+                  </div>
+                  <div className="guidelineTitle">
+                  POSTER
+                  </div>
+                  <div className="para1">
+                  Each team has to make an A2 size virtual poster for presentation according to the provided
+template. The poster must contain
+                    <li className="listPoint" style={{listStyle:'none'}}>1.Project Name and Team Members</li>
+                    <li className="listPoint" style={{listStyle:'none'}}>2.Abstract</li>
+                    <li className="listPoint" style={{listStyle:'none'}}>3.Diagrams(if any)</li>
+                    <li className="listPoint" style={{listStyle:'none'}}>4.Methodology</li>
+                    <li className="listPoint" style={{listStyle:'none'}}>5.Conclusion</li>
+                    <li className="listPoint" style={{listStyle:'none'}}>6.References</li>
+                  </div>
+
+                  <div className="guidelineTitle">
+                  PROJECT PRESENTATION:
+                  </div>
+                  <div className="para1">
+                  Three students from each team will showcase their project in the online exhibition.
+A total of 15 students can be part of the team.
+                  </div>
+                  <div className="guidelineTitle">
+                  EVALUATION CRITERIA:
+                  </div>
+                  <div className="para1">
+                  Each project will receive 30 points for participation.<br/>
+                  This event has a maximum score of 150 points.
+                  </div>
+                  <div className="guidelineTitle">
+                  SUBMISSION TIMELINE:
+                  </div>
+                  <div className="para1">
+                  <li className="listPoint" style={{listStyle:'none'}}>1.Report submission: March 21, 2022</li>
+                  <li className="listPoint" style={{listStyle:'none'}}>1.Report template: <a target={'_blank'} className='link' rel='noreferrer' href=" https://bit.ly/37fBdnZ"> https://bit.ly/37fBdnZ</a></li>
+                  <li className="listPoint" style={{listStyle:'none'}}>1.Poster submission: March 24, 2022</li>
+                  <li className="listPoint" style={{listStyle:'none'}}>1.Poster template: <a rel='noreferrer' target={'_blank'} className='link' href="https://bit.ly/Poster_template">https://bit.ly/Poster_template</a> </li>
+                  </div>
+
+                  <div className="note">All submissions must be mailed by the Contingent Leader only to <a className={'link'} rel="noreferrer" target={'_blank'} href='mailto:submissions@interiit-tech.org'>submissions@interiit-tech.org</a></div>
+
+
+            </div>
+            </>
+      )
+}
+
 
 
 

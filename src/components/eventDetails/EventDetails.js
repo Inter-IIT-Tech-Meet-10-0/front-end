@@ -13,7 +13,7 @@ import {Mudrex} from './MidPrepPS/MidPrepPS'
 import {Bosch} from './MidPrepPS/MidPrepPS';
 import {DRDO} from './MidPrepPS/MidPrepPS'
 
-import {JLR} from './LowPrep/LowPrep';
+import {JLR,SAC,EC} from './LowPrep/LowPrep';
 
 function EventDetails() {
   const location = useLocation();
@@ -55,7 +55,7 @@ function EventDetails() {
         </div>
       </div>
       <div className={'detailsContainer'}>
-        <div className={'maxsize'}>Maximum Team Size : {maxsize}</div>
+        {maxsize !== ""  &&  <div className={'maxsize'}>Maximum Team Size : {maxsize}</div>}
         <div className="problembtn">
                 <a href={link}
                   style={{
@@ -77,6 +77,9 @@ function EventDetails() {
     {name ==="Bosch's Age And Gender Detection" && <Bosch/> }
     {name ==="DRDO's UAV-Guided UGV Navigation Challenge" && <DRDO/> }
     {name ==="Powered Bonnet For Electric Vehicle" && <JLR/> }
+    {name ==="Students Academic Conference" && <SAC/> }
+    {name ==="Engineer's Conclave" && <EC/> }
+    
 
     </>
   );
