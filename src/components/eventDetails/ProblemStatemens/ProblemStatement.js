@@ -70,7 +70,7 @@ export const BoschModelExtraction =() => {
       </div>
       <div className={Classes.para1}>
       Each team will have to submit their final score. The final scores will be evaluated. Due date:
-      16th March 
+      19th March 
       </div>
 
       <div className={Classes.subtitle}>
@@ -126,6 +126,26 @@ dataset
 accuracy</li>
 <li className={Classes.guidelinePoint}>No. of queries will be used in case of a tiebreaker in case the Final Score of 2 teams is within
 2% of the accuracy band. Lesser queries will help you win.</li>
+
+<li className={Classes.guidelinePoint}>Format and Structure of Documentation 
+                                   <br/>
+                                   <li className={Classes.guidelinePoint}>
+                                   i) Document should not exceed 700 words in total with maximum 2 pages.
+                                   </li>
+                                   <li className={Classes.guidelinePoint}>
+                                   ii) It should have following key sections
+                                   </li>
+                                   <div className={Classes.para1}>
+                                   a) Abstract
+                                   <br/>
+                                   b) Key assumptions and threat model
+                                   <br/>
+                                   c) Methodology & approach
+                                   <br/>
+                                   d) Results
+                                   </div>
+
+</li>
       </ul>
       
 
