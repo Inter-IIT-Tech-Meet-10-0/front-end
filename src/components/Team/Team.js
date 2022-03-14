@@ -1,12 +1,14 @@
-import React from "react";
+import React,{useState} from "react";
 import Classes from "./Team.module.css";
 import { data } from "./data";
+import { BallTriangle } from "react-loader-spinner";
 
 const Web = data["WEB"];
 const Operations = data["OPERATIONS"];
 const Design = data["DESIGN"];
 const Sponsorship = data["SPONSORSHIP"];
 const Overall = data["OVERALL"];
+
 export default function Team() {
   return (
     <>
@@ -35,11 +37,17 @@ export default function Team() {
   );
 }
 const Card = (props) => {
+
+  const [loading,setLoading] = useState(true);
+
   const { id, name, link, post } = props;
   return (
     <div className={Classes.CardContainer} key={id}>
-      <div className={Classes.imgbox}>
-        <img src={link} alt="" className={Classes.img} />
+      <div style={{display : loading ? 'block' :'none'}} className={Classes.loaderContainer}>
+      <BallTriangle className={Classes.loader} color="#00BFFF" height={100} width={100} />
+      </div>
+      <div style={{display : loading ? 'none' :'block' }} className={Classes.imgbox}>
+        <img onLoad={()=> setLoading(false)} src={link} alt="" className={Classes.img} />
       </div>
       <div className={Classes.name}>{name}</div>
       <div className={Classes.position}>{post}</div>

@@ -32,6 +32,14 @@ export const lowPrep = [
       "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
     maxsize: "",
   },
+  {
+    name: "Blue Yonder's Next-Gen Optimized Delivery Ecosystem",
+    link: "/events/LowPrep/blueYonderLowPrep.pdf",
+    image: "/events/bylow.png",
+    description:
+      "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
+    maxsize: "5",
+  },
   
 ];
 export const midPrep = [

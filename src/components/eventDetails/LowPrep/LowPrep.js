@@ -324,6 +324,182 @@ A total of 15 students can be part of the team.
       )
 }
 
+export const BY = () => {
+
+      return (
+         <>
+         <div className="mainContainer">
+               <div className="pstitle">
+               PROBLEM STATEMENT
+               </div>
+               <div className="subtitle">DESCRIPTION</div>
+               <div className="para1">
+               Acme E-Com Inc (referred to as ‘Acme’ henceforth), is a successful e-commerce corporation. It
+has an efficient last-mile road network to deliver its products to the customers from its many
+warehouses. As part of their future-readiness initiative, Acme wants to incorporate automated
+drones as part of their fleet for these last-mile deliveries. Acme wants to pilot this approach in
+the city of ‘Dronapur’.
+               </div>
+               <div className="para1">
+               To optimize its drone fleet and plan its drone delivery operations, Acme has engaged a
+trustworthy partner – You. Your objective is to design and create a solution that can provide a
+drone deployment plan along with flight path and routing details while servicing the customers
+at the lowest possible cost to Acme.
+               </div>
+               <div className="subtitle">
+               Problem Statement
+               </div>
+               <div className="para1">
+               Provide a cost-optimal deployment plan and routing plan for the available drones for the given
+set of delivery points in 3-dimensions. The constraints and complexities are:
+               </div>
+               <div className="subtitle">
+               Base Problem
+               </div>
+               <div className="para1">
+               Acme has a single drone-ready warehouse at coordinates (0, 0, 0) which will serve as the base
+for drone delivery operations. Acme has visibility to planned deliveries from today + 2 days and
+the corresponding coordinates in three dimensions with respect to the warehouse. The
+warehouse has an unlimited number of drone charging bays.
+               </div>
+               <div className="para1">
+              <span className="highlight">Drones</span>  come in several varieties with different attributes like cost, maximum speed, speed
+profiles, payload capacity – weight, cubic & slots, energy profiles, etc.
+               </div>
+               <div className="para1">
+               Drones start their day at 08:00 AM from the warehouse on Day 1, with one or more items in their
+slots and follow a defined path to the demand location(s). After a delivery, a drone may deliver to
+the next customer or return to the warehouse for charging.
+
+               </div>
+                <div className="para1">
+                <span className="highlight">Energy</span> is consumed in form of battery for various drone operations. In general, bigger drones
+have bigger battery and can carry more payloads, but their energy usage is correspondingly
+high. Energy also contributes to the cost of operation and hence needs to be minimized.
+                </div>
+                <div className="para1">
+                <span className="highlight">Recharge Stations :</span> Acme has decided to install dedicated recharge stations at different points
+where drones can recharge their batteries to enable longer ranges and more optimal delivery
+strategies. Each recharge station, however, has limited bays for the drones and different
+charging times for each drone.
+                </div>
+                <div className="subtitle">Complexity #1: No-Fly Zones</div>
+                <div className="para1">
+                The city council of ‘Dronapur’ has prohibited the movement of drones in certain areas. This
+could be due to high population density, high traffic, or secure government facilities. This will be
+provided as a set of No-Fly ‘cuboids’ with all coordinates.
+                </div>
+                <div className="subtitle">
+                Complexity #2: Multiple warehouses
+                </div>
+                <div className="para1">
+                With the success of the drone-based deliveries, Acme decides to open 2 more warehouses in the
+satellite suburbs of ‘Dronapur’. Drones can start from one warehouse and travel to another one
+during the day. At the end of the day, the drones can come back to any of the warehouses and
+start the next day from there.
+                </div>
+                <div className="subtitle">
+                Complexity #3: Dynamic Replanning [BONUS]
+                </div>
+                <div className="para1">
+                Acme’s customers can possibly refuse to take the delivery of the item when the drone reaches
+the location, due to various reasons. This typically happens for 2% of the cases. The refusal not
+only leads to replanning for the individual drone but can have a domino effect on the entire plan
+for the day.
+                </div>
+              
+              <div className="subtitle">OBJECTIVES</div>
+
+              <div className="para1">
+              <span className="highlight">OBJECTIVE PRIORITY #1:</span>   Fulfill maximum possible demand. A solution serving less than 95% of
+the demand will be deemed ‘invalid’.
+
+              </div>
+              <div className="para1">
+              <span className="highlight">OBJECTIVE PRIORITY #2:</span>  Minimize total cost.<br />
+              Cost components to be captured are:<br />
+              a. Energy Cost<br/> 
+              b. Maintenance Fixed Cost<br/>
+              c. Maintenance Variable Cost<br/>
+              </div>
+              <div className="para1">
+              <span className="highlight"><span className="highlight">OBJECTIVE PRIORITY #3:</span></span>  Minimize the number of drones used on any day.</div>
+              <div className="subtitle">DATA</div>
+
+              <div className="para1">
+              The input data will be across multiple CSV text files with a predefined schema. The data format
+and sample will be provided to the team. This can be used to build and test the model.
+The drone optimization instructions and table formats along with the sample input and output
+files have been attached <a target={'_blank'} className='link' rel='noreferrer' href="https://drive.google.com/drive/folders/19i9BVkUFtSDPp78hygAgYzgKjZuEVuXa">here</a>.
+              </div>
+              <div className="guidelineTitle">EVALUATION</div>
+              
+              <div className="para1">
+              The teams will be required to run their model with up to 5 test scenarios that will be provided at
+the time of final submission. Performance on these scenarios will be used for the final
+evaluation.
+              </div>
+              <div className="para1">The teams will be ranked on the basis of the following criterion:<br/>
+              The higher priority criterion is more important. E.g., a team achieving higher ‘Demand Met’ will
+score higher than another team that is delivering lower ‘Total Cost’.<br/>
+            1. Demand Met<br/>
+            2. Total Cost (ref Objective #2 for cost components)
+            3. Number of drones in play
+            4. Model Performance on time taken for the solution.
+              </div>
+              <div className="subtitle">
+              SCORING
+              </div>
+              <div className="para1">   The points will be decided on the basis of:<br/>
+              </div>
+              <div className="subtitle">A. Solution validity [Max 100 points]</div>
+              <div className="para1">
+              Teams will receive guaranteed minimum points for a valid solution regardless of the ranking:
+                <br/>
+                1. Base Problem without any complexity: [50 Points] <br/>
+                2. Complexity#1: [30 Points] <br/>
+                3. Complexity#1: [30 Points] <br/>
+                4. [Bonus] Complexity#3: [Bonus points will be announced later]
+
+              </div>
+
+              <div className="subtitle">B. Relative ranking between the teams [Max 50 points]
+</div>
+               <div className="para1">
+               Refer to section ‘Evaluation’ for ranking rules. Based on the number of submissions and ranking,
+teams may get points ranging from 5-50.<br/>
+Participants must solve complexities <strong>only in the given order.</strong><br/>
+E.g., A team may choose to attempt Base Problem + Complexity 1 for a max total of 80 points.
+However, they may not do Base Problem + Complexity 2 (as it skips over Complexity#1)
+               </div>
+               <div className="guidelineTitle">
+               GUIDELINES
+               </div>
+               <div className="para1">
+               Participants need to follow the following submission guidelines :<br/><br/>
+               1. Clearly mention the outputs belong to which scenarios.<br/>
+               2. The complexity which is being attempted for an output should be mentioned (Base or Base +
+1 or Base + 1 + 2).<br/>
+            3. In case complexity 3 is being attempted, 1A will be the original plan and 1B will be the replan after cancellation
+            4. Mention all the assumptions which the team undertook with proper justification.<br/>
+            5. By 20th March IST midnight, the additional input scenarios would be provided (3 to 5
+Scenarios)<br/>
+               </div>
+             
+             <div className="guidelineTitle">SUBMISSION</div>
+             <div className="para1">Teams have to submit the output in the prescribed format and the code with proper
+documentation in GitHub and send the repository link to the email id mentioned below.</div>
+<div className="note">
+            <strong>DEADLINE - 23:59, 23rd March 2022.</strong> <br/> 
+             </div>
+             <div className='note'>
+      Send your submissions at this email: <a rel="noreferrer" className='link' href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
+      </div>
+             </div>
+         </>
+      );
+}
+
 
 
 

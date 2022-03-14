@@ -75,3 +75,13 @@
   font-weight: 400;
   color: #2cbed0;
 }
+
+.loaderContainer{
+  width:15rem;
+  height:15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  padding: 0rem 0rem 0rem 4rem;
+}

@@ -241,6 +241,10 @@
     height:4rem;
     border-right: 3px solid white;
 }
+.highlight{
+    color:#2cbed0;
+    font-weight: 550;
+}
   
   @media screen and (max-width: 900px) {
  
