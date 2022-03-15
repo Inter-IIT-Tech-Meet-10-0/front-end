@@ -40,6 +40,14 @@ export const lowPrep = [
       "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
     maxsize: "5",
   },
+  {
+    name: "Gmetri's Growth Strategy For Metaverse",
+    link: "/events/LowPrep/Gmetri.pdf",
+    image: "/events/gmetri.jpeg",
+    description:
+      "The challenge is to create a helpful, user-friendly and innovative application that can revolutionize the current  government procedures, corporate management systems, or customer-centric management systems.",
+    maxsize: "5",
+  },
   
 ];
 export const midPrep = [

@@ -13,7 +13,7 @@ import {Mudrex} from './MidPrepPS/MidPrepPS'
 import {Bosch} from './MidPrepPS/MidPrepPS';
 import {DRDO} from './MidPrepPS/MidPrepPS'
 
-import {JLR,SAC,EC,BY} from './LowPrep/LowPrep';
+import {JLR,SAC,EC,BY,Gmetri} from './LowPrep/LowPrep';
 
 function EventDetails() {
   const location = useLocation();
@@ -80,8 +80,7 @@ function EventDetails() {
     {name ==="Students Academic Conference" && <SAC/> }
     {name ==="Engineer's Conclave" && <EC/> }
     {name ==="Blue Yonder's Next-Gen Optimized Delivery Ecosystem" && <BY/> }
-    
-
+    {name ==="Gmetri's Growth Strategy For Metaverse" && <Gmetri/> }
     </>
   );
 }

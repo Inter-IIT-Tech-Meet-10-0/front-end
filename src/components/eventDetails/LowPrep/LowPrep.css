@@ -245,6 +245,10 @@
     color:#2cbed0;
     font-weight: 550;
 }
+
+.listPointin{
+    padding-left:5rem;
+}
   
   @media screen and (max-width: 900px) {
  
@@ -386,6 +390,9 @@
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
+}
+.listPointin{
+    padding-left:2rem;
 }
 
   } 

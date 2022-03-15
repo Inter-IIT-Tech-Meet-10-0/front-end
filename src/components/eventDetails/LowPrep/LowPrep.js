@@ -500,6 +500,141 @@ documentation in GitHub and send the repository link to the email id mentioned b
       );
 }
 
+export const Gmetri =() => {
+      return (
+            <>
+            <div className="mainContainer">
+                  <div className="pstitle">
+                  PROBLEM STATEMENT
+                  </div>
+                  <div className="subtitle">
+                  DESCRIPTION
+                  </div>
+                  <div className="para1">
+                  <a target={'_blank'} className='link' rel='noreferrer' href="https://www.gmetri.com/">GmetriXR</a> is a VC backed startup in the XR and Web3.0 space. <br/><br/>
+                  You have to come up with an executable marketing plan for the next 2 to 3 years that
+can help GMetri grow its user base and market presence.
+                  <br/>
+                  The strategy should help build the brand image of GMetri as the go-to product for
+Web3.0 content creation.<br/>
+                  
+                  <li className="listPoint">
+                  Start with getting acquainted with all the features of the GMetri Platform.
+                  </li>
+                  <li className="listPoint">
+                  Explore various avenues to market and collaborate with the product.
+                  </li>
+                  <li className="listPoint">
+                  GMetriXR is a no-code Metaverse creator. Keep in mind that Metaverse is just a
+fancy word for the 3D internet. There’s no limit to what you can do with 3D
+interactivity over the internet. And so explore all avenues.
+                  </li>
+                  <li className="listPoint">
+                  Only if really required, you can explore the scope of adding new features to the
+existing platform that could be marketed and used to attract more users.
+                  </li>
+                  <br/><br/>
+
+                  Some examples of real-life applications where GMetri is being currently used are:
+                  <li className="listPoint">
+                  Training & Learning<br/>
+                  <li className="listPointin">
+                  Training employees with the skills needed to operate machinery, following
+complex steps in manufacturing plants, pharmaceutical factories
+                  </li>
+                  <li className="listPointin">
+                  Compliance / Safety training
+                  </li>
+                  <li className="listPointin">
+                  Training on softer aspects like POSH, sales training
+                  </li>
+                  </li>
+                  <li className="listPoint">
+                  Facility Tours
+                  <li className="listPointin">
+                  For car dealerships, real estate, etc.
+                  </li>
+                  </li>
+                  <li className="listPoint">
+                  Retail Experiences/Product Tours
+                  </li><li className="listPoint">
+                  Events - Employee Town Halls, College events
+                  </li>
+                  <li className="listPoint">
+                  3D presentations, storytelling (as opposed to powerpoint or keynote slides)
+                  </li>
+                  </div>
+                                    <div className="subtitle">How to use the platform</div>
+
+                  <div className="para1">
+                        <li className="listPoint">Create a free account via this link: <a className='link' target={'_blank'} rel='noreferrer' href=" https://portal.gmetri.com/signup">https://portal.gmetri.com/signup</a></li>
+                        <li className="listPoint">Then, go through the onboarding steps. Use documentation<br/>
+                        (<a className='link' target={'_blank'} rel='noreferrer' href="https://www.gmetri.com/docs/">https://www.gmetri.com/docs/</a>) for advanced topics and go through the help
+                  (<a className='link' target={'_blank'} rel='noreferrer' href="https://www.gmetri.com/help/">https://www.gmetri.com/help/</a>) for other links.
+                        </li>
+                        <li className="listPoint">An example of an XR Experience is: <a className='link' target={'_blank'} rel='noreferrer' href="https://xyecjf.gmetri.com/gmetri_learnerkit_01">https://xyecjf.gmetri.com/gmetri_learnerkit_01</a></li>
+                        <li className="listPoint">
+                        Enable menu for quick navigation.
+                        </li>
+                  </div>
+
+                  <div className="guidelineTitle">SUBMISSION</div>
+                  <div className="para1">
+                  Teams can give their submission either as a PPT or a GMetri deployment link
+                  (preferred). GMetri can easily be used to create an interactive presentation.
+                  <br/>
+                  <br/>
+                  If you choose to submit a GMetri experience follow these pointers:
+                  <br/>
+                  <li className="listPoint">The first scene of the experience (or slide in the case of PPT) must be a mandatory
+                  introduction and a brief summary of what you are trying to do.</li>
+                  <li className="listPoint">Make heavy use of the Text or the Text to Speech element to complete your scenes
+                  (slides) quickly.</li>
+                  <li className="listPoint">Use multiple scenes like slides and use the menu to navigate across scenes.</li>
+                  <li className="listPoint">If needed, you can also add your own video in GMetri for the narration in the
+                  experience.</li>
+                  <li className="listPoint">The whole experience (or presentation) should be able to be completed in 15 mins
+                  <li className="listPointin">Penalties for any experience taking above 15 mins.</li>
+                  <li className="listPointin">Try keeping video sizes (in case you use videos) small, and break it up into
+                  multiple scenes.</li>
+                  </li>
+                  <br/>
+                  <br/>
+                  The top 10 submissions will have a presentation round on the event day. Initial results
+                  will be announced by 25th March EOD.
+                  </div>
+                  <div className="note">
+                  <strong>DEADLINE</strong>  - 23rd March 2022 3PM. 
+                  </div>
+                  <div className='note'>
+                  Send your submissions at this email: <a rel="noreferrer" className='link' href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
+                  </div>
+                  <div className="guidelineTitle">
+                  EVALUATION
+                  </div>
+                  <div className="para1">
+                  The GMetri experience/presentation will be evaluated across multiple factors:
+                  <li className="listPoint">
+                  Marketing Solution - 100 Points
+                  <li className="listPointin">Optimization of marketing expense</li>
+                  <li className="listPointin">Financial and general Feasibility</li>
+                  <li className="listPointin">Usability and fit of the suggested feature</li>
+                  <li className="listPointin">Details of any collaborations suggested with other companies</li>
+                  <li className="listPointin">Final impact and conclusion</li>
+
+                  </li>
+                  <li className="listPoint">Presentation round - 40 Points</li>
+                  <li className="listPoint">Submitting a GMetri deployment link instead of a presentation - 10 Points</li>
+                   <br />
+                   <br/>
+                   Total points for this event is 150.
+                  </div>
+
+            </div>
+            </>
+      )
+}
+
 
 
 
