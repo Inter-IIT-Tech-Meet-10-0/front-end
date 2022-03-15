@@ -121,6 +121,12 @@ export const data = {
       post: "Manager",
       link: "/Team/Sponsorship/Harshit_Kumar_Baranwal_Manager.jpg",
     },
+    {
+      id: "3",
+      name: "Sanket Kanta",
+      post: "Manager",
+      link: "/Team/Sponsorship/Sanket_Kanta_Manager.jpg",
+    },
   ],
   OVERALL: [
     {
