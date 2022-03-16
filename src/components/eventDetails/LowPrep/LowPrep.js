@@ -41,6 +41,7 @@ will need to be justified correctly.
         <li className="listPoint">Smaller width equal to <strong>1000 mm</strong></li>
         <li className="listPoint">Larger width equal to <strong>1630 mm</strong></li>
         <li className="listPoint">Height of <strong>1000 mm</strong> </li>
+        <li className="listPoint">Thickness can be assumed to be <strong>4mm</strong> </li>
         <li className="listPoint">The bonnet is angled to the horizontal at <strong>12°</strong>  </li>
         <li className="listPoint">The overall mass of the bonnet is <strong>14 kg.</strong>  Although, it may range between <strong>9 to 14 kg</strong>  depending
 on the vehicle  </li>
