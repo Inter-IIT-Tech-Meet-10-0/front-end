@@ -145,6 +145,14 @@
     font-weight: 400;
     line-height: 2.1rem;
 }
+
+.para6{
+    font-size: 1.3rem;
+    padding:0rem 10rem 0.5rem 10rem;
+    color:white;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
  
  @media screen and (max-width: 900px) {
 
@@ -262,6 +270,13 @@
         font-size: 1.5rem;
         padding:4rem 2rem 0rem 2rem;
         color:#2cbed0;
+        font-weight: 400;
+        line-height: 2.1rem;
+    }
+    .para6{
+        font-size: 1.3rem;
+        padding:0rem 2rem 0.5rem 2rem;
+        color:white;
         font-weight: 400;
         line-height: 2.1rem;
     }

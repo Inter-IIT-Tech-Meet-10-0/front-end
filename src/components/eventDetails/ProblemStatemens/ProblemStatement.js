@@ -129,13 +129,16 @@ accuracy</li>
 
 <li className={Classes.guidelinePoint}>Format and Structure of Documentation 
                                    <br/>
-                                   <li className={Classes.guidelinePoint}>
-                                   i) Document should not exceed 700 words in total with maximum 2 pages.
+                                   <br/>
+                                   <li  style={{listStyle:'none'}} className={Classes.guidelinePoint}>
+                                   i) Document should not exceed 1000 words in total with maximum 3 pages.
                                    </li>
-                                   <li className={Classes.guidelinePoint}>
+                                   <li style={{listStyle:'none'}} className={Classes.guidelinePoint}>
                                    ii) It should have following key sections
                                    </li>
-                                   <div className={Classes.para1}>
+                                   </li>
+      </ul>
+      <div className={Classes.para6}>
                                    a) Abstract
                                    <br/>
                                    b) Key assumptions and threat model
@@ -144,10 +147,6 @@ accuracy</li>
                                    <br/>
                                    d) Results
                                    </div>
-
-</li>
-      </ul>
-      
 
     </div>
     
