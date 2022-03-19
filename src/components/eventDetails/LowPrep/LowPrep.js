@@ -747,12 +747,47 @@ implementation of CI/CD, modular code design, etc.)</li>
 microservice communication decisions among REST, GraphQL, gRPC, etc.</li>
                     <li className="listPoint">Monitoring, handling, and notifying about failures (partial or complete), availability, errors,
 etc.</li>
+              </div>
+
+              <div className="note">
+                Dataset : <a href='https://drive.google.com/drive/folders/1YEFUbOJXbcU8TzlrlzvQ8gFsfsAW2z9V' className='link' >Link to Dataset</a>
+                </div>
 
                 <div className="note">
                 # You are free to use other open-source free-license data and images as required.
                 </div>
+                <div className="guidelineTitle">REFERENCES</div>
 
-              </div>
+                <div className="para1">
+                      <li className="listPoint"> <a className='link' href="https://www.leadsquared.com/what-is-hospital-management-system/">https://www.leadsquared.com/what-is-hospital-management-system/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://en.wikipedia.org/wiki/National_Digital_Health_Mission">https://en.wikipedia.org/wiki/National_Digital_Health_Mission</a></li>
+                      <li className="listPoint"> <a className='link' href="https://towardsdatascience.com/microservice-architecture-and-its-10-most-important-design-patterns-824952d7fa41"> https://towardsdatascience.com/microservice-architecture-and-its-10-most-important-design-patterns-824952d7fa41</a></li>
+                      <li className="listPoint"> <a className='link' href="https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/"> https://aws.amazon.com/blogs/architecture/store-protect-optimize-your-healthcare-data-with-aws/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://cloud.google.com/storage/docs/encryption">https://cloud.google.com/storage/docs/encryption</a></li>
+                      <li className="listPoint"> <a className='link' href="https://aws.amazon.com/docker/">https://aws.amazon.com/docker/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://kubernetes.io/">https://kubernetes.io/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://katalon.com/resources-center/blog/benefits-continuous-integration-delivery#:~:text=Continuous%20Integration%20(CI)%20allows%20you,continuously%20deliver%20it%20to%20production">https://katalon.com/resources-center/blog/benefits-continuous-integration-delivery</a></li>
+                      <li className="listPoint"> <a className='link' href="https://github.com/features/actions">https://github.com/features/actions</a></li>
+                      <li className="listPoint"> <a className='link' href="https://spinnaker.io/">https://spinnaker.io/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://www.datadoghq.com/">https://www.datadoghq.com/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://sentry.io/welcome/"> https://sentry.io/welcome/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://www.techopedia.com/definition/16626/error-handling">https://www.techopedia.com/definition/16626/error-handling</a></li>
+                      <li className="listPoint"> <a className='link' href="https://bigsea.co/ideas/coding-etiquette-6-obvious-overlooked-best-practices/">https://bigsea.co/ideas/coding-etiquette-6-obvious-overlooked-best-practices/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice">https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice</a></li>
+                      <li className="listPoint"> <a className='link' href="https://www.ibm.com/cloud/learn/devsecops">https://www.ibm.com/cloud/learn/devsecops</a></li>
+                      <li className="listPoint"> <a className='link' href="https://engineering.linkedin.com/blog/2016/08/writing-maintainable-integration-tests">https://engineering.linkedin.com/blog/2016/08/writing-maintainable-integration-tests</a></li>
+                      <li className="listPoint"> <a className='link' href="https://charlieinden.github.io/System-Design/2021-01-25_Microservices--Designing-Highly-Scalable-Systems-55dbb6f64c94.html">https://charlieinden.github.io/System-Design/2021-01-25_Microservices--Designing-Highly-Scalable-Systems-55dbb6f64c94.html</a></li>
+                      <li className="listPoint"> <a className='link' href="https://www.fullstackpython.com/microservices.html">https://www.fullstackpython.com/microservices.html</a></li>
+                      <li className="listPoint"> <a className='link' href="http://highscalability.com/start-here/">http://highscalability.com/start-here/</a></li>
+                      <li className="listPoint"> <a className='link' href="https://github.com/mercari/mercari-microservices-example">https://github.com/mercari/mercari-microservices-example</a></li>
+                      <li className="listPoint"> <a className='link' href="https://engineering.mercari.com/en/blog/tag/microservices/">https://engineering.mercari.com/en/blog/tag/microservices/</a></li>
+                </div>
+                <div className="subtitle">
+                Images/Data References used in the dataset:
+                </div>
+                <div className="para1">
+                      <li className="listPoint"> <a className='link' href="https://github.com/tsg-iitkgp/inter-iit-tech">1.https://github.com/tsg-iitkgp/inter-iit-tech</a></li>
+                </div>
         </div>
         </>
   )
