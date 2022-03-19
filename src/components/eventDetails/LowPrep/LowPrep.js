@@ -639,3 +639,121 @@ complex steps in manufacturing plants, pharmaceutical factories
 
 
 
+export const Mercari =() => {
+  return (
+        <>
+        <div className="mainContainer">
+              <div className="pstitle">
+                    INTRODUCTION
+              </div>
+              <div className="para1">
+              A Hospital Management System (HMS) is a software application that helps manage the
+information related to health care and track patients through their treatment journey. On the
+scale of a country as large and diverse as India, the problem requires innovative, scalable
+solutions. Creating a network of approved hospitals, HMS will provide the ability to manage all
+the records in one place, visualize a patient’s medical history, allow doctors to manage patients
+better by automating manual workflows (example, automating the generation of medical bills
+and preparing the medicines in the hospital’s dispensary based on doctor’s appointment
+conclusion).
+              </div>
+              <div className="pstitle">PROBLEM STATEMENT</div>
+              <div className="para1">
+              Develop a mobile-based, highly scalable solution [19,21] for Multi-Chain Hospitals under NHM.
+The solution should cater to patients and doctors to help them with observation, diagnosis,
+treatment, appointment scheduling, referrals, record visualization, etc.
+              </div>
+              <div className="para1">
+              You are free to use your creativity with the platform, technologies, features, etc. The minimum
+basic guidelines for the HMS are:
+              </div>
+
+              <div className="para1">
+                    <li className="listPoint">
+                    Every citizen has NHID linked with them 
+                    </li>
+                    <li className="listPoint">
+                    Hospitals (and their doctors) are associated with NHM 
+                    </li>
+                    <li className="listPoint">
+                    Usage of Microservice architecture [3,19,22] is highly recommended
+                    </li>
+                    <li className="listPoint">
+                    Digital storage [4] and linking of data [5] (i.e., bills, reports, prescriptions, hospital referrals,
+etc.) with the proper owner
+                    </li>
+                    <li className="listPoint">
+                    Usage of Docker [6], Kubernetes [7], Travis CI [8], GitHub Actions [9], Spinnaker [10], and
+other open-source technologies is encouraged for continuous deployment and continuous
+integration purposes 
+                    </li>
+                    <li className="listPoint">
+                    Following proper code and documentation etiquettes [13, 14], architecture practices [15], and
+production security and development operations [16] are encouraged
+                    </li>
+                    <li className="listPoint">
+                    Considering maintainability, writing unit and integration tests [17] are recommended
+                    </li>
+                    <li className="listPoint">
+                    The use of existing open-source (or trialware) projects, APIs, and technologies are highly
+encouraged as felt appropriate. Using tools provided in the GitHub Student Pack is an
+excellent way to incorporate paid solutions if required
+                    </li>
+
+              </div>
+              <div className="para1">
+              It is VERY IMPORTANT to design your architecture because scalability is the primary issue in a
+large country like ours; whether it’s booking tickets on IRCTC or checking university results, we
+have all faced it. [18]
+              </div>
+
+              <div style={{textDecoration:'underline'}} className="note">* Number in bracket refers to the reference number.</div>
+
+              <div className="guidelineTitle">SUBMISSION REQUIREMENT</div>
+
+              <div className="para1">
+                    <li className="listPoint">
+                    GitHub (or any other code hosting platform) repositories collection of Microservices (30 Points)
+                    </li>
+                    <li className="listPoint">
+                    GitHub (or any other code hosting platform) repositories collection of Microservices (30 Points)<br/>
+                      - Link(s) to the deployed microservices <br/>
+                      - Demo video of the solution demonstrating the running of the application and system
+                    </li>
+                    <li className="listPoint">A brief report, not exceeding 6 pages (excluding cover page, index, etc., i.e., content only),
+demonstrating the design decisions (40 points)</li>
+              </div>
+              <div className="para1">The deadline for all the submissions is 24th March, 11:59 p.m.</div>
+
+              <div className='note'>
+            Send your submissions at this email: <a rel="noreferrer" className='link' href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>
+            </div>
+              <div className="guidelineTitle">EVALUATION</div>
+
+              <div className="para1">
+              The evaluation focuses on visualization and usability of the interface(s), scalability of the
+designed architecture, and maintainability of the submitted project repositories. The decisions
+you make while designing the architecture and planning how to maintain (and develop further)
+the produced code is critical as thousands of other developers would be working alongside you.
+              </div>
+              <div className="para1">A specific non-exhaustive list of evaluation criteria is provided below.</div>
+              <div className="para1">
+                    <li className="listPoint">Qualitative observation of Patient, Doctor, and NHM Admin features</li>
+                    <li className="listPoint">Design and Usability of the design interfaces</li>
+                    <li className="listPoint">Ease of CRUD operations over data by the respective owner(s) and authority</li>
+                    <li className="listPoint">Scalability of the Architecture & System Design</li>
+                    <li className="listPoint">Ease of deployment and development, emphasizing a large team of remote engineers (i.e.,
+implementation of CI/CD, modular code design, etc.)</li>
+                    <li className="listPoint">Technology decisions affecting network latency, deployment time, etc. For example, Inter-
+microservice communication decisions among REST, GraphQL, gRPC, etc.</li>
+                    <li className="listPoint">Monitoring, handling, and notifying about failures (partial or complete), availability, errors,
+etc.</li>
+
+                <div className="note">
+                # You are free to use other open-source free-license data and images as required.
+                </div>
+
+              </div>
+        </div>
+        </>
+  )
+}
