@@ -715,7 +715,7 @@ have all faced it. [18]
                     GitHub (or any other code hosting platform) repositories collection of Microservices (30 Points)
                     </li>
                     <li className="listPoint">
-                    GitHub (or any other code hosting platform) repositories collection of Microservices (30 Points)<br/>
+                    Deployed fully-functional instance(s) of the designed service(s) (80 points)<br/>
                       - Link(s) to the deployed microservices <br/>
                       - Demo video of the solution demonstrating the running of the application and system
                     </li>
