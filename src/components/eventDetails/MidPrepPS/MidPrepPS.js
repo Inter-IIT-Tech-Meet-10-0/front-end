@@ -497,17 +497,16 @@ appreciated.
 
         </div>
         <div className={Classes.para1}>
-        After building and testing the strategy, each team will have to submit their final bot on
-20th March, for which submission link will be shared later.
+        After building and testing the strategies, each team will have to submit their final bots
+on 23rd March, for which a submission link will be shared later.
         </div>
         <div className={Classes.para1}>
         Teams are allowed to submit up to <strong>three</strong> different bots (one for each of the specified
 asset pairs). If a strategy is not for the asset pairs specified, it will not be evaluated.
         </div>
         <div className={Classes.para1}>
-        Teams have to submit their presentations in PDF format on or before 24th March. The
-presentation being made on the final day should match the one being submitted by 24th
-March. Final presentation dates will be conveyed in due time.
+        The final presentation should only have 3 slides : Idea, Implementation, Results
+(excluding the title slide).
         </div>
         <div className={Classes.guidelineTitle}>
           EVALUATION
@@ -541,7 +540,7 @@ evaluation.
       </ul>
         </div>
         <div className={Classes.note}>
-        Note - Teams are allowed to test their bots with 10,000 hidden tests between 12th-19th
+        Note - Teams are allowed to test their bots with 10,000 hidden tests between 15th-22nd
 March. Each team can check their strategy 7 times. This will help the teams further
 improve their bots
         </div>
