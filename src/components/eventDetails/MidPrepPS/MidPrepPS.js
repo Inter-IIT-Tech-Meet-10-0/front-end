@@ -250,11 +250,7 @@ allowed.
 dependent libraries, and concise documentation and presentation skills (100 Points). The
 marking scheme is divided into 3 components :
       </div>
-      <div className={Classes.note}>
-      Note: If at any point the deviation of UGV from the mean path is more than 5m it will be
-considered a failure and zero marks will be given for all three components of that particular
-world.
-      </div>
+      
       <div className={Classes.subtitle}>
       COMPONENT 1
       </div>
@@ -342,58 +338,40 @@ the Path</div>
        COMPONENT 3
      </div>
      <li className={Classes.listPointal}>
-     The computational power used: lesser power implies better performance (Jetson TX2
-Module is the upper limit).
+     Successful completion and execution of a task- "world".
      </li>
      <div className={Classes.tableContainer}>
      <div className={Classes.tableIndex}>
-         <div className={Classes.tableIndexpart}>Team</div>
-         <div className={Classes.tableIndexpart}>COMPUTATIONAL ELEMENT
-UTILISED (CPU, GPU, RAM)</div>
-         <div className={Classes.tableIndexpart2}>Marks Alloted</div>
+         <div className={Classes.tableIndexpart}>WORLD No</div>
+         <div className={Classes.tableIndexpart}>Marks upon completion
+of task</div>
+         <div className={Classes.tableIndexpart2}>GRACE MARKING</div>
        </div>
        <div className={Classes.tableColumn}>
-         <div className={Classes.tableColumnpart}>Team 1</div>
-         <div className={Classes.tableColumnpart}>F1</div>
-         <div className={Classes.tableColumnpartend}>0.5 * (M)</div>
+         <div className={Classes.tableColumnpart}>World 1</div>
+         <div className={Classes.tableColumnpart}>100</div>
+         <div className={Classes.tableColumnpartend}>(x/L) * 50</div>
        </div>
        <div className={Classes.tableColumn}>
-         <div className={Classes.tableColumnpart}>Team 2</div>
-         <div className={Classes.tableColumnpart}>F2</div>
-         <div className={Classes.tableColumnpartend}>0.4 * (M)</div>
+         <div className={Classes.tableColumnpart}>World 2</div>
+         <div className={Classes.tableColumnpart}>200</div>
+         <div className={Classes.tableColumnpartend}>(x/L) * 100</div>
        </div>
        <div className={Classes.tableColumn}>
-         <div className={Classes.tableColumnpart}>Team 3</div>
-         <div className={Classes.tableColumnpart}>F3</div>
-         <div className={Classes.tableColumnpartend}>0.3 * (M)</div>
+         <div className={Classes.tableColumnpart}>World 3</div>
+         <div className={Classes.tableColumnpart}>300</div>
+         <div className={Classes.tableColumnpartend}>(x/L) * 150</div>
        </div>
-       <div className={Classes.tableColumn}>
-         <div className={Classes.tableColumnpart}>Team 4</div>
-         <div className={Classes.tableColumnpart}>F4</div>
-         <div className={Classes.tableColumnpartend}>0.2 * (M)</div>
-       </div>
-       <div className={Classes.tableColumn}>
-         <div className={Classes.tableColumnpartlast}>Team 5</div>
-         <div className={Classes.tableColumnpartlast}>F5</div>
-         <div className={Classes.tableColumnpartlastend}>0.2 * (M)</div>
-       </div>
-
      </div>
     
 <li className={Classes.listPointal}>
-0.1 * (M) for the rest of the teams who complete the world.
+x: UGV distance from initial position
      </li>
      <li className={Classes.listPointal}>
-     F1 &lt; F2 &lt; F3 &lt; F4 &lt; F5
+     L: total distance of End point from Initial point
      </li>
-     <li className={Classes.listPointal}>
-     M : Max. marks allotted for particular World on completion.
-     </li>
-     <li className={Classes.listPointal}>
-     M = 100 for World 1<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp; M = 200 for World 2 <br/>
-  &nbsp;&nbsp;&nbsp;&nbsp; M = 300 for World 3
-     </li>
+    <div className={Classes.note}>Note : Only the teams who complete the world will be evaluated for component 1 and
+component 2 for that particular world.</div>
      <div className={Classes.subtitle}>
      TOTAL MAXIMUM POINT DISTRIBUTION PER TASK
      </div>
@@ -429,7 +407,7 @@ be required to explain the logic and methodologies used, followed by a Q&A sessi
 
       </li>
       <div className={Classes.note}>
-      Please note that the Final presentation should wrap up within 15 minutes which will be
+      Please note that the Final presentation should wrap up within 10 minutes which will be
       followed by Q&A (5 min).
       </div>
       <div className={Classes.note}>
@@ -486,7 +464,7 @@ appreciated.
         <ul className={Classes.listPoints}>
           <li className={Classes.listPoint}>1. Participants are encouraged to rigorously go through each point in their strategy and be ready with sound logical backing for the same.
 </li>
-          <li className={Classes.listPoint}>2. Presentation should not exceed 10 minutes.</li>
+          <li className={Classes.listPoint}>2. Presentation should not exceed 5 minutes.</li>
       </ul>
         </div>
         <div className={Classes.guidelineTitle}>
@@ -498,7 +476,7 @@ appreciated.
         </div>
         <div className={Classes.para1}>
         After building and testing the strategies, each team will have to submit their final bots
-on 23rd March, for which a submission link will be shared later.
+by 25th March 11:59 AM, for which a submission link will be shared later.
         </div>
         <div className={Classes.para1}>
         Teams are allowed to submit up to <strong>three</strong> different bots (one for each of the specified
@@ -540,9 +518,9 @@ evaluation.
       </ul>
         </div>
         <div className={Classes.note}>
-        Note - Teams are allowed to test their bots with 10,000 hidden tests between 15th-22nd
-March. Each team can check their strategy 7 times. This will help the teams further
-improve their bots
+        Teams are allowed to test their bots with 10,000 hidden tests between 15th March to
+24th March 3 PM. Each team can check their strategies up to 7 times. This will help the
+teams further improve their bots.
         </div>
         <div className={Classes.note}>
       Send your submissions at this email: <a rel="noreferrer" className={Classes.link} href="mailto:submissions@interiit-tech.org" target={'_blank'}>submissions@interiit-tech.org</a>

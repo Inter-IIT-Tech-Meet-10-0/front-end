@@ -312,9 +312,9 @@ A total of 15 students can be part of the team.
                   </div>
                   <div className="para1">
                   <li className="listPoint" style={{listStyle:'none'}}>1.Report submission: March 21, 2022</li>
-                  <li className="listPoint" style={{listStyle:'none'}}>1.Report template: <a target={'_blank'} className='link' rel='noreferrer' href=" https://bit.ly/37fBdnZ"> https://bit.ly/37fBdnZ</a></li>
-                  <li className="listPoint" style={{listStyle:'none'}}>1.Poster submission: March 24, 2022</li>
-                  <li className="listPoint" style={{listStyle:'none'}}>1.Poster template: <a rel='noreferrer' target={'_blank'} className='link' href="https://bit.ly/Poster_template">https://bit.ly/Poster_template</a> </li>
+                  <li className="listPoint" style={{listStyle:'none'}}>2.Report template: <a target={'_blank'} className='link' rel='noreferrer' href=" https://bit.ly/37fBdnZ"> https://bit.ly/37fBdnZ</a></li>
+                  <li className="listPoint" style={{listStyle:'none'}}>3.Poster submission: March 24, 2022</li>
+                  <li className="listPoint" style={{listStyle:'none'}}>4.Poster template: <a rel='noreferrer' target={'_blank'} className='link' href="https://bit.ly/Poster_template">https://bit.ly/Poster_template</a> </li>
                   </div>
 
                   <div className="note">All submissions must be mailed by the Contingent Leader only to <a className={'link'} rel="noreferrer" target={'_blank'} href='mailto:submissions@interiit-tech.org'>submissions@interiit-tech.org</a></div>
