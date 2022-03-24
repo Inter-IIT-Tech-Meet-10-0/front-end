@@ -459,7 +459,7 @@ score higher than another team that is delivering lower ‘Total Cost’.<br/>
                 <br/>
                 1. Base Problem without any complexity: [50 Points] <br/>
                 2. Complexity#1: [30 Points] <br/>
-                3. Complexity#1: [30 Points] <br/>
+                3. Complexity#2: [20 Points] <br/>
                 4. [Bonus] Complexity#3: [Bonus points will be announced later]
 
               </div>
