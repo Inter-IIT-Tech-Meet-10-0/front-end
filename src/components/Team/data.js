@@ -135,7 +135,7 @@ export const data = {
     },
     {
       id: "5",
-      name: "Anshman Raj",
+      name: "Anshuman Raj",
       post: "Associate Manager",
       link: "/Team/Sponsorship/anshuman_raj.jpg",
     },
