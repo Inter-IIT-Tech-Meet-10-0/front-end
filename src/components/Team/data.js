@@ -127,6 +127,24 @@ export const data = {
       post: "Manager",
       link: "/Team/Sponsorship/Sanket_Kanta_Manager.jpg",
     },
+    {
+      id: "4",
+      name: "Anant Pandey",
+      post: "Associate Manager",
+      link: "/Team/Sponsorship/anant_pandey.jpg",
+    },
+    {
+      id: "5",
+      name: "Anshman Raj",
+      post: "Associate Manager",
+      link: "/Team/Sponsorship/anshuman_raj.jpg",
+    },
+    {
+      id: "6",
+      name: "Utkarsh Singh Chauhan",
+      post: "Associate Manager",
+      link: "/Team/Sponsorship/utkarsh_singh.jpg",
+    },
   ],
   OVERALL: [
     {
