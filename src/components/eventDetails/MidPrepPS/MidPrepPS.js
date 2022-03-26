@@ -280,7 +280,7 @@ marking scheme is divided into 3 components :
        </div>
       </div>
       <div className={Classes.para1}>
-      C: coefficient of deviation <br/>
+      C: coefficient of determination<br/>
       It is computed between the path taken by the UGV and the mean path.
       </div>
       <div className={Classes.subtitle}>
