@@ -375,9 +375,9 @@ component 2 for that particular world.</div>
      <div className={Classes.subtitle}>
      TOTAL MAXIMUM POINT DISTRIBUTION PER TASK
      </div>
-     <li className={Classes.listPointal}>WORLD 1 - 200</li>
-     <li className={Classes.listPointal}>WORLD 2 - 400</li>
-     <li className={Classes.listPointal}>WORLD 3 - 600</li>
+     <li className={Classes.listPointal}>WORLD 1 - 250</li>
+     <li className={Classes.listPointal}>WORLD 2 - 500</li>
+     <li className={Classes.listPointal}>WORLD 3 - 750</li>
      <div className={Classes.para1}>The sum of the total maximum points of the three worlds would be scaled down to 150 points</div>
 
      <div className={Classes.guidelineTitle}>
